@@ -77,14 +77,20 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/auth/login"
+              href="/admin/dashboard"
               className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition-colors"
+            >
+              Admin Dashboard
+            </Link>
+            <Link
+              href="/auth/login"
+              className="bg-green-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-green-700 transition-colors"
             >
               Employee Login
             </Link>
             <Link
               href="/booking"
-              className="bg-green-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-green-700 transition-colors"
+              className="bg-purple-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-purple-700 transition-colors"
             >
               Book Now
             </Link>
