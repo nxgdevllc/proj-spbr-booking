@@ -9,7 +9,6 @@ import {
   CurrencyDollarIcon,
   CalendarIcon,
   ChartBarIcon,
-  CogIcon,
   PlusIcon,
   EyeIcon
 } from '@heroicons/react/24/outline'

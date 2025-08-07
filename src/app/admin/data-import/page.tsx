@@ -23,7 +23,7 @@ export default function DataImportPage() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [csvContent, setCsvContent] = useState('')
   const [dataType, setDataType] = useState<'guests' | 'bookings' | 'units' | 'payments' | 'employees' | 'unit_types' | 'products' | 'expenses' | 'salaries' | 'withdrawals' | 'cash_advances'>('guests')
-  const [previewData, setPreviewData] = useState<any[]>([])
+  const [previewData, setPreviewData] = useState<DataRow[]>([])
   const [isImporting, setIsImporting] = useState(false)
   const [importResult, setImportResult] = useState<ImportResult | null>(null)
   
@@ -118,7 +118,7 @@ export default function DataImportPage() {
     setImportResult(null)
 
     try {
-      let data: any[] = []
+      let data: DataRow[] = []
 
       if (importType === 'csv') {
         data = CSVImporter.parseCSV(csvContent)
@@ -249,7 +249,7 @@ export default function DataImportPage() {
               ].map((type) => (
                 <button
                   key={type.key}
-                  onClick={() => setDataType(type.key as any)}
+                  onClick={() => setDataType(type.key as typeof dataType)}
                   className={`px-4 py-2 rounded-lg font-medium ${
                     dataType === type.key
                       ? 'bg-green-600 text-white'
