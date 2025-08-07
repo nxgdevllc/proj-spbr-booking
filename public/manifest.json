@@ -1,0 +1,27 @@
+{
+  "name": "San Pedro Beach Resort",
+  "short_name": "SPBR Resort",
+  "description": "Complete booking and management system for San Pedro Beach Resort",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "travel", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr"
+} 
