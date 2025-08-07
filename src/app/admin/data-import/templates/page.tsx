@@ -53,6 +53,16 @@ Luxury Villa,Premium villa with private pool,12000.00,6,"WiFi,AC,Kitchen,Pool,Be
 Family Suite,Large suite perfect for families,8000.00,8,"WiFi,AC,Kitchen,Multiple Rooms","suite1.jpg,suite2.jpg"
 `,
       description: 'Template for importing unit type information including pricing and amenities.'
+    },
+    employees: {
+      filename: 'employees-template.csv',
+      content: `Employee ID,Position,Hire Date,Base Salary,Is Active,Emergency Contact,Emergency Phone
+EMP001,Manager,2023-01-15,50000.00,true,John Smith,+639123456789
+EMP002,Housekeeper,2023-02-01,25000.00,true,Maria Santos,+639234567890
+EMP003,Receptionist,2023-03-10,30000.00,true,Pedro Cruz,+639345678901
+EMP004,Maintenance,2023-01-20,28000.00,false,Ana Reyes,+639456789012
+`,
+      description: 'Template for importing employee information including position, salary, and emergency contacts.'
     }
   }
 

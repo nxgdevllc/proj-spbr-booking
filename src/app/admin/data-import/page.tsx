@@ -8,6 +8,7 @@ import {
   importBookings, 
   importUnits, 
   importPayments,
+  importEmployees,
   ImportResult 
 } from '@/lib/data-import'
 
@@ -15,7 +16,7 @@ export default function DataImportPage() {
   const [importType, setImportType] = useState<'csv' | 'sheets'>('csv')
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [csvContent, setCsvContent] = useState('')
-  const [dataType, setDataType] = useState<'guests' | 'bookings' | 'units' | 'payments'>('guests')
+  const [dataType, setDataType] = useState<'guests' | 'bookings' | 'units' | 'payments' | 'employees'>('guests')
   const [previewData, setPreviewData] = useState<any[]>([])
   const [isImporting, setIsImporting] = useState(false)
   const [importResult, setImportResult] = useState<ImportResult | null>(null)
@@ -135,6 +136,9 @@ export default function DataImportPage() {
         case 'payments':
           result = await importPayments(data)
           break
+        case 'employees':
+          result = await importEmployees(data)
+          break
         default:
           throw new Error('Invalid data type')
       }
@@ -190,12 +194,13 @@ export default function DataImportPage() {
           {/* Data Type Selection */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Data Type</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {[
                 { key: 'guests', label: 'Guests' },
                 { key: 'bookings', label: 'Bookings' },
                 { key: 'units', label: 'Units' },
-                { key: 'payments', label: 'Payments' }
+                { key: 'payments', label: 'Payments' },
+                { key: 'employees', label: 'Employees' }
               ].map((type) => (
                 <button
                   key={type.key}
@@ -407,6 +412,7 @@ export default function DataImportPage() {
               <p><strong>Bookings:</strong> Guest ID, Unit ID, Check In Date, Check Out Date, Total Amount, etc.</p>
               <p><strong>Units:</strong> Unit Number, Unit Type ID, Status, Last Maintenance, etc.</p>
               <p><strong>Payments:</strong> Booking ID, Amount, Payment Method, Reference Number, etc.</p>
+              <p><strong>Employees:</strong> Employee ID, Position, Hire Date, Base Salary, Emergency Contact, etc.</p>
               <p><strong>Google Sheets:</strong> Make sure your sheet has headers in the first row.</p>
               <p><strong>CSV:</strong> Use comma-separated values with headers in the first row.</p>
             </div>

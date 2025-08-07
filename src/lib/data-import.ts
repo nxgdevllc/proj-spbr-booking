@@ -146,6 +146,18 @@ export class DataTransformer {
       notes: row['Notes'] || row['notes'] || null
     }))
   }
+
+  static transformEmployeeData(rawData: any[]): any[] {
+    return rawData.map(row => ({
+      employee_id: row['Employee ID'] || row['employeeId'] || row['employee_id'] || generateEmployeeId(),
+      position: row['Position'] || row['position'] || row['Job Title'] || row['jobTitle'] || '',
+      hire_date: parseDate(row['Hire Date'] || row['hireDate'] || row['hire_date'] || row['Start Date'] || row['startDate']),
+      base_salary: parseFloat(row['Base Salary'] || row['baseSalary'] || row['base_salary'] || row['Salary'] || row['salary'] || '0'),
+      is_active: mapBoolean(row['Is Active'] || row['isActive'] || row['is_active'] || row['Active'] || row['active'] || 'true'),
+      emergency_contact: row['Emergency Contact'] || row['emergencyContact'] || row['emergency_contact'] || row['Emergency Contact Name'] || null,
+      emergency_phone: row['Emergency Phone'] || row['emergencyPhone'] || row['emergency_phone'] || row['Emergency Contact Phone'] || null
+    }))
+  }
 }
 
 // Data import functions
@@ -297,6 +309,43 @@ export async function importPayments(data: any[]): Promise<ImportResult> {
   return result
 }
 
+export async function importEmployees(data: any[]): Promise<ImportResult> {
+  const result: ImportResult = {
+    success: false,
+    message: '',
+    importedCount: 0,
+    errors: []
+  }
+
+  try {
+    const transformedData = DataTransformer.transformEmployeeData(data)
+    
+    for (const employee of transformedData) {
+      try {
+        const { error } = await supabase
+          .from('employees')
+          .insert(employee)
+        
+        if (error) {
+          result.errors.push(`Employee ${employee.employee_id}: ${error.message}`)
+        } else {
+          result.importedCount++
+        }
+      } catch (error) {
+        result.errors.push(`Employee ${employee.employee_id}: ${error}`)
+      }
+    }
+
+    result.success = result.errors.length === 0
+    result.message = `Imported ${result.importedCount} employees successfully`
+    
+  } catch (error) {
+    result.message = `Import failed: ${error}`
+  }
+
+  return result
+}
+
 // Utility functions
 function parseDate(dateString: string | null): string | null {
   if (!dateString) return null
@@ -368,4 +417,14 @@ function generateBookingNumber(): string {
 
 function generateReceiptNumber(): string {
   return `RCP${Date.now()}${Math.random().toString(36).substr(2, 5).toUpperCase()}`
+}
+
+function generateEmployeeId(): string {
+  return `EMP${Date.now()}${Math.random().toString(36).substr(2, 5).toUpperCase()}`
+}
+
+function mapBoolean(value: string): boolean {
+  if (!value) return true
+  const lowerValue = value.toLowerCase()
+  return lowerValue === 'true' || lowerValue === 'yes' || lowerValue === '1' || lowerValue === 'active'
 } 
