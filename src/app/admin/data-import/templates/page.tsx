@@ -63,6 +63,53 @@ JR,Life Guard / Cleaner,Full-Time,Active,"₱7,000.00","₱1,633.33",₱233.33,
 Chinamae,Store,Full-Time,Active,"₱5,500.00","₱1,283.33",₱183.33,
 `,
       description: 'Template for importing employee information including position, salary, and employment status.'
+    },
+    unit_types: {
+      filename: 'unit-types-template.csv',
+      content: `Unit ID,Rental Type,Maximum Capacity,Day Rate,CI Day Time,CO Day Time,Night Rate,CI Night Time,CO Night Time,24-Hr Rate,CI 24-HR Time,CO 24-HR Time,Early CI and Late CO fee,Early CI Time Day If unit not used prior night,Early CI Time Night If unit not used during day,Early CI Time 24HR If unit not used prior booking,Late CO Time Day If Available,Late CO Time Night If Available,Late CO Time 24-HR If Available,Early CI and Late CO fee percentage,Notes
+SPB1,Social Hall,50,"₱3,500",7:00 AM,5:00 PM,"₱4,000",6:00 PM,6:00 AM,"₱7,500",7:00 AM,6:00 AM,"₱1,000",3:00 AM,4:00 PM,3:00 AM,7:00 PM,9:00 AM,9:00 AM,13%,
+SPB1X,Open Cottage,20,"₱2,000",7:00 AM,5:00 PM,"₱2,500",6:00 PM,6:00 AM,"₱4,500",7:00 AM,6:00 AM,₱500,3:00 AM,4:00 PM,3:00 AM,7:00 PM,9:00 AM,9:00 AM,11%,
+`,
+      description: 'Template for importing unit types with pricing and scheduling information.'
+    },
+    products: {
+      filename: 'products-template.csv',
+      content: `SID,Category,Product Name,Stock,Size,Units,Price,Min Level,re-stock Quantity,re-stock Price,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Value,Tags,Notes
+SPBR-INV-0006,Food Packs,Lucky Me Batchoy small,9,40,Grams,₱35,5,10,₱30,Supplier A,4807770271168,org.gs1.EAN-13,₱315,Food,Popular item
+SPBR-INV-0008,Food Packs,Spicy batchoy small,5,40,Grams,₱35,3,8,₱30,Supplier A,4807770273810,org.gs1.EAN-13,₱175,Food,Spicy variant
+`,
+      description: 'Template for importing product inventory with barcodes and pricing.'
+    },
+    expenses: {
+      filename: 'expenses-template.csv',
+      content: `Receipt Number,Date,Amount,Payment Method,Vendor,Category,Project,Notes,Status,Closed By
+,March 1 2025,₱500.00,Cash,Shell,GAS - Gasoline,,,Closed,Raymond
+,March 1 2025,₱270.00,Cash,Jirah,PCM - Projects Construction Maintenance,,Angle Bar,Closed,Raymond
+`,
+      description: 'Template for importing expense records with vendor and category information.'
+    },
+    salaries: {
+      filename: 'salaries-template.csv',
+      content: `Date,Amount,Name,Notes,Payment Type
+March 1 2025,₱600.00,Narding,3/1/25,Salary
+March 3 2025,₱333.33,Aileen,3/1-2/25,Salary
+`,
+      description: 'Template for importing salary payments and employee compensation.'
+    },
+    withdrawals: {
+      filename: 'withdrawals-template.csv',
+      content: `date,amount,stakeholder,notes
+March 6 2025,₱199.00,Ronnie,Parcel from Lazada
+March 14 2025,₱5000.00,Ronnie,Cash Advance
+`,
+      description: 'Template for importing stakeholder withdrawals and cash advances.'
+    },
+    cash_advances: {
+      filename: 'cash-advances-template.csv',
+      content: `employee,product or cash advance,amount,notes,totals
+jay-r,balance 7/28,₱297,,₱1120
+`,
+      description: 'Template for importing employee cash advances and product advances.'
     }
   }
 

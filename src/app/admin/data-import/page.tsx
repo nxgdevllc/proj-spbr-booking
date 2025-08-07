@@ -9,6 +9,12 @@ import {
   importUnits, 
   importPayments,
   importEmployees,
+  importUnitTypes,
+  importProducts,
+  importExpenses,
+  importSalaries,
+  importWithdrawals,
+  importCashAdvances,
   ImportResult 
 } from '@/lib/data-import'
 
@@ -16,7 +22,7 @@ export default function DataImportPage() {
   const [importType, setImportType] = useState<'csv' | 'sheets'>('csv')
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [csvContent, setCsvContent] = useState('')
-  const [dataType, setDataType] = useState<'guests' | 'bookings' | 'units' | 'payments' | 'employees'>('guests')
+  const [dataType, setDataType] = useState<'guests' | 'bookings' | 'units' | 'payments' | 'employees' | 'unit_types' | 'products' | 'expenses' | 'salaries' | 'withdrawals' | 'cash_advances'>('guests')
   const [previewData, setPreviewData] = useState<any[]>([])
   const [isImporting, setIsImporting] = useState(false)
   const [importResult, setImportResult] = useState<ImportResult | null>(null)
@@ -139,11 +145,44 @@ export default function DataImportPage() {
         case 'employees':
           result = await importEmployees(data)
           break
+        case 'unit_types':
+          result = await importUnitTypes(data)
+          break
+        case 'products':
+          result = await importProducts(data)
+          break
+        case 'expenses':
+          result = await importExpenses(data)
+          break
+        case 'salaries':
+          result = await importSalaries(data)
+          break
+        case 'withdrawals':
+          result = await importWithdrawals(data)
+          break
+        case 'cash_advances':
+          result = await importCashAdvances(data)
+          break
         default:
           throw new Error('Invalid data type')
       }
 
       setImportResult(result)
+
+      // Delete file after successful import
+      if (result.success && selectedFile) {
+        try {
+          // Clear the file input
+          if (fileInputRef.current) {
+            fileInputRef.current.value = ''
+          }
+          setSelectedFile(null)
+          setCsvContent('')
+          setPreviewData([])
+        } catch (error) {
+          console.warn('Could not clear file input:', error)
+        }
+      }
     } catch (error) {
       setImportResult({
         success: false,
@@ -194,13 +233,19 @@ export default function DataImportPage() {
           {/* Data Type Selection */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Data Type</h2>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {[
                 { key: 'guests', label: 'Guests' },
                 { key: 'bookings', label: 'Bookings' },
                 { key: 'units', label: 'Units' },
                 { key: 'payments', label: 'Payments' },
-                { key: 'employees', label: 'Employees' }
+                { key: 'employees', label: 'Employees' },
+                { key: 'unit_types', label: 'Unit Types' },
+                { key: 'products', label: 'Products' },
+                { key: 'expenses', label: 'Expenses' },
+                { key: 'salaries', label: 'Salaries' },
+                { key: 'withdrawals', label: 'Withdrawals' },
+                { key: 'cash_advances', label: 'Cash Advances' }
               ].map((type) => (
                 <button
                   key={type.key}
@@ -413,6 +458,12 @@ export default function DataImportPage() {
               <p><strong>Units:</strong> Unit Number, Unit Type ID, Status, Last Maintenance, etc.</p>
               <p><strong>Payments:</strong> Booking ID, Amount, Payment Method, Reference Number, etc.</p>
               <p><strong>Employees:</strong> Employee Name, Employee Role, Status, Monthly Pay, Employment Type, etc.</p>
+              <p><strong>Unit Types:</strong> Unit ID, Rental Type, Maximum Capacity, Day Rate, Night Rate, etc.</p>
+              <p><strong>Products:</strong> SID, Product Name, Category, Stock, Price, Barcode, etc.</p>
+              <p><strong>Expenses:</strong> Receipt Number, Date, Amount, Payment Method, Vendor, Category, etc.</p>
+              <p><strong>Salaries:</strong> Date, Amount, Name, Payment Type, Notes, etc.</p>
+              <p><strong>Withdrawals:</strong> Date, Amount, Stakeholder, Notes, etc.</p>
+              <p><strong>Cash Advances:</strong> Employee, Product/Cash Advance, Amount, Notes, etc.</p>
               <p><strong>Google Sheets:</strong> Make sure your sheet has headers in the first row.</p>
               <p><strong>CSV:</strong> Use comma-separated values with headers in the first row.</p>
             </div>
