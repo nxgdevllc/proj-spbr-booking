@@ -412,7 +412,7 @@ export default function DataImportPage() {
               <p><strong>Bookings:</strong> Guest ID, Unit ID, Check In Date, Check Out Date, Total Amount, etc.</p>
               <p><strong>Units:</strong> Unit Number, Unit Type ID, Status, Last Maintenance, etc.</p>
               <p><strong>Payments:</strong> Booking ID, Amount, Payment Method, Reference Number, etc.</p>
-              <p><strong>Employees:</strong> Employee ID, Position, Hire Date, Base Salary, Emergency Contact, etc.</p>
+              <p><strong>Employees:</strong> Employee Name, Employee Role, Status, Monthly Pay, Employment Type, etc.</p>
               <p><strong>Google Sheets:</strong> Make sure your sheet has headers in the first row.</p>
               <p><strong>CSV:</strong> Use comma-separated values with headers in the first row.</p>
             </div>

@@ -56,13 +56,13 @@ Family Suite,Large suite perfect for families,8000.00,8,"WiFi,AC,Kitchen,Multipl
     },
     employees: {
       filename: 'employees-template.csv',
-      content: `Employee ID,Position,Hire Date,Base Salary,Is Active,Emergency Contact,Emergency Phone
-EMP001,Manager,2023-01-15,50000.00,true,John Smith,+639123456789
-EMP002,Housekeeper,2023-02-01,25000.00,true,Maria Santos,+639234567890
-EMP003,Receptionist,2023-03-10,30000.00,true,Pedro Cruz,+639345678901
-EMP004,Maintenance,2023-01-20,28000.00,false,Ana Reyes,+639456789012
+      content: `Employee Name,Employee Role,Employment Type,Status,Monthly Pay,Weekly Pay,Daily Pay,Notes
+Jing Jing,Reception Cashier,Full-Time,Active,"₱8,000.00","₱1,866.67",₱266.67,
+Romeo,Cleaner,Full-Time,Active,"₱8,000.00","₱1,866.67",₱266.67,
+JR,Life Guard / Cleaner,Full-Time,Active,"₱7,000.00","₱1,633.33",₱233.33,
+Chinamae,Store,Full-Time,Active,"₱5,500.00","₱1,283.33",₱183.33,
 `,
-      description: 'Template for importing employee information including position, salary, and emergency contacts.'
+      description: 'Template for importing employee information including position, salary, and employment status.'
     }
   }
 

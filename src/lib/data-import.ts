@@ -150,10 +150,10 @@ export class DataTransformer {
   static transformEmployeeData(rawData: any[]): any[] {
     return rawData.map(row => ({
       employee_id: row['Employee ID'] || row['employeeId'] || row['employee_id'] || generateEmployeeId(),
-      position: row['Position'] || row['position'] || row['Job Title'] || row['jobTitle'] || '',
+      position: row['Position'] || row['position'] || row['Job Title'] || row['jobTitle'] || row['Employee Role'] || '',
       hire_date: parseDate(row['Hire Date'] || row['hireDate'] || row['hire_date'] || row['Start Date'] || row['startDate']),
-      base_salary: parseFloat(row['Base Salary'] || row['baseSalary'] || row['base_salary'] || row['Salary'] || row['salary'] || '0'),
-      is_active: mapBoolean(row['Is Active'] || row['isActive'] || row['is_active'] || row['Active'] || row['active'] || 'true'),
+      base_salary: parseSalary(row['Base Salary'] || row['baseSalary'] || row['base_salary'] || row['Salary'] || row['salary'] || row['Monthly Pay'] || '0'),
+      is_active: mapBoolean(row['Is Active'] || row['isActive'] || row['is_active'] || row['Active'] || row['active'] || row['Status'] || 'true'),
       emergency_contact: row['Emergency Contact'] || row['emergencyContact'] || row['emergency_contact'] || row['Emergency Contact Name'] || null,
       emergency_phone: row['Emergency Phone'] || row['emergencyPhone'] || row['emergency_phone'] || row['Emergency Contact Phone'] || null
     }))
@@ -427,4 +427,15 @@ function mapBoolean(value: string): boolean {
   if (!value) return true
   const lowerValue = value.toLowerCase()
   return lowerValue === 'true' || lowerValue === 'yes' || lowerValue === '1' || lowerValue === 'active'
+}
+
+function parseSalary(salaryString: string | null): number {
+  if (!salaryString) return 0
+  
+  // Remove currency symbols, commas, and spaces
+  const cleaned = salaryString.replace(/[₱$,]/g, '').replace(/\s/g, '')
+  
+  // Parse as float
+  const parsed = parseFloat(cleaned)
+  return isNaN(parsed) ? 0 : parsed
 } 
