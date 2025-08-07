@@ -17,6 +17,10 @@ export interface SheetMapping {
   optionalFields: string[]
 }
 
+interface DataRow {
+  [key: string]: string | number | boolean | null
+}
+
 // Google Sheets API integration
 export class GoogleSheetsImporter {
   private apiKey: string
@@ -27,7 +31,7 @@ export class GoogleSheetsImporter {
     this.spreadsheetId = spreadsheetId
   }
 
-  async getSheetData(sheetName: string): Promise<any[]> {
+  async getSheetData(sheetName: string): Promise<DataRow[]> {
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${this.spreadsheetId}/values/${sheetName}?key=${this.apiKey}`
     
     try {
@@ -42,7 +46,7 @@ export class GoogleSheetsImporter {
       const rows = data.values.slice(1)
       
       return rows.map(row => {
-        const obj: any = {}
+        const obj: DataRow = {}
         headers.forEach((header: string, index: number) => {
           obj[header.trim()] = row[index] || null
         })
@@ -61,7 +65,7 @@ export class GoogleSheetsImporter {
       const response = await fetch(url)
       const data = await response.json()
       
-      return data.sheets.map((sheet: any) => sheet.properties.title)
+      return data.sheets.map((sheet: { properties: { title: string } }) => sheet.properties.title)
     } catch (error) {
       console.error('Error fetching sheet names:', error)
       throw error
@@ -71,7 +75,7 @@ export class GoogleSheetsImporter {
 
 // CSV Import functionality
 export class CSVImporter {
-  static parseCSV(csvContent: string): any[] {
+  static parseCSV(csvContent: string): DataRow[] {
     const lines = csvContent.split('\n')
     if (lines.length < 2) {
       throw new Error('CSV must have at least headers and one data row')
@@ -82,7 +86,7 @@ export class CSVImporter {
 
     return rows.map(row => {
       const values = row.split(',').map(v => v.trim().replace(/"/g, ''))
-      const obj: any = {}
+      const obj: DataRow = {}
       headers.forEach((header, index) => {
         obj[header] = values[index] || null
       })
@@ -93,7 +97,7 @@ export class CSVImporter {
 
 // Data transformation and validation
 export class DataTransformer {
-  static transformGuestData(rawData: any[]): any[] {
+  static transformGuestData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       first_name: row['First Name'] || row['firstName'] || row['first_name'] || '',
       last_name: row['Last Name'] || row['lastName'] || row['last_name'] || '',
@@ -109,7 +113,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformBookingData(rawData: any[]): any[] {
+  static transformBookingData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       booking_number: row['Booking Number'] || row['bookingNumber'] || row['booking_number'] || generateBookingNumber(),
       guest_id: row['Guest ID'] || row['guestId'] || row['guest_id'] || null,
@@ -124,7 +128,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformUnitData(rawData: any[]): any[] {
+  static transformUnitData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       unit_number: row['Unit Number'] || row['unitNumber'] || row['unit_number'] || '',
       unit_type_id: row['Unit Type ID'] || row['unitTypeId'] || row['unit_type_id'] || null,
@@ -134,7 +138,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformPaymentData(rawData: any[]): any[] {
+  static transformPaymentData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       booking_id: row['Booking ID'] || row['bookingId'] || row['booking_id'] || null,
       amount: parseFloat(row['Amount'] || row['amount'] || '0'),
@@ -147,7 +151,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformEmployeeData(rawData: any[]): any[] {
+  static transformEmployeeData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       employee_id: row['Employee ID'] || row['employeeId'] || row['employee_id'] || generateEmployeeId(),
       position: row['Position'] || row['position'] || row['Job Title'] || row['jobTitle'] || row['Employee Role'] || '',
@@ -159,7 +163,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformUnitTypeData(rawData: any[]): any[] {
+  static transformUnitTypeData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       type_name: row['Unit ID'] || row['Rental Type'] || row['Type Name'] || row['typeName'] || '',
       description: row['Notes'] || row['notes'] || row['Description'] || row['description'] || null,
@@ -176,7 +180,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformProductData(rawData: any[]): any[] {
+  static transformProductData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       product_code: row['SID'] || row['Product Code'] || row['productCode'] || row['product_code'] || generateProductCode(),
       product_name: row['Product Name'] || row['productName'] || row['product_name'] || '',
@@ -196,7 +200,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformExpenseData(rawData: any[]): any[] {
+  static transformExpenseData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       receipt_number: row['Receipt Number'] || row['receiptNumber'] || row['receipt_number'] || generateReceiptNumber(),
       expense_date: parseDate(row['Date'] || row['date'] || row['expenseDate'] || row['expense_date']),
@@ -211,7 +215,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformSalaryData(rawData: any[]): any[] {
+  static transformSalaryData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       payment_date: parseDate(row['Date'] || row['date'] || row['paymentDate'] || row['payment_date']),
       amount: parseSalary(row['Amount'] || row['amount'] || '0'),
@@ -221,7 +225,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformWithdrawalData(rawData: any[]): any[] {
+  static transformWithdrawalData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       withdrawal_date: parseDate(row['date'] || row['Date'] || row['withdrawalDate'] || row['withdrawal_date']),
       amount: parseSalary(row['amount'] || row['Amount'] || '0'),
@@ -230,7 +234,7 @@ export class DataTransformer {
     }))
   }
 
-  static transformCashAdvanceData(rawData: any[]): any[] {
+  static transformCashAdvanceData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
       employee_id: null, // Will be linked based on employee name
       advance_type: row['product or cash advance'] || row['advanceType'] || row['advance_type'] || 'cash',
@@ -242,7 +246,7 @@ export class DataTransformer {
 }
 
 // Data import functions
-export async function importGuests(data: any[]): Promise<ImportResult> {
+export async function importGuests(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -279,7 +283,7 @@ export async function importGuests(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importBookings(data: any[]): Promise<ImportResult> {
+export async function importBookings(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -316,7 +320,7 @@ export async function importBookings(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importUnits(data: any[]): Promise<ImportResult> {
+export async function importUnits(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -353,7 +357,7 @@ export async function importUnits(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importPayments(data: any[]): Promise<ImportResult> {
+export async function importPayments(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -390,7 +394,7 @@ export async function importPayments(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importEmployees(data: any[]): Promise<ImportResult> {
+export async function importEmployees(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -427,7 +431,7 @@ export async function importEmployees(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importUnitTypes(data: any[]): Promise<ImportResult> {
+export async function importUnitTypes(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -464,7 +468,7 @@ export async function importUnitTypes(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importProducts(data: any[]): Promise<ImportResult> {
+export async function importProducts(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -501,7 +505,7 @@ export async function importProducts(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importExpenses(data: any[]): Promise<ImportResult> {
+export async function importExpenses(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -542,7 +546,7 @@ export async function importExpenses(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importSalaries(data: any[]): Promise<ImportResult> {
+export async function importSalaries(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -583,7 +587,7 @@ export async function importSalaries(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importWithdrawals(data: any[]): Promise<ImportResult> {
+export async function importWithdrawals(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',
@@ -624,7 +628,7 @@ export async function importWithdrawals(data: any[]): Promise<ImportResult> {
   return result
 }
 
-export async function importCashAdvances(data: any[]): Promise<ImportResult> {
+export async function importCashAdvances(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
     message: '',

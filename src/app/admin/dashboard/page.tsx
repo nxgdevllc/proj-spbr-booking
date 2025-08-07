@@ -22,7 +22,12 @@ interface DashboardStats {
   totalRevenue: number
   activeBookings: number
   lowStockProducts: number
-  recentTransactions: any[]
+  recentTransactions: Array<{
+    transaction_type?: string
+    amount?: number
+    payment_method?: string
+    created_at?: string
+  }>
 }
 
 export default function AdminDashboard() {
@@ -92,7 +97,13 @@ export default function AdminDashboard() {
     }
   }
 
-  const StatCard = ({ title, value, icon: Icon, color, href }: any) => (
+  const StatCard = ({ title, value, icon: Icon, color, href }: {
+    title: string
+    value: number
+    icon: React.ComponentType<{ className?: string }>
+    color: string
+    href?: string
+  }) => (
     <div className={`bg-white rounded-lg shadow p-6 border-l-4 ${color}`}>
       <div className="flex items-center justify-between">
         <div>
@@ -117,7 +128,13 @@ export default function AdminDashboard() {
     </div>
   )
 
-  const QuickActionCard = ({ title, description, icon: Icon, href, color }: any) => (
+  const QuickActionCard = ({ title, description, icon: Icon, href, color }: {
+    title: string
+    description: string
+    icon: React.ComponentType<{ className?: string }>
+    href: string
+    color: string
+  }) => (
     <a 
       href={href}
       className={`block bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow border-l-4 ${color}`}

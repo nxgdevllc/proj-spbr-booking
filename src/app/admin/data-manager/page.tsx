@@ -9,7 +9,6 @@ import {
   TrashIcon,
   CheckIcon,
   XMarkIcon,
-  FunnelIcon,
   ArrowUpIcon,
   ArrowDownIcon
 } from '@heroicons/react/24/outline'
@@ -21,6 +20,14 @@ interface DataTable {
   editable: boolean
   deletable: boolean
   addable: boolean
+}
+
+interface TableRow {
+  id?: string
+  employee_id?: string
+  product_code?: string
+  booking_number?: string
+  [key: string]: unknown
 }
 
 const DATA_TABLES: DataTable[] = [
@@ -84,23 +91,23 @@ const DATA_TABLES: DataTable[] = [
 
 export default function DataManagerPage() {
   const [selectedTable, setSelectedTable] = useState<DataTable>(DATA_TABLES[0])
-  const [data, setData] = useState<any[]>([])
+  const [data, setData] = useState<TableRow[]>([])
   const [loading, setLoading] = useState(true)
   const [editingRow, setEditingRow] = useState<string | null>(null)
-  const [editingData, setEditingData] = useState<any>({})
+  const [editingData, setEditingData] = useState<TableRow>({})
   const [searchTerm, setSearchTerm] = useState('')
   const [sortColumn, setSortColumn] = useState('')
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
   const [filterColumn, setFilterColumn] = useState('')
   const [filterValue, setFilterValue] = useState('')
   const [showAddForm, setShowAddForm] = useState(false)
-  const [newRowData, setNewRowData] = useState<any>({})
+  const [newRowData, setNewRowData] = useState<TableRow>({})
   const [selectedRows, setSelectedRows] = useState<Set<string>>(new Set())
 
   // Load data when table changes
   useEffect(() => {
     loadData()
-  }, [selectedTable])
+  }, [selectedTable.name])
 
   const loadData = async () => {
     setLoading(true)
@@ -146,8 +153,8 @@ export default function DataManagerPage() {
     })
 
   // Handle inline editing
-  const startEditing = (row: any) => {
-    setEditingRow(row.id || row.employee_id || row.product_code || row.booking_number)
+  const startEditing = (row: TableRow) => {
+    setEditingRow(row.id || row.employee_id || row.product_code || row.booking_number || '')
     setEditingData({ ...row })
   }
 
@@ -181,7 +188,7 @@ export default function DataManagerPage() {
   }
 
   // Handle row deletion
-  const deleteRow = async (row: any) => {
+  const deleteRow = async (row: TableRow) => {
     if (!confirm('Are you sure you want to delete this row?')) return
 
     try {
@@ -221,7 +228,7 @@ export default function DataManagerPage() {
   // Handle bulk operations
   const deleteSelectedRows = async () => {
     if (selectedRows.size === 0) return
-    if (!confirm(`Are you sure you want to delete ${selectedRows.size} rows?`)) return
+    if (!confirm('Are you sure you want to delete ' + selectedRows.size + ' rows?')) return
 
     try {
       const { error } = await supabase
@@ -469,7 +476,7 @@ export default function DataManagerPage() {
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {filteredAndSortedData.map((row, index) => {
-                    const rowId = row.id || row.employee_id || row.product_code || row.booking_number
+                    const rowId = row.id || row.employee_id || row.product_code || row.booking_number || ''
                     const isEditing = editingRow === rowId
                     
                     return (
