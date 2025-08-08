@@ -62,6 +62,7 @@ export default function Home() {
   const [bookingSubmitted, setBookingSubmitted] = useState(false)
   const [orderPlaced, setOrderPlaced] = useState(false)
   const [activeSection, setActiveSection] = useState('hero')
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   useEffect(() => {
     let mounted = true
@@ -122,21 +123,20 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 via-yellow-50 to-green-100">
-      {/* Floating Navigation */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-green-200/50">
+      {/* Desktop Navigation */}
+      <header className="hidden md:block bg-white shadow-md border-b border-green-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-3">
+          <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-xl md:text-2xl font-bold text-green-800">
+                <h1 className="text-2xl font-bold text-green-800">
                   San Pedro Beach Resort
                 </h1>
-                <p className="text-xs md:text-sm text-green-600">Opal, Philippines</p>
+                <p className="text-sm text-green-600">Opal, Philippines</p>
               </div>
             </div>
             
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-8">
+            <nav className="flex items-center space-x-8">
               <button 
                 onClick={() => setActiveSection('hero')} 
                 className={`text-sm font-medium transition-colors ${
@@ -180,10 +180,39 @@ export default function Home() {
             </nav>
             
             <div className="flex items-center space-x-3">
-              {/* Cart Button */}
               <button
                 onClick={() => setActiveSection('store')}
-                className="relative bg-yellow-500 text-gray-900 px-3 py-2 rounded-lg text-sm font-medium hover:bg-yellow-600 transition-all duration-200 shadow-md hover:shadow-lg"
+                className="relative bg-yellow-500 text-gray-900 px-4 py-2 rounded-lg text-sm font-medium hover:bg-yellow-600 transition-all duration-200 shadow-md hover:shadow-lg"
+              >
+                <ShoppingCartIcon className="h-5 w-5" />
+                {cart.length > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center animate-pulse">
+                    {cart.reduce((sum, item) => sum + item.quantity, 0)}
+                  </span>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Mobile Navigation */}
+      <header className="md:hidden bg-white shadow-md border-b border-green-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-3">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <h1 className="text-lg font-bold text-green-800">
+                  San Pedro Beach Resort
+                </h1>
+                <p className="text-xs text-green-600">Opal, Philippines</p>
+              </div>
+            </div>
+            
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={() => setActiveSection('store')}
+                className="relative bg-yellow-500 text-gray-900 px-3 py-2 rounded-lg text-sm font-medium hover:bg-yellow-600 transition-all duration-200 shadow-md"
               >
                 <ShoppingCartIcon className="h-5 w-5" />
                 {cart.length > 0 && (
@@ -193,68 +222,90 @@ export default function Home() {
                 )}
               </button>
               
-              {/* Mobile Menu Button */}
-              <button className="md:hidden bg-green-600 text-white p-2 rounded-lg hover:bg-green-700 transition-colors">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
+              <button 
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="bg-green-600 text-white p-2 rounded-lg hover:bg-green-700 transition-colors"
+              >
+                {mobileMenuOpen ? (
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                )}
               </button>
             </div>
           </div>
         </div>
         
-        {/* Mobile Navigation Dropdown */}
-        <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-green-200/50">
-          <div className="max-w-7xl mx-auto px-4 py-2">
-            <div className="flex flex-col space-y-2">
-              <button 
-                onClick={() => setActiveSection('hero')} 
-                className={`text-left py-2 px-3 rounded-md text-sm font-medium transition-colors ${
-                  activeSection === 'hero' 
-                    ? 'bg-green-100 text-green-700' 
-                    : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                }`}
-              >
-                Home
-              </button>
-              <button 
-                onClick={() => setActiveSection('booking')} 
-                className={`text-left py-2 px-3 rounded-md text-sm font-medium transition-colors ${
-                  activeSection === 'booking' 
-                    ? 'bg-green-100 text-green-700' 
-                    : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                }`}
-              >
-                Book Now
-              </button>
-              <button 
-                onClick={() => setActiveSection('store')} 
-                className={`text-left py-2 px-3 rounded-md text-sm font-medium transition-colors ${
-                  activeSection === 'store' 
-                    ? 'bg-green-100 text-green-700' 
-                    : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                }`}
-              >
-                Store
-              </button>
-              <button 
-                onClick={() => setActiveSection('contact')} 
-                className={`text-left py-2 px-3 rounded-md text-sm font-medium transition-colors ${
-                  activeSection === 'contact' 
-                    ? 'bg-green-100 text-green-700' 
-                    : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                }`}
-              >
-                Contact
-              </button>
+        {/* Mobile Menu Dropdown */}
+        {mobileMenuOpen && (
+          <div className="bg-white border-t border-green-200 shadow-lg">
+            <div className="max-w-7xl mx-auto px-4 py-3">
+              <div className="flex flex-col space-y-1">
+                <button 
+                  onClick={() => {
+                    setActiveSection('hero')
+                    setMobileMenuOpen(false)
+                  }} 
+                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                    activeSection === 'hero' 
+                      ? 'bg-green-100 text-green-700' 
+                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
+                  }`}
+                >
+                  🏠 Home
+                </button>
+                <button 
+                  onClick={() => {
+                    setActiveSection('booking')
+                    setMobileMenuOpen(false)
+                  }} 
+                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                    activeSection === 'booking' 
+                      ? 'bg-green-100 text-green-700' 
+                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
+                  }`}
+                >
+                  📅 Book Now
+                </button>
+                <button 
+                  onClick={() => {
+                    setActiveSection('store')
+                    setMobileMenuOpen(false)
+                  }} 
+                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                    activeSection === 'store' 
+                      ? 'bg-green-100 text-green-700' 
+                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
+                  }`}
+                >
+                  🛍️ Store
+                </button>
+                <button 
+                  onClick={() => {
+                    setActiveSection('contact')
+                    setMobileMenuOpen(false)
+                  }} 
+                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                    activeSection === 'contact' 
+                      ? 'bg-green-100 text-green-700' 
+                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
+                  }`}
+                >
+                  📞 Contact
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </header>
 
       {/* Hero Section */}
       {activeSection === 'hero' && (
-        <section className="relative min-h-screen flex items-center justify-center pt-20">
+        <section className="relative min-h-screen flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-r from-green-800/30 to-yellow-600/30"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="mb-8">
@@ -310,7 +361,7 @@ export default function Home() {
 
       {/* Booking Section */}
       {activeSection === 'booking' && (
-        <section className="py-16 bg-white pt-24">
+        <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">Book Your Perfect Stay</h2>
@@ -412,7 +463,7 @@ export default function Home() {
 
       {/* Store Section */}
       {activeSection === 'store' && (
-        <section className="py-16 bg-gray-50 pt-24">
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">Resort Store</h2>
@@ -502,7 +553,7 @@ export default function Home() {
 
       {/* Contact Section */}
       {activeSection === 'contact' && (
-        <section className="py-16 bg-white pt-24">
+        <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h2>
