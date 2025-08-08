@@ -349,10 +349,10 @@ INSERT INTO public.user_profiles (
 NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
 
 # Anon/Public Key
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
 
 # Service Role Key (keep secret!)
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here
 ```
 
 #### Step 2: Add to Your .env.local

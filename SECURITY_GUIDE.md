@@ -14,7 +14,7 @@
 **Create a `.env.local` file (if not exists):**
 ```bash
 # Supabase Configuration
-NEXT_PUBLIC_SUPABASE_URL=https://agugyskqboencxrqquaw.supabase.co
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
 
 # Server-side only (never expose to client)
