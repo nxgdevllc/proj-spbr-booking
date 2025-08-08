@@ -30,7 +30,7 @@ export default function Home() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="#booking" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">
+              <Link href="/booking" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">
                 Book Room
               </Link>
               <Link href="/store" className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 font-semibold flex items-center">
@@ -59,7 +59,7 @@ export default function Home() {
           {mobileMenuOpen && (
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t">
-                <Link href="#booking" className="block px-3 py-2 text-gray-700 hover:text-green-600">
+                <Link href="/booking" className="block px-3 py-2 text-gray-700 hover:text-green-600">
                   Book Room
                 </Link>
                 <Link href="/store" className="block px-3 py-2 bg-green-600 text-white rounded-lg">
@@ -86,7 +86,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="#booking"
+                href="/booking"
                 className="bg-white text-green-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center"
               >
                 <CalendarDaysIcon className="h-6 w-6 mr-2" />
@@ -263,7 +263,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                <li><Link href="#booking" className="text-gray-300 hover:text-white transition-colors">Book Room</Link></li>
+                <li><Link href="/booking" className="text-gray-300 hover:text-white transition-colors">Book Room</Link></li>
                 <li><Link href="/store" className="text-gray-300 hover:text-white transition-colors">Store</Link></li>
                 <li><Link href="/admin/dashboard" className="text-gray-300 hover:text-white transition-colors">Staff Portal</Link></li>
               </ul>
