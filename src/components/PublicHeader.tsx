@@ -49,7 +49,7 @@ export default function PublicHeader() {
             </div>
             <div className="flex items-center space-x-4">
               <Link 
-                href="/admin/login" 
+                href="/login" 
                 className="text-white hover:text-yellow-200 transition-colors text-sm font-medium"
               >
                 Staff Login
