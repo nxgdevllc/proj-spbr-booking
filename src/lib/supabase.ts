@@ -3,13 +3,34 @@ import { createClient } from '@supabase/supabase-js'
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 
+// Enhanced security configuration for client-side
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   auth: {
     autoRefreshToken: true,
     persistSession: true,
     detectSessionInUrl: true
+  },
+  global: {
+    headers: {
+      'X-Client-Info': 'san-pedro-beach-resort'
+    }
   }
 })
+
+// Server-side client for admin operations (more secure)
+export const createServerClient = () => {
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY!
+  if (!serviceRoleKey) {
+    throw new Error('SUPABASE_SERVICE_ROLE_KEY is required for server operations')
+  }
+  
+  return createClient(supabaseUrl, serviceRoleKey, {
+    auth: {
+      autoRefreshToken: false,
+      persistSession: false
+    }
+  })
+}
 
 // Database types (will be generated from Supabase)
 export interface Database {
