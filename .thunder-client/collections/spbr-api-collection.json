@@ -1,0 +1,176 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "San Pedro Beach Resort API",
+  "dateExported": "2025-01-27T00:00:00.000Z",
+  "version": "1.1",
+  "folders": [
+    {
+      "name": "Authentication",
+      "items": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/v1/token?grant_type=password",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "apikey",
+                "value": "{{supabaseAnonKey}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/v1/signup",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "apikey",
+                "value": "{{supabaseAnonKey}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\",\n  \"data\": {\n    \"first_name\": \"{{firstName}}\",\n    \"last_name\": \"{{lastName}}\",\n    \"role\": \"{{role}}\"\n  }\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bookings",
+      "items": [
+        {
+          "name": "Get All Bookings",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/rest/v1/bookings?select=*",
+            "headers": [
+              {
+                "name": "apikey",
+                "value": "{{supabaseAnonKey}}"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Create Booking",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/rest/v1/bookings",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "apikey",
+                "value": "{{supabaseAnonKey}}"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"guest_id\": \"{{guestId}}\",\n  \"unit_id\": \"{{unitId}}\",\n  \"check_in_date\": \"{{checkInDate}}\",\n  \"check_out_date\": \"{{checkOutDate}}\",\n  \"total_amount\": {{totalAmount}},\n  \"status\": \"confirmed\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Inventory",
+      "items": [
+        {
+          "name": "Get Inventory Items",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/rest/v1/inventory_items?select=*",
+            "headers": [
+              {
+                "name": "apikey",
+                "value": "{{supabaseAnonKey}}"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Update Stock",
+          "request": {
+            "method": "PATCH",
+            "url": "{{baseUrl}}/rest/v1/inventory_items?id=eq.{{itemId}}",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "apikey",
+                "value": "{{supabaseAnonKey}}"
+              },
+              {
+                "name": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"current_stock\": {{newStock}}\n}"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "name": "Development",
+      "data": [
+        {
+          "name": "baseUrl",
+          "value": "https://your-project.supabase.co"
+        },
+        {
+          "name": "supabaseAnonKey",
+          "value": "your_supabase_anon_key_here"
+        },
+        {
+          "name": "accessToken",
+          "value": "your_access_token_here"
+        },
+        {
+          "name": "email",
+          "value": "admin@sanpedrobeachresort.com"
+        },
+        {
+          "name": "password",
+          "value": "your_password_here"
+        }
+      ]
+    }
+  ]
+}

@@ -1,23 +1,13 @@
-import type { Metadata, Viewport } from 'next'
+import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { AuthProvider } from '@/lib/auth-context'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'San Pedro Beach Resort - Management System',
-  description: 'Complete booking and management system for San Pedro Beach Resort in Opal, Philippines',
-  keywords: 'resort, booking, management, Philippines, beach resort',
-  authors: [{ name: 'San Pedro Beach Resort' }],
-  manifest: '/manifest.json',
-}
-
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
-  themeColor: '#0f172a',
+  title: 'San Pedro Beach Resort',
+  description: 'Management system for San Pedro Beach Resort',
 }
 
 export default function RootLayout({
@@ -27,17 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="SPBR Resort" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
       <body className={inter.className}>
-        <div className="min-h-screen bg-gray-50">
+        <AuthProvider>
           {children}
-        </div>
+        </AuthProvider>
       </body>
     </html>
   )

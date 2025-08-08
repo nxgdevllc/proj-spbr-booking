@@ -212,6 +212,74 @@ export interface Database {
           updated_at?: string
         }
       }
+      inventory_items: {
+        Row: {
+          id: number
+          category: string
+          product_name: string
+          stock: number
+          size: string | null
+          units: string | null
+          price: number
+          min_level: number | null
+          supplier: string | null
+          barcode: string | null
+          barcode_type: string | null
+          notes: string | null
+          tags: string | null
+          restock_price: number | null
+          value: number | null
+          photo1: string | null
+          photo2: string | null
+          photo3: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: number
+          category: string
+          product_name: string
+          stock?: number
+          size?: string | null
+          units?: string | null
+          price?: number
+          min_level?: number | null
+          supplier?: string | null
+          barcode?: string | null
+          barcode_type?: string | null
+          notes?: string | null
+          tags?: string | null
+          restock_price?: number | null
+          value?: number | null
+          photo1?: string | null
+          photo2?: string | null
+          photo3?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: number
+          category?: string
+          product_name?: string
+          stock?: number
+          size?: string | null
+          units?: string | null
+          price?: number
+          min_level?: number | null
+          supplier?: string | null
+          barcode?: string | null
+          barcode_type?: string | null
+          notes?: string | null
+          tags?: string | null
+          restock_price?: number | null
+          value?: number | null
+          photo1?: string | null
+          photo2?: string | null
+          photo3?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
       payments: {
         Row: {
           id: string
@@ -251,6 +319,56 @@ export interface Database {
           receipt_number?: string
           status?: 'pending' | 'completed' | 'failed' | 'refunded'
           processed_by?: string
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+      }
+      orders: {
+        Row: {
+          id: string
+          order_number: string
+          customer_name: string
+          customer_phone: string
+          customer_email: string
+          items: Record<string, unknown>
+          total_amount: number
+          payment_method: string
+          payment_status: string
+          pickup_status: string
+          pickup_time: string | null
+          notes: string | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          order_number: string
+          customer_name: string
+          customer_phone: string
+          customer_email: string
+          items: Record<string, unknown>
+          total_amount: number
+          payment_method: string
+          payment_status?: string
+          pickup_status?: string
+          pickup_time?: string | null
+          notes?: string | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          order_number?: string
+          customer_name?: string
+          customer_phone?: string
+          customer_email?: string
+          items?: Record<string, unknown>
+          total_amount?: number
+          payment_method?: string
+          payment_status?: string
+          pickup_status?: string
+          pickup_time?: string | null
           notes?: string | null
           created_at?: string
           updated_at?: string

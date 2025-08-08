@@ -1,226 +1,1226 @@
-SID,Category,Product Name,Stock,Size,Units,Price,8/2,8/2 $,8/3,8/3 $,8/4,8/4 $,8/5,8/5 $,8/6,8/6 $,Min Level,re-stock Quantity,re-stock Price,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Value,Tags,Notes,Stock July,Thu 7/24,Fri 7/25,Sat 7/26,Sun 7/27,Mon 7/28,Tue 7/29,Wed 7/30,Thu 7/31,Photo1
-SPBR-INV-0006,Food Packs,Lucky Me Batchoy small,9,40,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770271168,org.gs1.EAN-13,₱ 315,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__j2U_4AFDx-uEMQUA1Qejt50DVGlK9Y7LCuMwKxIATbe7mZOVZAAlA==
-SPBR-INV-0008,Food Packs,Spicy batchoy small,5,40,Grams,₱ 35,,₱ 0,2,₱ 70,,₱ 0,,₱ 0,,₱ 0,,,,,4807770273810,org.gs1.EAN-13,₱ 175,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_QuPGv4trqIfOdXGpHGHdyfuj80rFi5edNFeZfLswWQRmiE8ctqiDPg==
-SPBR-INV-0009,Food Packs,Lucky Me bulalo small,9,40,Grams,₱ 35,,₱ 0,,₱ 0,1,₱ 35,,₱ 0,,₱ 0,,,,,4807770271175,org.gs1.EAN-13,₱ 315,,,9,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_R3CLpHaMbWijP5A6XW0V_HiVw2LSMp0LbfyIyrifACyJF4XVfhNIQQ==
-SPBR-INV-0010,Food Packs,Spicy bulalo small,0,40,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770273612,org.gs1.EAN-13,₱ 0,,,1,1,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ILLJUoHp9TxAXTNz3IhKrazanSI8fsh-pgzYFcnJGea6_fwoyE3ywQ==
-SPBR-INV-0011,Food Packs,Lucky Me batchoy Big,10,70,Grams,₱ 65,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770272110,org.gs1.EAN-13,₱ 650,,,10,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Hgliqt6TEiAc86TGT1skbRnsSAtSxtfWnDHaF91EuqJsp8RRN6s-jg==
-SPBR-INV-0012,Food Packs,Lucky Me bulalo Big,3,70,Grams,₱ 65,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770272127,org.gs1.EAN-13,₱ 195,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_C9iJYXmMnaxn40Y0WCzFc1jtzGAl7YYjU60SL0sz-QBOVhn-kILe7Q==
-SPBR-INV-0013,Kitchen & Condiments,Silver swan sukang puti bottle,0,385,ml,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800344004421,org.gs1.EAN-13,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_7-8Sx3e21HUJLoez810TP-iXCo0R2qEFVpkDbZIAS3NVJA1HQ9oiMw==
-SPBR-INV-0014,Kitchen & Condiments,Silver swan sukang puti pouch,10,200,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 150,,UPDATE: Barcode needs to be scanned and updated also update stock level,,,,7,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_f_7LSCJYeI9dZPnPwh8CsHSU-hPnJIkd9S_yuNfG9fVs7Fh9usu02w==
-SPBR-INV-0015,Kitchen & Condiments,Silver swan sukang soy sauce,6,200,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 90,,UPDATE: Barcode needs to be scanned and updated also update stock level,,,,,,,,,,
-SPBR-INV-0016,Food Packs,Uni-pak sardines,1,155,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800154568618,org.gs1.EAN-13,₱ 30,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Bsfis-KnLiAu_fW7JiyxD8FCfsDitlJmCfYNEQ_B04tqJyg-tokZ8g==
-SPBR-INV-0017,Food Packs,Lucky 7 carne norte,5,150,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,748485801728,org.gs1.UPC-A,₱ 250,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_fRbNJhFg_hNssH9Whxq02xr6iDyiofWQz9wKztFa70g3PA1Z5S5Nlw==
-SPBR-INV-0018,Food Packs,555 tuna Caldereta,1,155,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,748485700038,org.gs1.UPC-A,₱ 50,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1SvYVzsGJfBVJb7oxHow1-cN2plljGVcWaBGIM8X5-bzgTkyv-ngmw==
-SPBR-INV-0019,Food Packs,Holiday beef loaf,1,250,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800066121154,org.gs1.EAN-13,₱ 50,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_96l3myl6DfnHbKj2GIV-wsbykVDOGXLGZ-nyx7T385Y8GDOk2OiKVw==
-SPBR-INV-0020,Food Packs,555 tuna bicol express,0,155,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,748485700090,org.gs1.UPC-A,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ketDYfzultqu5Deqshf9kASMcXa6ZK1hZPyeVQnFyhFlWFL8dkSCBA==
-SPBR-INV-0021,Food Packs,Century tuna flakes in oil,2,155,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,748485100401,org.gs1.UPC-A,₱ 100,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gs4Ja97LJYFC03Px62l9DvX7OVpSYNkp1YE3GUbtMn923zB5y2lhgA==
-SPBR-INV-0022,Kitchen & Condiments,Mang tomas,3,325,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801668100264,org.gs1.EAN-13,₱ 180,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_tZl-xofFSPF0zipjWJBgcdXZyfwSgbB5V4SQTQshteE83Raf2_kDFw==
-SPBR-INV-0023,Kitchen & Condiments,Ram Hot sauce,4,160,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800017929402,org.gs1.EAN-13,₱ 320,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_l-2i-Qi7cFm__p4ncNlXNellfMIyZ5frX0Tgqowhw3tWO4Zm1nclWA==
-SPBR-INV-0024,Kitchen & Condiments,Maggi Savor calamansi,5,130,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361050104,org.gs1.EAN-13,₱ 400,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_uf55-5N_w4WyIFxExOxWX6rcg-wJJLycwWey4dnVNABtSz6hjYtMXQ==
-SPBR-INV-0026,Kitchen & Condiments,Knorr Liquid Seasoning Original,5,130,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4808680230764,org.gs1.EAN-13,₱ 425,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_4W1eJKJbu-vllI9hLRnz36V7nLOYdwCgWHHPJJ48wMg9wQnTkc8lNQ==
-SPBR-INV-0027,Kitchen & Condiments,Claro palm cooking oil,5,250,ml,₱ 80,,₱ 0,1,₱ 80,,₱ 0,,₱ 0,1,₱ 80,2,,,,4806014099926,org.gs1.EAN-13,₱ 400,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_hakHmohxzFZfBZNnLZJZZegjDMNScba4yHd-32YqvGpwAwD8cBUXMA==
-SPBR-INV-0028,Kitchen & Condiments,Del Monte sweet blend ketchup,4,320,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,1,,,,4800024577139,org.gs1.EAN-13,₱ 240,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aEN0sjQyyGvRupZHrV0I7_fTzk5KqrNJMHp2u6xn7e_Nc7Eef44nLg==
-SPBR-INV-0029,Kitchen & Condiments,Mama sitas oyster sauce,11,60,Grams,₱ 20,,₱ 0,2,₱ 40,,₱ 0,,₱ 0,,₱ 0,,,,,4806512026387,org.gs1.EAN-13,₱ 220,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_kQyl4tVGXHF4V9EHgojnohhL-5ZGi117s7GM5-RUPzub20sMycMSyA==
-SPBR-INV-0030,Kitchen & Condiments,Black pepper whole,2,50,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,1,,,,4809015402245,org.gs1.EAN-13,₱ 100,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Y5qVfz9sI8dRIprI5_Mvj7a8Bi-b85KcuYWXsZ3OvzgyTP2iFyFghA==
-SPBR-INV-0031,Kitchen & Condiments,Laurel leaves,2,20,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806533680001,org.gs1.EAN-13,₱ 100,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_v43NlQHtgrgFsOy7B0NE60O83SU35vpTF5HrX-2QUFaaejRTkXDL7g==
-SPBR-INV-0032,Kitchen & Condiments,Black pepper powder,1,50,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,0,,,,4809015402283,org.gs1.EAN-13,₱ 50,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5g6heMuYTN3nlhsM5mqDSpynACrMXT0KiGh-VROkI2NyvPKGviP3cw==
-SPBR-INV-0033,Kitchen & Condiments,Maggi Magic Sarap All-in-One Seasoning Granules,18,8,Grams,₱ 8,,₱ 0,2,₱ 16,,₱ 0,,₱ 0,,₱ 0,,,,,48025522,org.gs1.EAN-8,₱ 144,,,13,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_uev8k6WAg9JO0QtE0WHOP77r6vlIxhfef2yv3YalMcLbG629fnluYg==
-SPBR-INV-0034,Cold Beverages,Great value rice,9,1,Kilogram,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,1111111111116,org.gs1.EAN-13,₱ 765,,,10,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_73VcmSfjSIvKmh28vJx68-n267Nt-UMxM8S93Dyifi10_Y7PMU5nhw==
-SPBR-INV-0035,Supplies,Bleach zonrox floral,3,250,ml,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,4800047840555,org.gs1.EAN-13,₱ 105,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_xQDpHBDIwd8d5wXT_JxaA6hqnjgml8M4nrKt2y8eShmzCmcK5WKhdw==
-SPBR-INV-0036,Supplies,Surf Bar Detergent Rose Fresh,5,120,Grams,₱ 15,1,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888136671,org.gs1.EAN-13,₱ 75,,,3,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Ofrcvw4WZMgHpO16mROXdhjztZeL7PYI9zOtD_OK0Z48DEUbImDu3w==
-SPBR-INV-0037,Supplies,Smart dishwashing paste,34,200,Grams,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800045310173,org.gs1.EAN-13,"₱ 1,190",,,40,,,1,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_l9rV4b0mZpl0UzgSZStLRZ_b8l-KKhFv-tNRZfEclBuLhbjrAdgbRA==
-SPBR-INV-0038,Supplies,Joy dishwashing liquid,9,40,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430389563,org.gs1.EAN-13,₱ 135,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_dDGM2cXU3QRW9gpNn4fwx9Ig_hDlLt7PbJ9kieU91XD_8PHhoLNE9g==
-SPBR-INV-0039,Supplies,Downy antibac kontra germs with safe guard,24,26,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430739016,org.gs1.EAN-8,₱ 360,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nbjFPfcTZ4iYJ3H3tOsVm7SWHYa12MD5_ajFY0AV2l_jBo5FxKKwaA==
-SPBR-INV-0040,Supplies,Downy garden bloom,0,26,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430846455,org.gs1.EAN-13,₱ 0,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SyMwkaJ_eUT54S-Flz75S4D7sosddrNHhTB1IKPtwlc5ndElN2q2Hw==
-SPBR-INV-0041,Supplies,Surf Powder Detergent Rose Fresh,8,65,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888183804,org.gs1.EAN-13,₱ 120,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_7nUUy9BBzbaIRugAx0Oq-PUxfzkD971JTv2cP1uw0Mf87U7S57KOvA==
-SPBR-INV-0042,Toiletries,Safeguard family germ protection pure white,13,55,Grams,₱ 30,1,₱ 30,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,,,,,4902430945554,org.gs1.EAN-13,₱ 390,,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1FU9a70Bom6M8cSw1Jd3JXimvLucw2jm1Y38Kj_UpIwW6Bm03yVlNg==
-SPBR-INV-0043,Toiletries,Safeguard family germ protection pure white,17,22,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430495066,org.gs1.EAN-13,₱ 255,,,14,,,4,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2v044UNKGZCDU_ebma_lBdAxJiZQeT-d3f6ZblGZUhCD76zYC3kvXA==
-SPBR-INV-0044,Toiletries,Bioderm family germicidal soap coolness,2,60,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800011113937,org.gs1.EAN-13,₱ 60,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_A85ypJVvYr7D6N4itBGN66IS5fBKO8zjCdOi2NImL9NELn9d-CBpCQ==
-SPBR-INV-0045,Toiletries,Bioderm family germicidal soap bloom,5,60,Grams,₱ 30,,₱ 0,2,₱ 60,,₱ 0,,₱ 0,,₱ 0,5,,,,4800011782805,org.gs1.EAN-13,₱ 150,,,5,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_42uSzX6UXHjdZYBU2hfaIBvevNVV34kNKPMpRo4lrlQTs8uQUoJceg==
-SPBR-INV-0046,Toiletries,Silka whitening herbal soap green & papaya,5,65,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806507832214,org.gs1.EAN-13,₱ 150,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_A3El2aeVmQdwfQoX8zHSQEKN2wwDXhxA4hYjwZw1XhLHhWmsy_g6ZQ==
-SPBR-INV-0047,Toiletries,Silka whitening herbal soap papaya,1,65,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806507832481,org.gs1.EAN-13,₱ 30,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_0MUPK7Y0HqwW8q3BoAUO1fpfu_pgZJMrmxU7LApDLH4HauA17btR2A==
-SPBR-INV-0048,Toiletries,Colgate calcium boost with flouride maximum cavity protection,80,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,10,,,,8850006325216,org.gs1.EAN-13,"₱ 1,200",,,84,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_JyhmXJansKoBiTLW9Nn88Yzk-BN9HSjnmfaDisu4l7fcn335cXpTOw==
-SPBR-INV-0049,Toiletries,Colgate fresh confidence with cooling crystals,32,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,8850006325230,org.gs1.EAN-13,₱ 480,,,33,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZyvF6egCDlrrFhDy8fIF98bda9MloymCyKCLWGpxN3nQ8yGEU3Q7cg==
-SPBR-INV-0050,Toiletries,Closeup gel toothpaste red hot,7,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800888147288,org.gs1.EAN-13,₱ 105,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_VZhruSgJUbh0uvOQliQdF70XsJdMcANHVju5bXfC4J35R6Cj26tORQ==
-SPBR-INV-0051,Toiletries,Closeup gel toothpaste menthol fresh,5,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800888147240,org.gs1.EAN-13,₱ 75,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_o34snFLYexKt8Y2R4WwJoOALL_LsQ--q_c-D-HyTPl6UjU3nSHOG5Q==
-SPBR-INV-0052,Toiletries,Charmee panty liner breathable,70,,,₱ 3,8,₱ 24,,₱ 0,,₱ 0,8,₱ 24,,₱ 0,12,,,,4800488100058,org.gs1.EAN-13,₱ 210,,,71,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1P8HLv00jteSTuSc3yUXebaq3v_VVqOZqHsnUocZwzm7_FRgzRiS5w==
-SPBR-INV-0053,Toiletries,Charmee feminine pads with wings,12,,,₱ 10,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800488011415,org.gs1.EAN-13,₱ 120,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_PQLprTl-hfNt7geBrT-79dtlthBYO_dtl7n95bEQMH5vlCC-wV7QLw==
-SPBR-INV-0054,Toiletries,Charmee feminine pads dry net no wings,5,,,₱ 10,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800488958581,org.gs1.EAN-13,₱ 50,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_-jr1Pxd4W9NlNFrLqleuuZPSv4ynskocLwgmEZQJWW1DMF2zCsSAyw==
-SPBR-INV-0055,Toiletries,Sisters Day maxi regular flow with wings,11,240,mm,₱ 10,,₱ 0,1,₱ 10,,₱ 0,,₱ 0,,₱ 0,,,,,4806506318818,org.gs1.EAN-13,₱ 110,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_12bD1gS5doV99mwfXnro4cqgWPkUMStnq0YFJq3yANvEO_D98BzuXg==
-SPBR-INV-0056,Toiletries,Care cotton buds,6,,,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,2,,,,4806524580068,org.gs1.EAN-13,₱ 120,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SsyuQJgBkXLUjVYIb1wWBW8S8Ax59IwwrSerrDmLLXc-eCX-JHx5XA==
-SPBR-INV-0057,Toiletries,Nursy baby wipes,1,200,mm,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488958154,org.gs1.EAN-13,₱ 50,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_K6rGjPPDwlk6u7XNbA_yaBFp6nqz0SNxEP_eMMF4QwJDQ8cDFyfajw==
-SPBR-INV-0058,Toiletries,EQ disposable baby diapers new born-small,18,,,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070221,org.gs1.EAN-13,₱ 360,,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_yytVQ_6UdW0Mr8sjctipLutldEymbxCNDk8l0AYNajHeUNKR0f1vDg==
-SPBR-INV-0059,Toiletries,EQ disposable baby diapers medium,20,,,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070238,org.gs1.EAN-13,₱ 400,,,20,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_pdBIOvwW9RGz_oXhWdNe3QXP-LZT5fBZhsK1u7s4jXiReSwwoWFORw==
-SPBR-INV-0060,Toiletries,EQ disposable baby diapers large,8,,,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070245,org.gs1.EAN-13,₱ 160,,,12,,,1,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_vViwOV4_AvxCQ4GfMQIMWElj7tEajEyMWf2WkwJhuwNX8EiEWwJ3Bg==
-SPBR-INV-0061,Toiletries,EQ disposable baby diapers xl,9,,,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070252,org.gs1.EAN-13,₱ 180,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DKsJQmWn6nyzJLiLAD4gV-utKzSAcbx0KQYOdJAoZ6OnXNo_DTk2YA==
-SPBR-INV-0062,Toiletries,Johnson's baby shampoo,2,100,ml,₱ 110,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,9556006014547,org.gs1.EAN-13,₱ 220,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_FW9ygELQczC8XFhwHpKhaz71bxYzWOOLTgjRaWUsgjN4ZS7Us1nDPA==
-SPBR-INV-0063,Toiletries,Mouthwash listerine fresh burst,2,100,ml,₱ 75,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8850007814313,org.gs1.EAN-13,₱ 150,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RdJU6bQymwicTCvP5E4zxflXZTBBeQKkTXMAEaIe5Rqpl-SiWcOsAA==
-SPBR-INV-0064,Toiletries,Rexona shower clean+brightening,3,25,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888150622,org.gs1.EAN-13,₱ 240,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_eVsLiNfyjwICDeym83PVx8lD-W98RU3omPk1z4y19WjdwZIZtAt19Q==
-SPBR-INV-0065,Toiletries,Flawlessly whitening deodorant,1,25,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800119219203,org.gs1.EAN-13,₱ 80,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_c1kv2cHkTPBd1YK3Fp796-CtkYL7ECSd78aseGonmePgZ4mFm4AkrQ==
-SPBR-INV-0066,Toiletries,Rhea Superscent oil,3,25,ml,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,48037389,org.gs1.EAN-8,₱ 120,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2NERTcLfFiOKrFci46Z_RiFCTyklk6mgYicOZsy-KTgkK9aj_126LA==
-SPBR-INV-0067,Toiletries,Efficascent oil,2,25,ml,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,48031547,org.gs1.EAN-8,₱ 80,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_-0_zIqyCCbPSSJ4o9DCIvUtpz7xGIUUHmTbMReMXGEX-1DmSuQXHGw==
-SPBR-INV-0068,Toiletries,Ethyl alcohol cleene,5,60,ml,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800067126899,org.gs1.EAN-13,₱ 250,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_04kFDPMW3Wm0wG2STjRnGrSHUGCDBxu1oJbfRutzLwTig0srwCYQaA==
-SPBR-INV-0069,Toiletries,Juicy Cologne sweet Delight,1,50,ml,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806507831897,org.gs1.EAN-13,₱ 40,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_J1zbdbQqpkR7lqoVs4nag8U-fJWSC--eSV9tUjP09Nf9sg4-plnz0A==
-SPBR-INV-0070,Toiletries,Harley's Tawas powder,2,50,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806513103353,org.gs1.EAN-13,₱ 60,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_bVy1a8H8_kKP7bVYCezqYNGWhUZENnY0ipEptzZYSPY0QNO5e9_rfQ==
-SPBR-INV-0071,Supplies,Glow toothpick,9,,,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4809010431424,org.gs1.EAN-13,₱ 270,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_QVHUgQckbRxY3cT0g56Be3bBxNO2puaFH6KUWJtCjrRtSNpIje3aow==
-SPBR-INV-0072,Toiletries,Palmolive naturals intensive moisture conditioner,1,90,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4808888428024,org.gs1.EAN-13,₱ 80,,,1,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nx_wvYQhoKhw2nC_hrTP_zFqYIeImckG48ePMSTV3TZ1hHAk4DmJZw==
-SPBR-INV-0073,Toiletries,Keratin plus gold,15,20,Grams,₱ 12,1,₱ 12,4,₱ 48,,₱ 0,,₱ 0,,₱ 0,,,,,4806515161511,org.gs1.EAN-13,₱ 180,,,5,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Eq7PNq87_GQ9iCtfA9PnUo0l1ffK5RL-a1Fd0J8aZqXpL3_gJx2PIw==
-SPBR-INV-0074,Toiletries,Keratin plus Brazilian hair treatment,7,20,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806515161504,org.gs1.EAN-13,₱ 84,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2Z2KNZQuROZWamLI0_D1vkMWfCg9fTZrCszA-GLGUW315yf7IPHFkA==
-SPBR-INV-0075,Toiletries,Cream silk vitamin boost conditioner,48,13,ml,₱ 12,1,₱ 12,1,₱ 12,,₱ 0,,₱ 0,,₱ 0,10,,,,4800888139283,org.gs1.EAN-13,₱ 576,,,32,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_zDQX9S3Pe5gLUTdoDvnuSspxUCcmRvt0tTDjZZy242OswuEjVaVgYw==
-SPBR-INV-0076,Toiletries,Gard anti-dandruff,7,12,ml,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8850006536056,org.gs1.EAN-13,₱ 84,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_lRfgZPklJ0l8QkOWmMoRnShvw79iu1w8wacryRnz3zn3kyo83a43sw==
-SPBR-INV-0077,Toiletries,Palmolive naturals ultra smooth,19,15,ml,₱ 12,2,₱ 24,4,₱ 48,,₱ 0,,₱ 0,,₱ 0,,,,,8850006493038,org.gs1.EAN-13,₱ 228,,,26,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_e3h3pzlhmIWvqScmk6MXqhVzXqzAboJiaFt5YnW4uVlSKz6lpnuMZA==
-SPBR-INV-0078,Toiletries,Sunsilk co-creations shampoo,27,15,ml,₱ 12,2,₱ 24,4,₱ 48,,₱ 0,,₱ 0,,₱ 0,,,,,4800888169716,org.gs1.EAN-13,₱ 324,,,16,,,5,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_BPRhP5e-P-GSAS4jeJxKS2oOdps7WXQe9TAJkQn7JBO7QU6ldLagOA==
-SPBR-INV-0079,Toiletries,Head & shoulders anti-dandruff shampoo,32,12,ml,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430333597,org.gs1.EAN-13,₱ 384,,,34,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_H6x6rbjR_gTT75bgS2n_jKCVoVmGcgH2Pd2tMcVvBauU91A86t9sFA==
-SPBR-INV-0080,Toiletries,Men rexona quantum dry,13,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888151117,org.gs1.EAN-13,₱ 195,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_fSwr_rq_6rhFCsAktIIRW6sFem5ilMDlCQtUOM694JkKqBMyr21IRQ==
-SPBR-INV-0081,Toiletries,Rexona shower clean,1,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888150608,org.gs1.EAN-13,₱ 15,,,16,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RIn7Lcxv0ml8cfVO2QSKlnJ5ylZDT4Ap7JsP9-8w8SsvHmjJsGmZEQ==
-SPBR-INV-0082,Toiletries,Men rexona ice cool,15,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888160027,org.gs1.EAN-13,₱ 225,,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_QYrzIfoN37cjVebukPJenSukbELyBKSBaXi_NmH-cIVQ5asH52XeJw==
-SPBR-INV-0083,Toiletries,Rexona powder dry+brightening,15,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888158888,org.gs1.EAN-13,₱ 225,,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_i-qIpzrhVTU-uokzIh-7OR6gElZnlieDHSUgnP5gvEcEo9oFlhLSEg==
-SPBR-INV-0084,Hot Beverages,Energen chocolate,4,40,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8996001440049,org.gs1.EAN-13,₱ 80,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_p-Hc8WYkOarbhT2VMxFUrhF951SlpWsgkB3BpyLdgGjbOtrrhmyMMA==
-SPBR-INV-0085,Hot Beverages,Energen vanilla,8,40,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8996001440124,org.gs1.EAN-13,₱ 160,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DMbYoQ8eqTKS4c7id6RfgaOZPf3lYqy3TMfGfJHfL-FpPzwSLF2Taw==
-SPBR-INV-0086,Hot Beverages,Kopiko brown coffee,21,27.5,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8996001410547,org.gs1.EAN-13,₱ 315,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_I3r2lvHojFOxoHZUHXhAvBD__FH78KKsHsFmHUO1LzF2Pu1XhCFkvQ==
-SPBR-INV-0087,Hot Beverages,Nescafe creamy white,27,20,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361393096,org.gs1.EAN-13,₱ 405,,,10,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_XWIiLob4A-325i0KznSV5gziSIZMqnKkGUrwAh7m2iFlRRp2jI_etw==
-SPBR-INV-0088,Hot Beverages,Kopiko blanca,21,30,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,2,₱ 30,,,,,8996001414309,org.gs1.EAN-13,₱ 315,,,27,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5k5WX8kFlknDU6nJgIYr20gJDVVtbvhgS5Wp7gC5S0Gz4U6a4IUBLg==
-SPBR-INV-0089,Hot Beverages,Nescafe creamy latte,21,25.5,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361383493,org.gs1.EAN-13,₱ 315,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rstFaxrY0GM9IkObpFoNr3-0vOGKVCmmoM8BZYEM-zEckbqUuMgixg==
-SPBR-INV-0090,Hot Beverages,Nescafe original,9,26,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361403764,org.gs1.EAN-13,₱ 135,,,2,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_MUboLPDRLvbLWD7l3sr6Jj28vFNGNDyLVHL1oljA7ThuGK9jFYl0kQ==
-SPBR-INV-0091,Hot Beverages,Birch tree fortified milk,18,33,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,8,,,,748485401492,org.gs1.UPC-A,₱ 360,,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aJBtRtwSQhMbPWfFSwcI8wS2xXI--hRMIP2QFsRRQ9cT3R6de5ZzSQ==
-SPBR-INV-0092,Hot Beverages,Birch tree fortified choco,18,29,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,8,,,,748485401621,org.gs1.UPC-A,₱ 360,,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Ps3CSfUWGF4-ldXA7dAjYp76L1x_MIFqSbrtMDI8_2010_leEX9h3Q==
-SPBR-INV-0093,Hot Beverages,Great taste white,9,30,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,1,₱ 15,,,,,4800016021039,org.gs1.EAN-13,₱ 135,,,13,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_6ohzBe7u58FtLJFXytlBPTwS-JfHxOQRXei-78JPbRO4kJRNk8URLw==
-SPBR-INV-0094,Hot Beverages,Nestle milo,23,48,Grams,₱ 15,,₱ 0,1,₱ 15,,₱ 0,,₱ 0,,₱ 0,,,,,4800361415293,org.gs1.EAN-13,₱ 345,,,15,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_WDARUPy9YzzuiB8-gByZFqXkTvCUHHVa-gfz5tPsSd2_bTSAytr4FA==
-SPBR-INV-0095,Cold Beverages,Nestea apple iced tea,23,,,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361382083,org.gs1.EAN-13,₱ 690,,,24,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_WDHVU53EFlbSgFazzGUif-AUwciOJVvELD5Bxa8ZYM5muREQwKzO6w==
-SPBR-INV-0096,Cold Beverages,Tang Powdered Juice Orange,5,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300559991,org.gs1.EAN-13,₱ 150,,,6,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_6P-WfrDW2EVHAkUsoSxS4KlWm4iu2kmOkwMZnXnLAis5RFSG6HUqYQ==
-SPBR-INV-0097,Cold Beverages,Tang Powdered Juice Sweet orange,12,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300847913,org.gs1.EAN-13,₱ 360,,,12,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5Md1YEm7gmq5l_OOi7ZiIp1sLGHC26rHzldAoS2Ioyt5B9us_bEP7Q==
-SPBR-INV-0098,Cold Beverages,Tang Powdered Juice Pineapple,13,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300601768,org.gs1.EAN-13,₱ 390,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1VotX8C9ahCrtRLYjx_yDERdqEO_RLU6HRPhAoKgKdSO4A6KZUr46g==
-SPBR-INV-0099,Cold Beverages,Tang Powdered Juice Strawberry,1,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300638078,org.gs1.EAN-13,₱ 30,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_hzbqOQCWlqZpiAFlx9XDvUKzBgCrP0-i0GLKxpK4om2Xzt91E03Cxw==
-SPBR-INV-0100,Cold Beverages,Tang Powdered Juice Apple,23,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300704148,org.gs1.EAN-13,₱ 690,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_PUva1FonmP8bjBTvgTLCXBKq_diOrD9juZiDwAuTA85RUqyowOxIMA==
-SPBR-INV-0101,Cold Beverages,Tang Powdered Juice Lemon Iced Tea,1,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300601744,org.gs1.EAN-13,₱ 30,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_f5Kuc4OUYz-3yv0lnKFTaJgM_pGGO4V0R2ld2FpVQU7xqnIewe4_rA==
-SPBR-INV-0102,Cold Beverages,Tang Powdered Juice Pomelo,3,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622210706768,org.gs1.EAN-13,₱ 90,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5zEEzvpe6mM-i9rRpPC3itbV-r_A40HNHUbJBxx-P29ouCYs7V9zyg==
-SPBR-INV-0103,Hot Beverages,Nescafe classic,7,1.9,Grams,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,4,₱ 20,,,,,4800361339568,org.gs1.EAN-13,₱ 35,,,9,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_YulMziQaZnEsrSzJlJLexNEHHCKgdHEtkIU89_4CJygCHpR2SIQqkA==
-SPBR-INV-0104,Hot Beverages,Great taste premium classic,34,2,Grams,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016012358,org.gs1.EAN-13,₱ 170,,,24,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_wtyEiUAWxxEVyU3lcGf1IbWish5sxDL5wT9tZzcfoJdTy_v_F8Zftw==
-SPBR-INV-0105,Toiletries,Colgate toothbrush classic child,13,,,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4808888201528,org.gs1.EAN-13,₱ 390,,,12,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Sz_v9VJmHC0Bzh3PeUZ7Sbf6untq15-iJWSn_mAoDPCripeb9lTEPQ==
-SPBR-INV-0106,Toiletries,Colgate toothbrush super flexi,6,,,₱ 30,,₱ 0,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,5,,,,8935236000093,org.gs1.EAN-13,₱ 180,,,10,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8wy9e-NiNKdLNh9lHGmHchGXUwY3sV1ER26idctXadIUMcpIltajAQ==
-SPBR-INV-0107,Snacks,Pringles original,1,102,Grams,₱ 120,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8886467100017,org.gs1.EAN-13,₱ 120,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_CmM_I-bKRjlbCfK47P4gzQ1nRzXSAEdUwuXgIxdGupPMHpmztuCvOg==
-SPBR-INV-0108,Snacks,Pringles sour cream & onion,2,102,Grams,₱ 120,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,K116317895,org.gs1.EAN-13,₱ 240,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_i_PQfW8LXUCGdbkwLDMqW5tcTc1gC_BK850beWAnB3xczyC0Rv253A==
-SPBR-INV-0109,Snacks,Hansel milk sandwich,10,31,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800092553233,org.gs1.EAN-13,₱ 120,,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_-7PWwGTU8rvNu3WBLZhLIcTCltmJX4bbeofgLNquknXO3V8N1g3k8Q==
-SPBR-INV-0110,Snacks,Fudgee barr combo flavor,3,42,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800092551284,org.gs1.EAN-13,₱ 36,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Kl9pfsJ97VOOulNkLPYGAMHXgFt9qGSgN3KVxu3TYwdTuix-CrSCAA==
-SPBR-INV-0111,Snacks,Fudgee barr dark chocolate,14,42,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800092553226,org.gs1.EAN-13,₱ 168,,,10,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1dAzOMPYmPBRxXv8yepBZutA1VhKfTrXeo2aU83lTnXoT7U4_IvE4w==
-SPBR-INV-0112,Snacks,Rebisco crackers,14,33,Grams,₱ 12,,₱ 0,1,₱ 12,,₱ 0,,₱ 0,,₱ 0,,,,,4800092113338,org.gs1.EAN-13,₱ 168,,,17,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Ho2O3CY2NFw7cbdvRZsnR4yQazMrwME_Fn79Wyp29nMzbZe68NpvyA==
-SPBR-INV-0113,Snacks,Skyflakes crackers,11,250,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,750515018402,org.gs1.UPC-A,₱ 132,,,11,,,1,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_wg5N_vhGH4RSfsOIywvDZ2qo48u2CiVgJwqty3QT65Njz0qlRVsCEQ==
-SPBR-INV-0114,Snacks,Jack N Jill magic junior,4,16,Grams,₱ 8,,₱ 0,1,₱ 8,,₱ 0,,₱ 0,,₱ 0,,,,,4800016083457,org.gs1.EAN-13,₱ 32,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8Nr2symmYQf4s020xobwRioi_2j8RlJhsQ9pccGoO-ld8t4Ay2c4hg==
-SPBR-INV-0115,Snacks,Goya pretzel twist milk chocolate,8,21,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806517042801,org.gs1.EAN-13,₱ 160,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_fDSjpgRn7JWsbMFZExDd4B_bgMkYxZMx3NfJWomBWWngSre86k111w==
-SPBR-INV-0116,Snacks,Jack N Jill Mang Juan Sukang Paombong,1,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016110511,org.gs1.EAN-13,₱ 60,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_m-NxpeSgtHMHK_cLu6I6qLz0hP1PgTdDHTPpYm23-oCxN1-ZmcHzzA==
-SPBR-INV-0117,Snacks,Jack N Jill mang Juan klasik chicharon,2,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016115424,org.gs1.EAN-13,₱ 120,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DHm9vtfhZhaOvcoa5mKnpCO7R1HMup2wgqoJy830GZ5spGQwqaK_lw==
-SPBR-INV-0118,Snacks,Jack N Jill Mang Juan Chicharon -Sukat Sili,1,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016110528,org.gs1.EAN-13,₱ 60,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DWGYYbTp2LSv5p5itNU0geVtHdhCSZCAfThoCydcnV60Xy9pE10R9A==
-SPBR-INV-0119,Snacks,Jack N Jill kropek ni mang juan spicy fried pusit,1,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016677342,org.gs1.EAN-13,₱ 60,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1HHGuIjO2ETbV99U8ITr9iql3C9Jqi2a2ovN3iFlX6mmimw3Wst6MQ==
-SPBR-INV-0120,Snacks,Jack N Jill chicharon ni mang juan sukang Paombong,1,26,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016110535,org.gs1.EAN-13,₱ 20,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3dmKgC1qcpXKYfNlwtKQiv0B8MDGwiPrlr2aphxNpeuKblbwIAC01A==
-SPBR-INV-0121,Snacks,Jack N Jill Roller coaster,10,24,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,1,₱ 20,,₱ 0,,,,,4800016661006,org.gs1.EAN-13,₱ 200,,,15,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3WgQgJspACEphbSAPBhnPSPn3FV3LAyi5u0bCLNqAciwxIoNKw2lDw==
-SPBR-INV-0122,Snacks,Jack N Jill Roller Coaster Cheddar Cheese Potato Rings,4,85,Grams,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016661099,org.gs1.EAN-13,₱ 160,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Y2AD6QGzj_wwkroR1t33PU8NSWjOLMRwQNne9NgcEG3USVQ7IDGR2w==
-SPBR-INV-0123,Snacks,Chicharon ni mang Juan sukat sili,8,26,Grams,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800016110542,org.gs1.EAN-13,₱ 160,,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_lfGyyNeaXez7ckA-x8m8XhWz3blIM40KMqxz63ZzwdFy9MyEHtG1tw==
-SPBR-INV-0124,Snacks,Jack N Jill nova BBQ,7,38,Grams,₱ 30,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016604225,org.gs1.EAN-13,₱ 210,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DJ3u36O4NQ2u4kp7uj6h7ziG2eMXYh9bzRYVC5AiyS_saf-FY1gVoA==
-SPBR-INV-0125,Snacks,Leslie's clover chips barbecue,0,55,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800216110168,org.gs1.EAN-13,₱ 0,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_l3PWjtn0sCWiYhXCtlxvFIk30CLw_oDS_Hybj5AeS_29WqhbNdaKrg==
-SPBR-INV-0126,Snacks,Leslie's clover chips cheesier,3,55,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800216110069,org.gs1.EAN-13,₱ 150,,,4,1,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__v7HYdsX8b8WPSm3rV-vMCgFPTSecWi5GjsEOmpvV6hPPEuXZHW4Zw==
-SPBR-INV-0127,Snacks,Jack N Jill Piatos Cheese Flavored Potato Crisps,3,85,Grams,₱ 50,,₱ 0,2,₱ 100,,₱ 0,,₱ 0,,₱ 0,,,,,4800016644504,org.gs1.EAN-13,₱ 150,,,5,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_jC4cYMms4WKoRwXaw_Ieuuuk5xotxWmVjx5xYiRc1y9twGDM850sbg==
-SPBR-INV-0128,Snacks,Jack N Jill Piatos sour cream & onion,4,85,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016671500,org.gs1.EAN-13,₱ 200,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Wu4AO5z6giZikW1pxL_6RyNK2_D_Nkzmgbruq2hOfWf4SdWwi-zEUw==
-SPBR-INV-0129,Snacks,Jack N Jill piatos cheese,5,45,Grams,₱ 30,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016644801,org.gs1.EAN-13,₱ 150,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_9Hnxl13C2wvKv6jeBC8wp-nIeqLxF4Rz39djgCZnnPXy7WuAX_WYew==
-SPBR-INV-0130,Snacks,Jack N Jill piatos spicy cheese,4,45,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016666414,org.gs1.EAN-13,₱ 120,,"this had a duplicate entry with 3 items in stock, so i combined and made this one a total of 7 items",7,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_lI2op6lsPD4rsGVbe6_7MP3tGNbPQ_o_M_hUMMD-DucGof3uI1Rxsw==
-SPBR-INV-0131,Snacks,Oishi Fish crackers,16,24,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194116619,org.gs1.EAN-13,₱ 320,,,17,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_w_t_FBGvolMgoawKdDjK0TcH1tbuPyTaUuZf2K3AMp4WFwvg5sJrGg==
-SPBR-INV-0132,Snacks,Oishi onion rings,6,16,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194104982,org.gs1.EAN-13,₱ 120,,,9,,,,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_4s6ypkLaeHQwOkfNLGqove9ajTGuJuXUcNJEUTCiuF6-zgfy0nm7lw==
-SPBR-INV-0133,Snacks,Criss cross cheesy sour cream & onion,3,20,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800092772528,org.gs1.EAN-13,₱ 60,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2lPX4F4_eAEE1awnyjqOCd8qZnUHFHkV7xYK1Wyr2bxONkFqnHSm4A==
-SPBR-INV-0134,Snacks,Regent Cheese Ring,5,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801688103511,org.gs1.EAN-13,₱ 175,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_WZEmlLuCmwFYzEeTM1g91kLXI4n47QNUYe1gbHVVSSctbRrawp060g==
-SPBR-INV-0135,Snacks,Jack N Jill Chippy Barbecue Flavored Corn Chip,4,108,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016643095,org.gs1.EAN-13,₱ 200,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SqxkBqP2HNKXhH_380kDJF6mH_ofDTw5sNvLrKpvQaXm54bQdm37Ag==
-SPBR-INV-0136,Snacks,Moby crunchy chocolate,7,60,Grams,₱ 35,1,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,,,,4800523220482,org.gs1.EAN-13,₱ 245,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_eCjk9tIuNjM7Y2v7vAHgU5ZOKZ02XbY0CqQDjDRCJET0fChgclIwMg==
-SPBR-INV-0137,Snacks,Oishi Prawn Crackers Hot and Spicy,3,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194105965,org.gs1.EAN-13,₱ 105,,,4,1,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZPB6cdMx8TZzeO0pH1sRZ7hEkkdL20MRUqpBZqlFcfR0fj_A1oGOfw==
-SPBR-INV-0138,Snacks,Oishi prawn crackers spicy flavor,4,24,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194104968,org.gs1.EAN-13,₱ 80,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8dcQRLPO28QyIm-_GRWiJum53iT_oFNBpU0RANFvFo2sXXZiGbQ19Q==
-SPBR-INV-0139,Snacks,Jack N Jill Chiz Curls Cheese Flavored Corn Curls,4,55,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016105098,org.gs1.EAN-13,₱ 140,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_vMT022QAdOv1Wy5j5Ly5beTEIFzZ4SmJyJbBOalEwpMfC6v1eYR1Kg==
-SPBR-INV-0140,Snacks,Chiz Curls,6,18,Grams,₱ 20,,₱ 0,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,6,,,,4800016105746,org.gs1.EAN-13,₱ 120,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_M2Hyu3PEEzZpYqiEXaREFGW-vg7EnuZ8vNN3PZLQi6wWGjWU-05QfA==
-SPBR-INV-0141,Snacks,Nutrisnack Ri-chee Milk Flavor,2,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800523220123,org.gs1.EAN-13,₱ 70,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ASuX3m0Z9N0oTM7-lloKNB3GD-pAC0W7q8YGPp7r1Uz25qYSkUQ9fQ==
-SPBR-INV-0142,Snacks,Cheez it cheeze and hum,3,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523224015,org.gs1.EAN-13,₱ 105,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZtZXrPEHtm7x_meWBhXuRLAk9lF44_gIvZrDGloMmPFeS0c1UwGuAA==
-SPBR-INV-0143,Snacks,Cheeze it cheese and hum,2,25,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523222103,org.gs1.EAN-13,₱ 40,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nOUBl_xR_xYpHLcsoBgtzeTlTdd4BF0EYeZ90khP01n7AlsdJgC6VQ==
-SPBR-INV-0144,Snacks,Jack N Jill chippy barbeque,3,35,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016642029,org.gs1.EAN-13,₱ 60,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_AxUQE91R02mhMeNCRJODEQU2_Hk96oHRaBFsR4w21XailvvjtjJoaw==
-SPBR-INV-0145,Snacks,Jack N Jill hippy Chili & Cheese Flavored Corn Chips,2,110,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016641503,org.gs1.EAN-13,₱ 100,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Vweb972QdPu7rjuWXh3HkwClaHwJeZ8evGA241VfD2gNVGQ9UM-l-A==
-SPBR-INV-0146,Snacks,Cheez it cheese flavor,2,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523220086,org.gs1.EAN-13,₱ 70,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RHNGOc239Yaf55airr1hQ2Y1YlDMESpGEHHnYfdwFTmneC8Au5Sjxw==
-SPBR-INV-0147,Snacks,Jack N Jill chippy Cheese,3,25,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016641008,org.gs1.EAN-13,₱ 60,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3jKP9VwtyjUGuUL6ciQkk2LC_b69C6w5DboK9XRDdWccLtSmByxxsQ==
-SPBR-INV-0148,Snacks,Jack N Jill magic chips,3,28,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016082962,org.gs1.EAN-13,₱ 45,,,6,1,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_0P8Ao6HRXsVwQixDW0uxIOGyCv84WT9pjesysAMV71l1ECD0aYi8kQ==
-SPBR-INV-0149,Snacks,Nagaraya hot&spicy,0,80,Grams,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,731126105088,org.gs1.UPC-A,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_V4YA_OYBLXYwAhhMfNVrtZlRw1OjJYkDOKnGyRL9scLrRGpDwPSVgw==
-SPBR-INV-0150,Snacks,Nagaraya original,6,80,Grams,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,731126101080,org.gs1.UPC-A,₱ 240,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rlY6IZRakjAU-X5K7wIEpAHzJdwpTe1AUaK_WFmvtvLZzg0uJXCWfg==
-SPBR-INV-0151,Snacks,Oishi pillows,1,38,Grams,₱ 15,1,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194116466,org.gs1.EAN-13,₱ 15,,,2,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_IhWEv16SyA6cNS0Zzs8ynQEY-FkA5wKeMejdh9VRZwhdFNkfFz_Olg==
-SPBR-INV-0152,Snacks,Criss Cross creamy cheese,1,20,Grams,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800092772214,org.gs1.EAN-13,₱ 20,,,2,,,,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_pqsENARCKm_W-g94bRz4l9zdzVHW_5-3l6Scfs4XdBTTO3CpgOD9tQ==
-SPBR-INV-0153,Snacks,Cheez it cheeze flavored,1,25,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523220079,org.gs1.EAN-13,₱ 20,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_a225J454_F69Ri61m0f3RKxJaGnfLdc3txzlsj3hyg4Z8TY2B7LAfw==
-SPBR-INV-0154,Cold Beverages,Coke Regular Mismo,168,290,ml,₱ 25,2,₱ 50,1,₱ 25,4,₱ 100,,₱ 0,1,₱ 25,,,,,4801981118502,org.gs1.EAN-13,"₱ 4,200",,,132,2,,11,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ozjtYWGII_ilOJ4iO-y1L_-jxIl5fGWlx9eK8Q-HbJEI3Oht3e3MEA==
-SPBR-INV-0155,Cold Beverages,Cobra energy drink,9,350,ml,₱ 35,,₱ 0,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,10,,,,4800611546760,org.gs1.EAN-13,₱ 315,,,17,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_HD2YgQYUQlL6xvk7aemsZkaiudLdgcjpEwzjUwnCE09R8Aa4s34ZZg==
-SPBR-INV-0156,Cold Beverages,Gatorade blue bolt,27,500,ml,₱ 65,1,₱ 65,1,₱ 65,,₱ 0,1,₱ 65,,₱ 0,,,,,4803925061141,org.gs1.EAN-13,"₱ 1,755",,,27,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aVfcF3glJByAnxwDuK_sTLjAH1KMk7xSb6Xw1YdJJFPPkDjuPHRbIA==
-SPBR-INV-0157,Cold Beverages,C2 Apple Flavored Green Tea,29,230,ml,₱ 25,1,₱ 25,,₱ 0,,₱ 0,,₱ 0,,₱ 0,20,,,,4800016068010,org.gs1.EAN-13,₱ 725,,,21,,,7,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Mbd_rutQLfyT0He9tsRJoT0AYw-hlyigUthj3SD3kNV-6rdhA0ocLA==
-SPBR-INV-0158,Cold Beverages,Chuckie,37,180,ml,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,10,,,,0,org.gs1.EAN-13,"₱ 1,295",,UPDATE: Barcode needs to be scanned and updated,31,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gHTVMpJxIMS1jDRdPpEb8LRoscNvlwaOECedTWiNo_moEvkHPbd2RQ==
-SPBR-INV-0159,Cold Beverages,Chuckie,22,110,ml,₱ 25,2,₱ 50,1,₱ 25,2,₱ 50,,₱ 0,,₱ 0,15,,,,0,org.gs1.EAN-13,₱ 550,,UPDATE: Barcode needs to be scanned and updated,30,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_k68eZCmDVFWSLxEtkkLxVVCDZOpwsSQlBDJlzxRJ2at6lxfZ5coDDw==
-SPBR-INV-0160,Cold Beverages,C2 Apple Flavored Green Tea,37,335,ml,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,20,,,,4800016052040,org.gs1.EAN-13,"₱ 1,295",,,23,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_uOwGCA7cvdbjihSERvzts-u3H2VydH5mJPHo_i85rAnXu6SE66wC1A==
-SPBR-INV-0161,Cold Beverages,C2 Litro Apple Green Tea,3,1000,ml,₱ 85,,₱ 0,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,15,,,,4800016052774,org.gs1.EAN-13,₱ 255,,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8sHnNaB5jj-osGquwu0CZvVLIpkZjCQMnLtiC1N4xrSAYjNTj2O75A==
-SPBR-INV-0162,Cold Beverages,Redbull energy drink,45,150,ml,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8850228000267,org.gs1.EAN-13,"₱ 2,250",,,55,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2_22LTbPs8pey1lCqCmg5S3sEgFWSkSh1sAcS6ElLgU_O0N_1JPevw==
-SPBR-INV-0163,Alcoholic Beverages,Chocolate lager,11,330,ml,₱ 95,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,0,,,,4801032025056,org.gs1.EAN-13,"₱ 1,045",,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_K3bvUcGWSDTH1p5S8_cNyBn_hW4lrqT4f4TCSQol8OQYuFLw5MtX_w==
-SPBR-INV-0164,Alcoholic Beverages,Red Horse Beer extra Strong,20,330,ml,₱ 85,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032215044,org.gs1.EAN-13,"₱ 1,700",,,21,,,,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_cKO4mLYvirTATX6k7x9D3IU6Ls1y3SQ2nOjsCwYKlXbSAVamjO97vQ==
-SPBR-INV-0165,Alcoholic Beverages,San Miguel Light,25,330,ml,₱ 60,1,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032741048,org.gs1.EAN-13,"₱ 1,500",,,27,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_u85VjQrr7ZwUfu7AKI4v83IbLecINXC5cteFjrRZE3vBy7krXfWn5A==
-SPBR-INV-0166,Alcoholic Beverages,Flavored beer apple,14,330,ml,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032281049,org.gs1.EAN-13,₱ 840,,,34,,,6,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_qyeO84TdI9McdVlO62kia1Ivz-hQ-wYcUPMjGZNUhJ6i-CNDoIek8A==
-SPBR-INV-0167,Alcoholic Beverages,GSM blue mojito,18,700,ml,₱ 160,3,₱ 480,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800130728128,org.gs1.EAN-13,"₱ 2,880",,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_sjEhFhSwaSu431RIbhqF9NN2rYtqQU-rFfRWFs16k8k4b2RbnNLPkw==
-SPBR-INV-0168,Alcoholic Beverages,Red Horse Beer ,5,500,ml,₱ 75,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032211077,org.gs1.EAN-13,₱ 375,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_7jHQho_hb4ZFd5mBdeNurxHhfACbboWs0QTHYEThMcTTieLIe0LCbw==
-SPBR-INV-0169,Alcoholic Beverages,Tanduay select,39,700,ml,₱ 175,1,₱ 175,1,₱ 175,,₱ 0,1,₱ 175,,₱ 0,,,,,4800220604752,org.gs1.EAN-13,"₱ 6,825",,,23,5,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__6LElub_LLkD_VGjh8O8zXSDgH2ae7Oaw-9QXd-wUfISMYSo98atdg==
-SPBR-INV-0170,Alcoholic Beverages,Tanduay rhum light,33,375,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800220587253,org.gs1.EAN-13,"₱ 2,805",,,32,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3gGnMoScEFegmt78IBA31AJPnUMTgeE3DUVpaLgpbPhr-KtDXEiKaQ==
-SPBR-INV-0171,Alcoholic Beverages,Tanduay rhum light,15,750,ml,₱ 175,,₱ 0,1,₱ 175,,₱ 0,,₱ 0,,₱ 0,,,,,4800220587154,org.gs1.EAN-13,"₱ 2,625",,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ksZODZGRcMUWuXzHUbYw9snl2shE3fJ8vuQSI7BfPNSlyS6on7qK9Q==
-SPBR-INV-0172,Alcoholic Beverages,Tanduay rhum dark,28,375,ml,₱ 85,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800220503253,org.gs1.EAN-13,"₱ 2,380",,,33,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_u6Q1DB50IT1K0SH2O-MbMI1oyD-A8eO56j1dDaFkx-1-gYlM1tmkbA==
-SPBR-INV-0173,Alcoholic Beverages,Tanduay rhum dark,32,750,ml,₱ 175,1,₱ 175,2,₱ 350,,₱ 0,,₱ 0,,₱ 0,,,,,4800220503154,org.gs1.EAN-13,"₱ 5,600",,,15,,,7,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aZVdN6_GV71NYRmtpzVj_20KhI6tMVuYyng5_TYwNXaX_PvfRQR21Q==
-SPBR-INV-0174,Alcoholic Beverages,Emperador light,7,750,ml,₱ 200,2,₱ 400,1,₱ 200,,₱ 0,,₱ 0,,₱ 0,,,,,4800142110089,org.gs1.EAN-13,"₱ 1,400",,,8,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5EUuM72xxtwDBNaQyuerJdF27bAS6Cvtd4kmNbgaQjNJW7rwlXN7NQ==
-SPBR-INV-0175,Alcoholic Beverages,Brandy Emperador,8,1,Liter,₱ 250,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800142110102,org.gs1.EAN-13,"₱ 2,000",,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gKL1zVgJ5mWGG6zM6ukU-_GXxjiXAyIGXkQDt1nVch2xLvOhxfetnw==
-SPBR-INV-0176,Alcoholic Beverages,The Bar Lime Gin,6,335,ml,₱ 85,,₱ 0,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,,,,,4800142113332,org.gs1.EAN-13,₱ 510,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nDRJHhD_oTNg90fSDcg1aLv7osdBEdgKqbNDQYX9G174yNEF6F385Q==
-SPBR-INV-0177,Alcoholic Beverages,Ginebra s. Miguel gin,8,350,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800130100023,org.gs1.EAN-13,₱ 680,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rbNLxPNpoMIEJt9Jbyn7HVBGg2Ro8uhoLmfCk8LEHNBoqk3BYO59ig==
-SPBR-INV-0178,Alcoholic Beverages,San Miguel Pale Pilsen ,24,320,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032111025,org.gs1.EAN-13,"₱ 2,040",,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__g0iZ9SpR0DEqDFvZ5aNZGbno22B0I3MZBSyd_OwFBcrqkcVpV_lzQ==
-SPBR-INV-0179,Cold Beverages,Chaser sparkling iced tea,6,330,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,0,,,,4800142126011,org.gs1.EAN-13,₱ 510,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_X6_L7AKZ9dZNVFPaqNTDreRl6_R3am536q5_3j_SY9dlBabHrPoGYg==
-SPBR-INV-0180,Alcoholic Beverages,Jamaica lime mixer,12,350,ml,₱ 85,1,₱ 85,3,₱ 255,,₱ 0,,₱ 0,,₱ 0,,,,,4800220520359,org.gs1.EAN-13,"₱ 1,020",,,11,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gn-WH1eAJZegBazuU2IhMG9REQXoF7m5GjsLtkI3bb96ErtvOMvqKw==
-SPBR-INV-0181,Alcoholic Beverages,Johnnie Walker BLACK Label,1,1000,ml,"₱ 1,700",,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,5000267024233,org.gs1.EAN-13,"₱ 1,700",,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nUQDGb3vj8lE6xnRcgSATanZ58ae7TfdrN6HUweMmOVaZ_6HYaEYTA==
-SPBR-INV-0182,Alcoholic Beverages,Jack Daniels,2,700,ml,"₱ 1,550",,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,82184090473,org.gs1.EAN-13,"₱ 3,100",,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_OLsOB8W--FwpPB_K-jegqgIdHRQmLpZ3VWQLKLIinOHknpKm_LkVAA==
-SPBR-INV-0183,Alcoholic Beverages,Toska vodka,2,700,ml,₱ 350,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,98426301757,org.gs1.EAN-13,₱ 700,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SEe0HJoPZv7Ob7vllvBm7qeeekaJNuJHb-cGpxoFsXsMrj9bfbVFvA==
-SPBR-INV-0184,Alcoholic Beverages,Mojitos,2,700,ml,₱ 500,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806512270278,org.gs1.EAN-13,"₱ 1,000",,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_y8hQdZiXApgXae6Wohvpg2HN26BAvowltm0V6QDIDmZFYBVCLTPsCA==
-SPBR-INV-0185,Alcoholic Beverages,Fundador light,1,1,Liter,₱ 600,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8410162100234,org.gs1.EAN-13,₱ 600,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_LY7HDbnmjur_lOUtPVVLAdGJGGNH5Mioh6yoAwCrYnahZuiW6n3ZYA==
-SPBR-INV-0186,Alcoholic Beverages,Fundador super special,1,1,Liter,₱ 600,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8410162480008,org.gs1.EAN-13,₱ 600,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZV5e1yIjei1oP-15GC0JqNlUAiELZ4TtRiJhWZsxiQErzo-UUvqWGw==
-SPBR-INV-0187,Alcoholic Beverages,Novellino sparkling red,3,750,ml,₱ 400,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806508630284,org.gs1.EAN-13,"₱ 1,200",,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Od816HzDyujv1wkSAOF6XmcCa4OHM6_SHtpo6XIEWFCCz9rQRFNtrA==
-SPBR-INV-0188,Alcoholic Beverages,May 100% Sparkling Red Grape Juice,3,750,ml,₱ 350,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,5410746066386,org.gs1.EAN-13,"₱ 1,050",,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_T-CIs_LBKgRt8CU-HJ0dft5AIldCe3tp0Z5zxrPlxHhcD9SA36nvsA==
-SPBR-INV-0189,Cold Beverages,Royal,18,1.5,Liter,₱ 100,1,₱ 100,1,₱ 100,,₱ 0,,₱ 0,1,₱ 100,,,,,4801981116171,org.gs1.EAN-13,"₱ 1,800",,,14,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_N622SllPlaF1k02W2PJ1xmHuXNlAQaV5oCHcpf3CJpPDGGNHFGUIXQ==
-SPBR-INV-0190,Cold Beverages,Coke Regular 1.5 Liter,65,1.5,Liter,₱ 100,6,₱ 600,8,₱ 800,,₱ 0,,₱ 0,,₱ 0,25,,,,4801981116072,org.gs1.EAN-13,"₱ 6,500",,,85,5,,22,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RRiToa61DSr63myGhBpyOp-3gOLTzYNPft3Q022Sp_KlRI27hKFHNg==
-SPBR-INV-0191,Alcoholic Beverages,Red Horse Super,21,1000,ml,₱ 160,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032231136,org.gs1.EAN-13,"₱ 3,360",,,11,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aFXPp8tva4Fzg-PY8z4UsmwuZJb9jMSUF7_q8BcMOhMnx2ZU39WLtw==
-SPBR-INV-0192,Alcoholic Beverages,Lightro San mig light,10,1000,ml,₱ 150,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032741130,org.gs1.EAN-13,"₱ 1,500",,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_6hYrGt0dkgGu1Tv3asl3MpWv6RRHjuk_NWxK-aNnyPmg71I3SUa6UQ==
-SPBR-INV-0193,Alcoholic Beverages,San Miguel Grande,47,1000,ml,₱ 150,5,₱ 750,8,"₱ 1,200",3,₱ 450,,₱ 0,1,₱ 150,,,,,4801032111131,org.gs1.EAN-13,"₱ 7,050",,,24,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_d3IX2hkRzzFewfFUwU3h5hHYF7i22hRc25KtTXv-QgHgi-Y5B9zM1A==
-SPBR-INV-0194,Cold Beverages,Summit natural drinking water,0,1000,ml,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800014142088,org.gs1.EAN-13,₱ 0,,,18,3,,9,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_mNvsh6vf_YiYFLGEsQUYI28gXwnKKYvSNyypi7RA10gQAD1d8Tdz7Q==
-SPBR-INV-0195,Cold Beverages,Nature's spring drinking water,69,1,Liter,₱ 35,12,₱ 420,11,₱ 385,,₱ 0,1,₱ 35,,₱ 0,,,,,4800049720121,org.gs1.EAN-13,"₱ 2,415",,,100,,,15,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_egyNF9W-1yoHqCm4BpJlFoJ7M_-6dzo6_LfD_0rlv7j6JQd6HpJOcQ==
-SPBR-INV-0196,Cold Beverages,Nature's spring drinking water,115,500,ml,₱ 20,9,₱ 180,4,₱ 80,,₱ 0,,₱ 0,,₱ 0,,,,,4800049720114,org.gs1.EAN-13,"₱ 2,300",,,162,2,,13,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_FudjGQIEDA6jIN0M3tzgZY9numcHfDzxUp5Ro8V_6j5lSus76X_shA==
-SPBR-INV-0197,Cigarettes,Emi posporo,14,1,Stick,₱ 5,,₱ 0,2,₱ 10,,₱ 0,,₱ 0,,₱ 0,,,,,4800112010012,org.gs1.EAN-13,₱ 70,,,27,,,5,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_KjCG-s6tSHQmZ1di_WgvWhelWd9AUp4OK8fyHDZ-Y6veGfSrthHL-w==
-SPBR-INV-0198,Cigarettes,Marlboro red,520,1,Stick,₱ 10,3,₱ 30,21,₱ 210,,₱ 0,,₱ 0,3,₱ 30,,,,,48044295,org.gs1.EAN-8,"₱ 5,200",,,255,,,24,,6,,,,https://lnk.sortly.co/v2/downloads/photo/v2_stvr5AaPqylQYlc8Bxk2VXyEdYpmz_h2OYbxWQKvee1W26krt8BBOw==
-SPBR-INV-0199,Cigarettes,Marlboro ice blast,195,1,Stick,₱ 10,13,₱ 130,10,₱ 100,1,₱ 10,,₱ 0,,₱ 0,,,,,48042772,org.gs1.EAN-8,"₱ 1,950",,,52,5,,20,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_T20Q2R5aqLMea7KViXYA-gocl1VPxHsOBBIZKRZJPlMNfYbJefkb2A==
-SPBR-INV-0200,Cigarettes,Marlboro black menthol,150,1,Stick,₱ 10,,₱ 0,1,₱ 10,,₱ 0,,₱ 0,,₱ 0,,,,,95509433,org.gs1.EAN-8,"₱ 1,500",,,192,,,35,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2CaE03X8JqaqindgQZBtupz_7iGilbh1FODZOLOkTIQI-8sHIHAmYA==
-SPBR-INV-0201,Cigarettes,More,531,1,Stick,₱ 10,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,48033763,org.gs1.EAN-8,"₱ 5,310",,,556,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DbHU64jis4fPvXQzyd2FUhbqWakS-HeT8UGbVTC0ZofnNPfkx3rDOQ==
-SPBR-INV-0202,Cigarettes,Fortune,230,1,Stick,₱ 10,2,₱ 20,4,₱ 40,7,₱ 70,,₱ 0,,₱ 0,,,,,48043717,org.gs1.EAN-8,"₱ 2,300",,,344,,,32,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_W4KdjGn3Iru6HxAuKSKSGbXFeH2AauDodLmqyQV2fBL-XaJ7bwaGFg==
-SPBR-INV-0203,Cigarettes,Winston red,183,1,Stick,₱ 12,15,₱ 180,30,₱ 360,7,₱ 84,5,₱ 60,8,₱ 96,,,,,48040594,org.gs1.EAN-8,"₱ 2,196",,,123,5,,44,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_k2l0jiPsWQcJGA5y1WzH7K-_eMV-_15eHhfFPDnQBY1PT6GEIHBawQ==
-SPBR-INV-0204,Supplies,Styrocup,25,1,Item,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806509572842,org.gs1.EAN-13,₱ 125,,,61,,,13,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_f1MP6Ohbtfrdu4O5NjMviKvGW8XYcjbiBaCfCO09KZXfHcdZGEAfLQ==
-SPBR-INV-0205,Supplies,Pop-i disposable gloves,3,1,Pack,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806509574662,org.gs1.EAN-13,₱ 150,,,4,,,5,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_p9jyHeFhhQAyelMgapsPwhUYst5E-kAzhb4JTxyfVb8xF7Ncct2J_w==
-SPBR-INV-0206,Supplies,Disposable spoon eco pro,64,,,₱ 3,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,25,,,,4806531630343,org.gs1.EAN-13,₱ 192,,,28,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_GMN5tOVXcu2hyBqb4pZeoPRw1T8UD7tee_Gdyxjwoh8zEdMO9tZaUQ==
-SPBR-INV-0207,Supplies,Spoon disposable,46,1,Item,₱ 3,,₱ 0,1,₱ 3,,₱ 0,,₱ 0,,₱ 0,,,,,4806039601128,org.gs1.EAN-13,₱ 138,,,50,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_dapPWsEqm-nEHiLIzGA3yFNEkFOMbY2E-jbyR8OTxNHeer3rPxMIRw==
-SPBR-INV-0208,Supplies,Mikey products paper plate silver,87,,,₱ 5,5,₱ 25,1,₱ 5,,₱ 0,,₱ 0,,₱ 0,,,,,4806509570084,org.gs1.EAN-13,₱ 435,,,53,,,6,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_C5JGP8kVduYBWkMHBxi_X18dAXKv16DPOdq-aeL1eX4_1QiCEiLSNw==
-SPBR-INV-0209,Supplies,Transparent cup,191,1,Item,₱ 3,13,₱ 39,13,₱ 39,3,₱ 9,2,₱ 6,2,₱ 6,,,,,4806509570589,org.gs1.EAN-13,₱ 573,,,18,7,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_BmTSZe8bjj3H6PeVF88T2AOCYp9tB080HSvYkIsX_-1SiOfm7uZj7Q==
-SPBR-INV-0210,Supplies,Catering tray,5,,,₱ 65,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,5201993012898,org.gs1.EAN-13,₱ 325,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rE-mbsy0n-Iyu001-lbKfhdJ5v4zSYkiKJqoH0oPPBBpIn6Re0njOA==
-SPBR-INV-0211,Snacks,Snow bear,107,1,Item,₱ 2,7,₱ 14,1,₱ 2,7,₱ 14,,₱ 0,,₱ 0,,,,,4806500730012,org.gs1.EAN-13,₱ 214,,,146,,,13,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_m6rscsvtgLztbSxyRiuOZm-ejJ1QmcAkjtGysJ11x8gCOSG99szTew==
-SPBR-INV-0212,Snacks,Jack N Jill X.O. Candy (Coffee),114,1,Pack,₱ 2,1,₱ 2,9,₱ 18,,₱ 0,,₱ 0,3,₱ 6,,,,,4800016475016,org.gs1.EAN-13,₱ 228,,,127,,,6,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_FCryyvHBfL8d1V487-tglmK2YQ0D-H6VCaBYUSwv5jEB2lR6M7wGDw==
-SPBR-INV-0213,Snacks,Jack N Jill dynamite,109,,,₱ 2,,₱ 0,1,₱ 2,,₱ 0,,₱ 0,,₱ 0,,,,,4800016307041,org.gs1.EAN-13,₱ 218,,,114,,,2,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_YgpsuppoxeQh2j7uLyCwAbt0dsFENVDlqhfh2rZnzqgBDU-lX3wldg==
-SPBR-INV-0214,Snacks,Maxx,186,,,₱ 2,,₱ 0,7,₱ 14,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 372,,UPDATE: Barcode needs to be scanned and updated,266,,,7,,3,,,,https://lnk.sortly.co/v2/downloads/photo/v2_NLCRd8MrrWRHEA3-5_URrweEGqKPsU5Fnwipzeblovy0r7SdkwaMvA==
-SPBR-INV-0215,Supplies,Thumb tacks,0,1,Pack,₱ 25,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,6972081865356,org.gs1.EAN-13,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_9RI3vgv8v2h62M85-cA1xhTq7tSb4_M15IyIUIcjFx8bSUqBl0D4QQ==
-SPBR-INV-0216,Snacks,White rabbit,65,1,Item,₱ 2,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 130,,UPDATE: Barcode needs to be scanned and updated,68,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_M-uUwn821A1AvhbeUHTOqRwAtla7n6Q131m_bNCxOSq_lKASdBL5lQ==
-SPBR-INV-0217,Supplies,Sando bag,41,1,Item,₱ 5,,₱ 0,9,₱ 45,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 205,,UPDATE: Barcode needs to be scanned and updated,25,,,25,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_eXYbBjEZ97d5tMpSssgcwduryLJCMaVd8rL1B7B5jBvn6YgiYZbCyQ==
-SPBR-INV-0218,Supplies,Knife small,3,,,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 150,,UPDATE: Barcode needs to be scanned and updated,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_F6hlnG8IdGVciWP4gUqcFykjh2fYwkZuPp0RfDDZh2u0dmW1gn-Z-A==
-SPBR-INV-0219,Supplies,Knife big,3,,,₱ 150,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 450,,UPDATE: Barcode needs to be scanned and updated,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_LVf6yzXQyugi0V1fgLxI6peZC6Qqcqk9PHdGQ7r_QAUPDb5h7v_ziA==
-SPBR-INV-0220,Supplies,Ice tube,9,,,₱ 50,10,₱ 500,8,₱ 400,,₱ 0,,₱ 0,1,₱ 50,,,,,0,org.gs1.EAN-13,₱ 450,,UPDATE: Barcode needs to be scanned and updated,21,3,,12,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3mUpRI4Wt91MnTiZl0KAWOWNPu3N6UMH6BGytM5TiOVNH6kJjlkz_Q==
-SPBR-INV-0221,Snacks,M.Y. San Fita Crackers,14,450,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 210,,,,,,,,,,,,
-SPBR-INV-0222,Hot Beverages,Kopiko Black,20,30,Grams,₱ 15,,₱ 0,,₱ 0,2,₱ 30,,₱ 0,,₱ 0,,,,,0,EAN,₱ 300,,,,,,,,,,,,
-SPBR-INV-0223,Hot Beverages,Nestle Bear Brand Swak,11,33,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 220,,,,,,,,,,,,
-SPBR-INV-0224,Supplies,Fresh Bathroom Tissue,13,,,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 260,,,,,,,,,,,,
-SPBR-INV-0225,Cold Beverages,Sprite Mismo ,32,290,ml,₱ 25,1,₱ 25,2,₱ 50,,₱ 0,1,₱ 25,,₱ 0,,,,,0,EAN,₱ 800,,,,,,,,,,,,
-SPBR-INV-0226,Food Packs,Bee Happy Jasmine Rice,5,2,Kilogram,₱ 170,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,2,,,,0,EAN,₱ 850,,,,,,,,,,,,
-SPBR-INV-0227,Supplies,Baygon Katol,45,,,₱ 5,1,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,10,,,,0,EAN,₱ 225,,,,,,,,,,,,
-SPBR-INV-0228,Alcoholic Beverages,Red Horse Beer,146,1,Liter,₱ 150,3,₱ 450,6,₱ 900,2,₱ 300,1,₱ 150,,₱ 0,,,,,0,EAN,"₱ 21,900",,,,,,,,,,,,
-SPBR-INV-0229,Kitchen & Condiments,Papa Banana Ketchup,4,320,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 240,,,,,,,,,,,,
-SPBR-INV-0230,Cold Beverages,Sprite 1.5 Litro,12,1.5,Liter,₱ 100,4,₱ 400,2,₱ 200,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,"₱ 1,200",,,,,,,,,,,,
-SPBR-INV-0231,Kitchen & Condiments,Ajinomoto,16,,,₱ 8,,₱ 0,3,₱ 24,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 128,,,,,,,,,,,,
-SPBR-INV-0232,Cold Beverages,5 Gallon Mineral Water,5,5,Gal,₱ 100,,,,,,,,,,,,,,,0,EAN,₱ 500,,,,,,,,,,,,
+SID,Category,Product Name,Temp Stock,Stock,Size,Units,Price,8/2,8/2 $,8/3,8/3 $,8/4,8/4 $,8/5,8/5 $,8/6,8/6 $,Min Level,re-stock Quantity,re-stock Price,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Value,Tags,Notes,Stock July,Thu 7/24,Fri 7/25,Sat 7/26,Sun 7/27,Mon 7/28,Tue 7/29,Wed 7/30,Thu 7/31,Photo1
+SPBR-INV-0232,Cold Beverages,5 Gallon Mineral Water,,5,5,Gal,₱ 100,,,,,,,,,,,,,,,0,EAN,₱ 500,,,,,,,,,,,,
+SPBR-INV-0020,Food Packs,555 tuna bicol express,,0,155,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,748485700090,org.gs1.UPC-A,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ketDYfzultqu5Deqshf9kASMcXa6ZK1hZPyeVQnFyhFlWFL8dkSCBA==
+SPBR-INV-0018,Food Packs,555 tuna Caldereta,,1,155,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,748485700038,org.gs1.UPC-A,₱ 50,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1SvYVzsGJfBVJb7oxHow1-cN2plljGVcWaBGIM8X5-bzgTkyv-ngmw==
+SPBR-INV-0231,Kitchen & Condiments,Ajinomoto,,16,,,₱ 8,,₱ 0,3,₱ 24,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 128,,,,,,,,,,,,
+SPBR-INV-0227,Supplies,Baygon Katol,,45,,,₱ 5,1,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,10,,,,0,EAN,₱ 225,,,,,,,,,,,,
+SPBR-INV-0226,Food Packs,Bee Happy Jasmine Rice,,5,2,Kilogram,₱ 170,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,2,,,,0,EAN,₱ 850,,,,,,,,,,,,
+SPBR-INV-0045,Toiletries,Bioderm family germicidal soap bloom,,5,60,Grams,₱ 30,,₱ 0,2,₱ 60,,₱ 0,,₱ 0,,₱ 0,5,,,,4800011782805,org.gs1.EAN-13,₱ 150,,,5,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_42uSzX6UXHjdZYBU2hfaIBvevNVV34kNKPMpRo4lrlQTs8uQUoJceg==
+SPBR-INV-0044,Toiletries,Bioderm family germicidal soap coolness,,2,60,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800011113937,org.gs1.EAN-13,₱ 60,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_A85ypJVvYr7D6N4itBGN66IS5fBKO8zjCdOi2NImL9NELn9d-CBpCQ==
+SPBR-INV-0092,Hot Beverages,Birch tree fortified choco,,18,29,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,8,,,,748485401621,org.gs1.UPC-A,₱ 360,,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Ps3CSfUWGF4-ldXA7dAjYp76L1x_MIFqSbrtMDI8_2010_leEX9h3Q==
+SPBR-INV-0091,Hot Beverages,Birch tree fortified milk,,18,33,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,8,,,,748485401492,org.gs1.UPC-A,₱ 360,,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aJBtRtwSQhMbPWfFSwcI8wS2xXI--hRMIP2QFsRRQ9cT3R6de5ZzSQ==
+SPBR-INV-0032,Kitchen & Condiments,Black pepper powder,,1,50,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,0,,,,4809015402283,org.gs1.EAN-13,₱ 50,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5g6heMuYTN3nlhsM5mqDSpynACrMXT0KiGh-VROkI2NyvPKGviP3cw==
+SPBR-INV-0030,Kitchen & Condiments,Black pepper whole,,2,50,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,1,,,,4809015402245,org.gs1.EAN-13,₱ 100,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Y5qVfz9sI8dRIprI5_Mvj7a8Bi-b85KcuYWXsZ3OvzgyTP2iFyFghA==
+SPBR-INV-0035,Supplies,Bleach zonrox floral,,3,250,ml,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,4800047840555,org.gs1.EAN-13,₱ 105,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_xQDpHBDIwd8d5wXT_JxaA6hqnjgml8M4nrKt2y8eShmzCmcK5WKhdw==
+SPBR-INV-0175,Alcoholic Beverages,Brandy Emperador,,8,1,Liter,₱ 250,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800142110102,org.gs1.EAN-13,"₱ 2,000",,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gKL1zVgJ5mWGG6zM6ukU-_GXxjiXAyIGXkQDt1nVch2xLvOhxfetnw==
+SPBR-INV-0157,Cold Beverages,C2 Apple Flavored Green Tea,,29,230,ml,₱ 25,1,₱ 25,,₱ 0,,₱ 0,,₱ 0,,₱ 0,20,,,,4800016068010,org.gs1.EAN-13,₱ 725,,,21,,,7,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Mbd_rutQLfyT0He9tsRJoT0AYw-hlyigUthj3SD3kNV-6rdhA0ocLA==
+SPBR-INV-0160,Cold Beverages,C2 Apple Flavored Green Tea,,37,335,ml,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,20,,,,4800016052040,org.gs1.EAN-13,"₱ 1,295",,,23,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_uOwGCA7cvdbjihSERvzts-u3H2VydH5mJPHo_i85rAnXu6SE66wC1A==
+SPBR-INV-0161,Cold Beverages,C2 Litro Apple Green Tea,24,3,1000,ml,₱ 85,,₱ 0,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,15,,,,4800016052774,org.gs1.EAN-13,₱ 255,,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8sHnNaB5jj-osGquwu0CZvVLIpkZjCQMnLtiC1N4xrSAYjNTj2O75A==
+SPBR-INV-0056,Toiletries,Care cotton buds,,6,,,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,2,,,,4806524580068,org.gs1.EAN-13,₱ 120,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SsyuQJgBkXLUjVYIb1wWBW8S8Ax59IwwrSerrDmLLXc-eCX-JHx5XA==
+SPBR-INV-0210,Supplies,Catering tray,,5,,,₱ 65,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,5201993012898,org.gs1.EAN-13,₱ 325,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rE-mbsy0n-Iyu001-lbKfhdJ5v4zSYkiKJqoH0oPPBBpIn6Re0njOA==
+SPBR-INV-0021,Food Packs,Century tuna flakes in oil,,2,155,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,3,,,,748485100401,org.gs1.UPC-A,₱ 100,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gs4Ja97LJYFC03Px62l9DvX7OVpSYNkp1YE3GUbtMn923zB5y2lhgA==
+SPBR-INV-0054,Toiletries,Charmee feminine pads dry net no wings,,5,,,₱ 10,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800488958581,org.gs1.EAN-13,₱ 50,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_-jr1Pxd4W9NlNFrLqleuuZPSv4ynskocLwgmEZQJWW1DMF2zCsSAyw==
+SPBR-INV-0053,Toiletries,Charmee feminine pads with wings,,12,,,₱ 10,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800488011415,org.gs1.EAN-13,₱ 120,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_PQLprTl-hfNt7geBrT-79dtlthBYO_dtl7n95bEQMH5vlCC-wV7QLw==
+SPBR-INV-0052,Toiletries,Charmee panty liner breathable,,70,,,₱ 3,8,₱ 24,,₱ 0,,₱ 0,8,₱ 24,,₱ 0,12,,,,4800488100058,org.gs1.EAN-13,₱ 210,,,71,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1P8HLv00jteSTuSc3yUXebaq3v_VVqOZqHsnUocZwzm7_FRgzRiS5w==
+SPBR-INV-0179,Cold Beverages,Chaser sparkling iced tea,,6,330,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,0,,,,4800142126011,org.gs1.EAN-13,₱ 510,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_X6_L7AKZ9dZNVFPaqNTDreRl6_R3am536q5_3j_SY9dlBabHrPoGYg==
+SPBR-INV-0146,Snacks,Cheez it cheese flavor,,2,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523220086,org.gs1.EAN-13,₱ 70,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RHNGOc239Yaf55airr1hQ2Y1YlDMESpGEHHnYfdwFTmneC8Au5Sjxw==
+SPBR-INV-0142,Snacks,Cheez it cheeze and hum,,3,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523224015,org.gs1.EAN-13,₱ 105,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZtZXrPEHtm7x_meWBhXuRLAk9lF44_gIvZrDGloMmPFeS0c1UwGuAA==
+SPBR-INV-0153,Snacks,Cheez it cheeze flavored,,1,25,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523220079,org.gs1.EAN-13,₱ 20,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_a225J454_F69Ri61m0f3RKxJaGnfLdc3txzlsj3hyg4Z8TY2B7LAfw==
+SPBR-INV-0143,Snacks,Cheeze it cheese and hum,,2,25,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800523222103,org.gs1.EAN-13,₱ 40,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nOUBl_xR_xYpHLcsoBgtzeTlTdd4BF0EYeZ90khP01n7AlsdJgC6VQ==
+SPBR-INV-0123,Snacks,Chicharon ni mang Juan sukat sili,,8,26,Grams,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,6,,,,4800016110542,org.gs1.EAN-13,₱ 160,,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_lfGyyNeaXez7ckA-x8m8XhWz3blIM40KMqxz63ZzwdFy9MyEHtG1tw==
+SPBR-INV-0140,Snacks,Chiz Curls,,6,18,Grams,₱ 20,,₱ 0,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,6,,,,4800016105746,org.gs1.EAN-13,₱ 120,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_M2Hyu3PEEzZpYqiEXaREFGW-vg7EnuZ8vNN3PZLQi6wWGjWU-05QfA==
+SPBR-INV-0163,Alcoholic Beverages,Chocolate lager,,11,330,ml,₱ 95,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,0,,,,4801032025056,org.gs1.EAN-13,"₱ 1,045",,,11,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_K3bvUcGWSDTH1p5S8_cNyBn_hW4lrqT4f4TCSQol8OQYuFLw5MtX_w==
+SPBR-INV-0158,Cold Beverages,Chuckie,,37,180,ml,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,10,,,,0,org.gs1.EAN-13,"₱ 1,295",,UPDATE: Barcode needs to be scanned and updated,31,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gHTVMpJxIMS1jDRdPpEb8LRoscNvlwaOECedTWiNo_moEvkHPbd2RQ==
+SPBR-INV-0159,Cold Beverages,Chuckie,,22,110,ml,₱ 25,2,₱ 50,1,₱ 25,2,₱ 50,,₱ 0,,₱ 0,15,,,,0,org.gs1.EAN-13,₱ 550,,UPDATE: Barcode needs to be scanned and updated,30,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_k68eZCmDVFWSLxEtkkLxVVCDZOpwsSQlBDJlzxRJ2at6lxfZ5coDDw==
+SPBR-INV-0027,Kitchen & Condiments,Claro palm cooking oil,4,5,250,ml,₱ 80,,₱ 0,1,₱ 80,,₱ 0,,₱ 0,1,₱ 80,2,,,,4806014099926,org.gs1.EAN-13,₱ 400,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_hakHmohxzFZfBZNnLZJZZegjDMNScba4yHd-32YqvGpwAwD8cBUXMA==
+SPBR-INV-0051,Toiletries,Closeup gel toothpaste menthol fresh,,5,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800888147240,org.gs1.EAN-13,₱ 75,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_o34snFLYexKt8Y2R4WwJoOALL_LsQ--q_c-D-HyTPl6UjU3nSHOG5Q==
+SPBR-INV-0050,Toiletries,Closeup gel toothpaste red hot,,7,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800888147288,org.gs1.EAN-13,₱ 105,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_VZhruSgJUbh0uvOQliQdF70XsJdMcANHVju5bXfC4J35R6Cj26tORQ==
+SPBR-INV-0155,Cold Beverages,Cobra energy drink,,9,350,ml,₱ 35,,₱ 0,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,10,,,,4800611546760,org.gs1.EAN-13,₱ 315,,,17,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_HD2YgQYUQlL6xvk7aemsZkaiudLdgcjpEwzjUwnCE09R8Aa4s34ZZg==
+SPBR-INV-0190,Cold Beverages,Coke Regular 1.5 Liter,,65,1.5,Liter,₱ 100,6,₱ 600,8,₱ 800,,₱ 0,,₱ 0,,₱ 0,25,,,,4801981116072,org.gs1.EAN-13,"₱ 6,500",,,85,5,,22,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RRiToa61DSr63myGhBpyOp-3gOLTzYNPft3Q022Sp_KlRI27hKFHNg==
+SPBR-INV-0154,Cold Beverages,Coke Regular Mismo,,168,290,ml,₱ 25,2,₱ 50,1,₱ 25,4,₱ 100,,₱ 0,1,₱ 25,,,,,4801981118502,org.gs1.EAN-13,"₱ 4,200",,,132,2,,11,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ozjtYWGII_ilOJ4iO-y1L_-jxIl5fGWlx9eK8Q-HbJEI3Oht3e3MEA==
+SPBR-INV-0048,Toiletries,Colgate calcium boost with flouride maximum cavity protection,,80,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,10,,,,8850006325216,org.gs1.EAN-13,"₱ 1,200",,,84,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_JyhmXJansKoBiTLW9Nn88Yzk-BN9HSjnmfaDisu4l7fcn335cXpTOw==
+SPBR-INV-0049,Toiletries,Colgate fresh confidence with cooling crystals,,32,10,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,8850006325230,org.gs1.EAN-13,₱ 480,,,33,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZyvF6egCDlrrFhDy8fIF98bda9MloymCyKCLWGpxN3nQ8yGEU3Q7cg==
+SPBR-INV-0105,Toiletries,Colgate toothbrush classic child,,13,,,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4808888201528,org.gs1.EAN-13,₱ 390,,,12,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Sz_v9VJmHC0Bzh3PeUZ7Sbf6untq15-iJWSn_mAoDPCripeb9lTEPQ==
+SPBR-INV-0106,Toiletries,Colgate toothbrush super flexi,,6,,,₱ 30,,₱ 0,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,5,,,,8935236000093,org.gs1.EAN-13,₱ 180,,,10,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8wy9e-NiNKdLNh9lHGmHchGXUwY3sV1ER26idctXadIUMcpIltajAQ==
+SPBR-INV-0075,Toiletries,Cream silk vitamin boost conditioner,,48,13,ml,₱ 12,1,₱ 12,1,₱ 12,,₱ 0,,₱ 0,,₱ 0,10,,,,4800888139283,org.gs1.EAN-13,₱ 576,,,32,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_zDQX9S3Pe5gLUTdoDvnuSspxUCcmRvt0tTDjZZy242OswuEjVaVgYw==
+SPBR-INV-0133,Snacks,4,2,3,20,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800092772528,org.gs1.EAN-13,₱ 60,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2lPX4F4_eAEE1awnyjqOCd8qZnUHFHkV7xYK1Wyr2bxONkFqnHSm4A==
+SPBR-INV-0152,Snacks,Criss Cross creamy cheese,,1,20,Grams,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,5,,,,4800092772214,org.gs1.EAN-13,₱ 20,,,2,,,,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_pqsENARCKm_W-g94bRz4l9zdzVHW_5-3l6Scfs4XdBTTO3CpgOD9tQ==
+SPBR-INV-0028,Kitchen & Condiments,Del Monte sweet blend ketchup,,4,320,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,1,,,,4800024577139,org.gs1.EAN-13,₱ 240,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aEN0sjQyyGvRupZHrV0I7_fTzk5KqrNJMHp2u6xn7e_Nc7Eef44nLg==
+SPBR-INV-0206,Supplies,Disposable spoon eco pro,,64,,,₱ 3,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,25,,,,4806531630343,org.gs1.EAN-13,₱ 192,,,28,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_GMN5tOVXcu2hyBqb4pZeoPRw1T8UD7tee_Gdyxjwoh8zEdMO9tZaUQ==
+SPBR-INV-0039,Supplies,Downy antibac kontra germs with safe guard,,24,26,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430739016,org.gs1.EAN-8,₱ 360,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nbjFPfcTZ4iYJ3H3tOsVm7SWHYa12MD5_ajFY0AV2l_jBo5FxKKwaA==
+SPBR-INV-0040,Supplies,Downy garden bloom,,0,26,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430846455,org.gs1.EAN-13,₱ 0,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SyMwkaJ_eUT54S-Flz75S4D7sosddrNHhTB1IKPtwlc5ndElN2q2Hw==
+SPBR-INV-0067,Toiletries,Efficascent oil,,2,25,ml,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,48031547,org.gs1.EAN-8,₱ 80,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_-0_zIqyCCbPSSJ4o9DCIvUtpz7xGIUUHmTbMReMXGEX-1DmSuQXHGw==
+SPBR-INV-0197,Cigarettes,Emi posporo,,14,1,Stick,₱ 5,,₱ 0,2,₱ 10,,₱ 0,,₱ 0,,₱ 0,,,,,4800112010012,org.gs1.EAN-13,₱ 70,,,27,,,5,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_KjCG-s6tSHQmZ1di_WgvWhelWd9AUp4OK8fyHDZ-Y6veGfSrthHL-w==
+SPBR-INV-0174,Alcoholic Beverages,Emperador light,,7,750,ml,₱ 200,2,₱ 400,1,₱ 200,,₱ 0,,₱ 0,,₱ 0,,,,,4800142110089,org.gs1.EAN-13,"₱ 1,400",,,8,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5EUuM72xxtwDBNaQyuerJdF27bAS6Cvtd4kmNbgaQjNJW7rwlXN7NQ==
+SPBR-INV-0084,Hot Beverages,Energen chocolate,,4,40,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8996001440049,org.gs1.EAN-13,₱ 80,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_p-Hc8WYkOarbhT2VMxFUrhF951SlpWsgkB3BpyLdgGjbOtrrhmyMMA==
+SPBR-INV-0085,Hot Beverages,Energen vanilla,,8,40,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8996001440124,org.gs1.EAN-13,₱ 160,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DMbYoQ8eqTKS4c7id6RfgaOZPf3lYqy3TMfGfJHfL-FpPzwSLF2Taw==
+SPBR-INV-0060,Toiletries,EQ disposable baby diapers large,,8,,,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070245,org.gs1.EAN-13,₱ 160,,,12,,,1,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_vViwOV4_AvxCQ4GfMQIMWElj7tEajEyMWf2WkwJhuwNX8EiEWwJ3Bg==
+SPBR-INV-0059,Toiletries,EQ disposable baby diapers medium,,20,,,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070238,org.gs1.EAN-13,₱ 400,,,20,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_pdBIOvwW9RGz_oXhWdNe3QXP-LZT5fBZhsK1u7s4jXiReSwwoWFORw==
+SPBR-INV-0058,Toiletries,EQ disposable baby diapers new born-small,,18,,,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070221,org.gs1.EAN-13,₱ 360,,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_yytVQ_6UdW0Mr8sjctipLutldEymbxCNDk8l0AYNajHeUNKR0f1vDg==
+SPBR-INV-0061,Toiletries,EQ disposable baby diapers xl,,9,,,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488070252,org.gs1.EAN-13,₱ 180,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DKsJQmWn6nyzJLiLAD4gV-utKzSAcbx0KQYOdJAoZ6OnXNo_DTk2YA==
+SPBR-INV-0068,Toiletries,Ethyl alcohol cleene,,5,60,ml,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800067126899,org.gs1.EAN-13,₱ 250,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_04kFDPMW3Wm0wG2STjRnGrSHUGCDBxu1oJbfRutzLwTig0srwCYQaA==
+SPBR-INV-0166,Alcoholic Beverages,Flavored beer apple,,14,330,ml,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032281049,org.gs1.EAN-13,₱ 840,,,34,,,6,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_qyeO84TdI9McdVlO62kia1Ivz-hQ-wYcUPMjGZNUhJ6i-CNDoIek8A==
+SPBR-INV-0065,Toiletries,Flawlessly whitening deodorant,,1,25,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800119219203,org.gs1.EAN-13,₱ 80,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_c1kv2cHkTPBd1YK3Fp796-CtkYL7ECSd78aseGonmePgZ4mFm4AkrQ==
+SPBR-INV-0202,Cigarettes,Fortune,,230,1,Stick,₱ 10,2,₱ 20,4,₱ 40,7,₱ 70,,₱ 0,,₱ 0,,,,,48043717,org.gs1.EAN-8,"₱ 2,300",,,344,,,32,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_W4KdjGn3Iru6HxAuKSKSGbXFeH2AauDodLmqyQV2fBL-XaJ7bwaGFg==
+SPBR-INV-0224,Supplies,Fresh Bathroom Tissue,,13,,,₱ 20,1,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 260,,,,,,,,,,,,
+SPBR-INV-0110,Snacks,Fudgee barr combo flavor,,3,42,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800092551284,org.gs1.EAN-13,₱ 36,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Kl9pfsJ97VOOulNkLPYGAMHXgFt9qGSgN3KVxu3TYwdTuix-CrSCAA==
+SPBR-INV-0111,Snacks,Fudgee barr dark chocolate,,14,42,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800092553226,org.gs1.EAN-13,₱ 168,,,10,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1dAzOMPYmPBRxXv8yepBZutA1VhKfTrXeo2aU83lTnXoT7U4_IvE4w==
+SPBR-INV-0185,Alcoholic Beverages,Fundador light,,1,1,Liter,₱ 600,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8410162100234,org.gs1.EAN-13,₱ 600,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_LY7HDbnmjur_lOUtPVVLAdGJGGNH5Mioh6yoAwCrYnahZuiW6n3ZYA==
+SPBR-INV-0186,Alcoholic Beverages,Fundador super special,,1,1,Liter,₱ 600,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8410162480008,org.gs1.EAN-13,₱ 600,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZV5e1yIjei1oP-15GC0JqNlUAiELZ4TtRiJhWZsxiQErzo-UUvqWGw==
+SPBR-INV-0076,Toiletries,Gard anti-dandruff,,7,12,ml,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8850006536056,org.gs1.EAN-13,₱ 84,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_lRfgZPklJ0l8QkOWmMoRnShvw79iu1w8wacryRnz3zn3kyo83a43sw==
+SPBR-INV-0156,Cold Beverages,Gatorade blue bolt,,27,500,ml,₱ 65,1,₱ 65,1,₱ 65,,₱ 0,1,₱ 65,,₱ 0,,,,,4803925061141,org.gs1.EAN-13,"₱ 1,755",,,27,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aVfcF3glJByAnxwDuK_sTLjAH1KMk7xSb6Xw1YdJJFPPkDjuPHRbIA==
+SPBR-INV-0177,Alcoholic Beverages,Ginebra s. Miguel gin,,8,350,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800130100023,org.gs1.EAN-13,₱ 680,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rbNLxPNpoMIEJt9Jbyn7HVBGg2Ro8uhoLmfCk8LEHNBoqk3BYO59ig==
+SPBR-INV-0071,Supplies,Glow toothpick,,9,,,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4809010431424,org.gs1.EAN-13,₱ 270,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_QVHUgQckbRxY3cT0g56Be3bBxNO2puaFH6KUWJtCjrRtSNpIje3aow==
+SPBR-INV-0115,Snacks,Goya pretzel twist milk chocolate,,8,21,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806517042801,org.gs1.EAN-13,₱ 160,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_fDSjpgRn7JWsbMFZExDd4B_bgMkYxZMx3NfJWomBWWngSre86k111w==
+SPBR-INV-0104,Hot Beverages,Great taste premium classic,,34,2,Grams,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016012358,org.gs1.EAN-13,₱ 170,,,24,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_wtyEiUAWxxEVyU3lcGf1IbWish5sxDL5wT9tZzcfoJdTy_v_F8Zftw==
+SPBR-INV-0093,Hot Beverages,Great taste white,,9,30,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,1,₱ 15,,,,,4800016021039,org.gs1.EAN-13,₱ 135,,,13,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_6ohzBe7u58FtLJFXytlBPTwS-JfHxOQRXei-78JPbRO4kJRNk8URLw==
+SPBR-INV-0034,Cold Beverages,Great value rice,,9,1,Kilogram,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,1111111111116,org.gs1.EAN-13,₱ 765,,,10,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_73VcmSfjSIvKmh28vJx68-n267Nt-UMxM8S93Dyifi10_Y7PMU5nhw==
+SPBR-INV-0167,Alcoholic Beverages,GSM blue mojito,,18,700,ml,₱ 160,3,₱ 480,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800130728128,org.gs1.EAN-13,"₱ 2,880",,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_sjEhFhSwaSu431RIbhqF9NN2rYtqQU-rFfRWFs16k8k4b2RbnNLPkw==
+SPBR-INV-0109,Snacks,Hansel milk sandwich,,10,31,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800092553233,org.gs1.EAN-13,₱ 120,,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_-7PWwGTU8rvNu3WBLZhLIcTCltmJX4bbeofgLNquknXO3V8N1g3k8Q==
+SPBR-INV-0070,Toiletries,Harley's Tawas powder,,2,50,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806513103353,org.gs1.EAN-13,₱ 60,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_bVy1a8H8_kKP7bVYCezqYNGWhUZENnY0ipEptzZYSPY0QNO5e9_rfQ==
+SPBR-INV-0079,Toiletries,Head & shoulders anti-dandruff shampoo,,32,12,ml,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430333597,org.gs1.EAN-13,₱ 384,,,34,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_H6x6rbjR_gTT75bgS2n_jKCVoVmGcgH2Pd2tMcVvBauU91A86t9sFA==
+SPBR-INV-0019,Food Packs,Holiday beef loaf,,1,250,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800066121154,org.gs1.EAN-13,₱ 50,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_96l3myl6DfnHbKj2GIV-wsbykVDOGXLGZ-nyx7T385Y8GDOk2OiKVw==
+SPBR-INV-0220,Supplies,Ice tube,15,9,,,₱ 50,10,₱ 500,8,₱ 400,,₱ 0,,₱ 0,1,₱ 50,,,,,0,org.gs1.EAN-13,₱ 450,,UPDATE: Barcode needs to be scanned and updated,21,3,,12,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3mUpRI4Wt91MnTiZl0KAWOWNPu3N6UMH6BGytM5TiOVNH6kJjlkz_Q==
+SPBR-INV-0182,Alcoholic Beverages,Jack Daniels,,2,700,ml,"₱ 1,550",,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,82184090473,org.gs1.EAN-13,"₱ 3,100",,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_OLsOB8W--FwpPB_K-jegqgIdHRQmLpZ3VWQLKLIinOHknpKm_LkVAA==
+SPBR-INV-0120,Snacks,Jack N Jill chicharon ni mang juan sukang Paombong,,1,26,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016110535,org.gs1.EAN-13,₱ 20,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3dmKgC1qcpXKYfNlwtKQiv0B8MDGwiPrlr2aphxNpeuKblbwIAC01A==
+SPBR-INV-0135,Snacks,Jack N Jill Chippy Barbecue Flavored Corn Chip,,4,108,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016643095,org.gs1.EAN-13,₱ 200,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SqxkBqP2HNKXhH_380kDJF6mH_ofDTw5sNvLrKpvQaXm54bQdm37Ag==
+SPBR-INV-0144,Snacks,Jack N Jill chippy barbeque,,3,35,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016642029,org.gs1.EAN-13,₱ 60,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_AxUQE91R02mhMeNCRJODEQU2_Hk96oHRaBFsR4w21XailvvjtjJoaw==
+SPBR-INV-0147,Snacks,Jack N Jill chippy Cheese,,3,25,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016641008,org.gs1.EAN-13,₱ 60,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3jKP9VwtyjUGuUL6ciQkk2LC_b69C6w5DboK9XRDdWccLtSmByxxsQ==
+SPBR-INV-0139,Snacks,Jack N Jill Chiz Curls Cheese Flavored Corn Curls,4,4,55,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016105098,org.gs1.EAN-13,₱ 140,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_vMT022QAdOv1Wy5j5Ly5beTEIFzZ4SmJyJbBOalEwpMfC6v1eYR1Kg==
+SPBR-INV-0213,Snacks,Jack N Jill dynamite,,109,,,₱ 2,,₱ 0,1,₱ 2,,₱ 0,,₱ 0,,₱ 0,,,,,4800016307041,org.gs1.EAN-13,₱ 218,,,114,,,2,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_YgpsuppoxeQh2j7uLyCwAbt0dsFENVDlqhfh2rZnzqgBDU-lX3wldg==
+SPBR-INV-0145,Snacks,Jack N Jill hippy Chili & Cheese Flavored Corn Chips,,2,110,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016641503,org.gs1.EAN-13,₱ 100,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Vweb972QdPu7rjuWXh3HkwClaHwJeZ8evGA241VfD2gNVGQ9UM-l-A==
+SPBR-INV-0119,Snacks,Jack N Jill kropek ni mang juan spicy fried pusit,,1,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016677342,org.gs1.EAN-13,₱ 60,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1HHGuIjO2ETbV99U8ITr9iql3C9Jqi2a2ovN3iFlX6mmimw3Wst6MQ==
+SPBR-INV-0148,Snacks,Jack N Jill magic chips,6,3,28,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016082962,org.gs1.EAN-13,₱ 45,,,6,1,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_0P8Ao6HRXsVwQixDW0uxIOGyCv84WT9pjesysAMV71l1ECD0aYi8kQ==
+SPBR-INV-0114,Snacks,Jack N Jill magic junior,,4,16,Grams,₱ 8,,₱ 0,1,₱ 8,,₱ 0,,₱ 0,,₱ 0,,,,,4800016083457,org.gs1.EAN-13,₱ 32,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8Nr2symmYQf4s020xobwRioi_2j8RlJhsQ9pccGoO-ld8t4Ay2c4hg==
+SPBR-INV-0118,Snacks,Jack N Jill Mang Juan Chicharon -Sukat Sili,,1,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016110528,org.gs1.EAN-13,₱ 60,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DWGYYbTp2LSv5p5itNU0geVtHdhCSZCAfThoCydcnV60Xy9pE10R9A==
+SPBR-INV-0117,Snacks,Jack N Jill mang Juan klasik chicharon,,2,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016115424,org.gs1.EAN-13,₱ 120,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DHm9vtfhZhaOvcoa5mKnpCO7R1HMup2wgqoJy830GZ5spGQwqaK_lw==
+SPBR-INV-0116,Snacks,Jack N Jill Mang Juan Sukang Paombong,,1,90,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016110511,org.gs1.EAN-13,₱ 60,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_m-NxpeSgtHMHK_cLu6I6qLz0hP1PgTdDHTPpYm23-oCxN1-ZmcHzzA==
+SPBR-INV-0124,Snacks,Jack N Jill nova BBQ,,7,38,Grams,₱ 30,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016604225,org.gs1.EAN-13,₱ 210,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DJ3u36O4NQ2u4kp7uj6h7ziG2eMXYh9bzRYVC5AiyS_saf-FY1gVoA==
+SPBR-INV-0129,Snacks,Jack N Jill piatos cheese,,5,45,Grams,₱ 30,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016644801,org.gs1.EAN-13,₱ 150,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_9Hnxl13C2wvKv6jeBC8wp-nIeqLxF4Rz39djgCZnnPXy7WuAX_WYew==
+SPBR-INV-0127,Snacks,Jack N Jill Piatos Cheese Flavored Potato Crisps,,3,85,Grams,₱ 50,,₱ 0,2,₱ 100,,₱ 0,,₱ 0,,₱ 0,,,,,4800016644504,org.gs1.EAN-13,₱ 150,,,5,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_jC4cYMms4WKoRwXaw_Ieuuuk5xotxWmVjx5xYiRc1y9twGDM850sbg==
+SPBR-INV-0128,Snacks,Jack N Jill Piatos sour cream & onion,,4,85,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016671500,org.gs1.EAN-13,₱ 200,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Wu4AO5z6giZikW1pxL_6RyNK2_D_Nkzmgbruq2hOfWf4SdWwi-zEUw==
+SPBR-INV-0130,Snacks,Jack N Jill piatos spicy cheese,,4,45,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016666414,org.gs1.EAN-13,₱ 120,,"this had a duplicate entry with 3 items in stock, so i combined and made this one a total of 7 items",7,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_lI2op6lsPD4rsGVbe6_7MP3tGNbPQ_o_M_hUMMD-DucGof3uI1Rxsw==
+SPBR-INV-0121,Snacks,Jack N Jill Roller coaster,,10,24,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,1,₱ 20,,₱ 0,,,,,4800016661006,org.gs1.EAN-13,₱ 200,,,15,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3WgQgJspACEphbSAPBhnPSPn3FV3LAyi5u0bCLNqAciwxIoNKw2lDw==
+SPBR-INV-0122,Snacks,Jack N Jill Roller Coaster Cheddar Cheese Potato Rings,,4,85,Grams,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800016661099,org.gs1.EAN-13,₱ 160,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Y2AD6QGzj_wwkroR1t33PU8NSWjOLMRwQNne9NgcEG3USVQ7IDGR2w==
+SPBR-INV-0212,Snacks,Jack N Jill X.O. Candy (Coffee),,114,1,Pack,₱ 2,1,₱ 2,9,₱ 18,,₱ 0,,₱ 0,3,₱ 6,,,,,4800016475016,org.gs1.EAN-13,₱ 228,,,127,,,6,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_FCryyvHBfL8d1V487-tglmK2YQ0D-H6VCaBYUSwv5jEB2lR6M7wGDw==
+SPBR-INV-0180,Alcoholic Beverages,Jamaica lime mixer,,12,350,ml,₱ 85,1,₱ 85,3,₱ 255,,₱ 0,,₱ 0,,₱ 0,,,,,4800220520359,org.gs1.EAN-13,"₱ 1,020",,,11,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_gn-WH1eAJZegBazuU2IhMG9REQXoF7m5GjsLtkI3bb96ErtvOMvqKw==
+SPBR-INV-0181,Alcoholic Beverages,Johnnie Walker BLACK Label,,1,1000,ml,"₱ 1,700",,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,5000267024233,org.gs1.EAN-13,"₱ 1,700",,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nUQDGb3vj8lE6xnRcgSATanZ58ae7TfdrN6HUweMmOVaZ_6HYaEYTA==
+SPBR-INV-0062,Toiletries,Johnson's baby shampoo,,2,100,ml,₱ 110,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,9556006014547,org.gs1.EAN-13,₱ 220,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_FW9ygELQczC8XFhwHpKhaz71bxYzWOOLTgjRaWUsgjN4ZS7Us1nDPA==
+SPBR-INV-0038,Supplies,Joy dishwashing liquid,,9,40,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430389563,org.gs1.EAN-13,₱ 135,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_dDGM2cXU3QRW9gpNn4fwx9Ig_hDlLt7PbJ9kieU91XD_8PHhoLNE9g==
+SPBR-INV-0069,Toiletries,Juicy Cologne sweet Delight,,1,50,ml,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806507831897,org.gs1.EAN-13,₱ 40,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_J1zbdbQqpkR7lqoVs4nag8U-fJWSC--eSV9tUjP09Nf9sg4-plnz0A==
+SPBR-INV-0074,Toiletries,Keratin plus Brazilian hair treatment,,7,20,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806515161504,org.gs1.EAN-13,₱ 84,,,7,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2Z2KNZQuROZWamLI0_D1vkMWfCg9fTZrCszA-GLGUW315yf7IPHFkA==
+SPBR-INV-0073,Toiletries,Keratin plus gold,,15,20,Grams,₱ 12,1,₱ 12,4,₱ 48,,₱ 0,,₱ 0,,₱ 0,,,,,4806515161511,org.gs1.EAN-13,₱ 180,,,5,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Eq7PNq87_GQ9iCtfA9PnUo0l1ffK5RL-a1Fd0J8aZqXpL3_gJx2PIw==
+SPBR-INV-0219,Supplies,Knife big,,3,,,₱ 150,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 450,,UPDATE: Barcode needs to be scanned and updated,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_LVf6yzXQyugi0V1fgLxI6peZC6Qqcqk9PHdGQ7r_QAUPDb5h7v_ziA==
+SPBR-INV-0218,Supplies,Knife small,,3,,,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 150,,UPDATE: Barcode needs to be scanned and updated,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_F6hlnG8IdGVciWP4gUqcFykjh2fYwkZuPp0RfDDZh2u0dmW1gn-Z-A==
+SPBR-INV-0026,Kitchen & Condiments,Knorr Liquid Seasoning Original,,5,130,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4808680230764,org.gs1.EAN-13,₱ 425,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_4W1eJKJbu-vllI9hLRnz36V7nLOYdwCgWHHPJJ48wMg9wQnTkc8lNQ==
+SPBR-INV-0222,Hot Beverages,Kopiko Black,,20,30,Grams,₱ 15,,₱ 0,,₱ 0,2,₱ 30,,₱ 0,,₱ 0,,,,,0,EAN,₱ 300,,,,,,,,,,,,
+SPBR-INV-0088,Hot Beverages,Kopiko blanca,5,21,30,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,2,₱ 30,,,,,8996001414309,org.gs1.EAN-13,₱ 315,,,27,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5k5WX8kFlknDU6nJgIYr20gJDVVtbvhgS5Wp7gC5S0Gz4U6a4IUBLg==
+SPBR-INV-0086,Hot Beverages,Kopiko brown coffee,5,21,27.5,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8996001410547,org.gs1.EAN-13,₱ 315,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_I3r2lvHojFOxoHZUHXhAvBD__FH78KKsHsFmHUO1LzF2Pu1XhCFkvQ==
+SPBR-INV-0031,Kitchen & Condiments,Laurel leaves,,2,20,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806533680001,org.gs1.EAN-13,₱ 100,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_v43NlQHtgrgFsOy7B0NE60O83SU35vpTF5HrX-2QUFaaejRTkXDL7g==
+SPBR-INV-0125,Snacks,Leslie's clover chips barbecue,,0,55,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800216110168,org.gs1.EAN-13,₱ 0,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_l3PWjtn0sCWiYhXCtlxvFIk30CLw_oDS_Hybj5AeS_29WqhbNdaKrg==
+SPBR-INV-0126,Snacks,Leslie's clover chips cheesier,4,3,55,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800216110069,org.gs1.EAN-13,₱ 150,,,4,1,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__v7HYdsX8b8WPSm3rV-vMCgFPTSecWi5GjsEOmpvV6hPPEuXZHW4Zw==
+SPBR-INV-0192,Alcoholic Beverages,Lightro San mig light,,10,1000,ml,₱ 150,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032741130,org.gs1.EAN-13,"₱ 1,500",,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_6hYrGt0dkgGu1Tv3asl3MpWv6RRHjuk_NWxK-aNnyPmg71I3SUa6UQ==
+SPBR-INV-0017,Food Packs,Lucky 7 carne norte,,5,150,Grams,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,748485801728,org.gs1.UPC-A,₱ 250,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_fRbNJhFg_hNssH9Whxq02xr6iDyiofWQz9wKztFa70g3PA1Z5S5Nlw==
+SPBR-INV-0011,Food Packs,Lucky Me batchoy Big,,10,70,Grams,₱ 65,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770272110,org.gs1.EAN-13,₱ 650,,,10,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Hgliqt6TEiAc86TGT1skbRnsSAtSxtfWnDHaF91EuqJsp8RRN6s-jg==
+SPBR-INV-0006,Food Packs,Lucky Me Batchoy small,,9,40,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770271168,org.gs1.EAN-13,₱ 315,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__j2U_4AFDx-uEMQUA1Qejt50DVGlK9Y7LCuMwKxIATbe7mZOVZAAlA==
+SPBR-INV-0012,Food Packs,Lucky Me bulalo Big,,3,70,Grams,₱ 65,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770272127,org.gs1.EAN-13,₱ 195,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_C9iJYXmMnaxn40Y0WCzFc1jtzGAl7YYjU60SL0sz-QBOVhn-kILe7Q==
+SPBR-INV-0009,Food Packs,Lucky Me bulalo small,,9,40,Grams,₱ 35,,₱ 0,,₱ 0,1,₱ 35,,₱ 0,,₱ 0,,,,,4807770271175,org.gs1.EAN-13,₱ 315,,,9,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_R3CLpHaMbWijP5A6XW0V_HiVw2LSMp0LbfyIyrifACyJF4XVfhNIQQ==
+SPBR-INV-0221,Snacks,M.Y. San Fita Crackers,,14,450,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 210,,,,,,,,,,,,
+SPBR-INV-0033,Kitchen & Condiments,Maggi Magic Sarap All-in-One Seasoning Granules,,18,8,Grams,₱ 8,,₱ 0,2,₱ 16,,₱ 0,,₱ 0,,₱ 0,,,,,48025522,org.gs1.EAN-8,₱ 144,,,13,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_uev8k6WAg9JO0QtE0WHOP77r6vlIxhfef2yv3YalMcLbG629fnluYg==
+SPBR-INV-0024,Kitchen & Condiments,Maggi Savor calamansi,,5,130,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361050104,org.gs1.EAN-13,₱ 400,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_uf55-5N_w4WyIFxExOxWX6rcg-wJJLycwWey4dnVNABtSz6hjYtMXQ==
+SPBR-INV-0029,Kitchen & Condiments,Mama sitas oyster sauce,,11,60,Grams,₱ 20,,₱ 0,2,₱ 40,,₱ 0,,₱ 0,,₱ 0,,,,,4806512026387,org.gs1.EAN-13,₱ 220,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_kQyl4tVGXHF4V9EHgojnohhL-5ZGi117s7GM5-RUPzub20sMycMSyA==
+SPBR-INV-0022,Kitchen & Condiments,Mang tomas,,3,325,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801668100264,org.gs1.EAN-13,₱ 180,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_tZl-xofFSPF0zipjWJBgcdXZyfwSgbB5V4SQTQshteE83Raf2_kDFw==
+SPBR-INV-0200,Cigarettes,Marlboro black menthol,,150,1,Stick,₱ 10,,₱ 0,1,₱ 10,,₱ 0,,₱ 0,,₱ 0,,,,,95509433,org.gs1.EAN-8,"₱ 1,500",,,192,,,35,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2CaE03X8JqaqindgQZBtupz_7iGilbh1FODZOLOkTIQI-8sHIHAmYA==
+SPBR-INV-0199,Cigarettes,Marlboro ice blast,220,195,1,Stick,₱ 10,13,₱ 130,10,₱ 100,1,₱ 10,,₱ 0,,₱ 0,,,,,48042772,org.gs1.EAN-8,"₱ 1,950",,,52,5,,20,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_T20Q2R5aqLMea7KViXYA-gocl1VPxHsOBBIZKRZJPlMNfYbJefkb2A==
+SPBR-INV-0198,Cigarettes,Marlboro red,,520,1,Stick,₱ 10,3,₱ 30,21,₱ 210,,₱ 0,,₱ 0,3,₱ 30,,,,,48044295,org.gs1.EAN-8,"₱ 5,200",,,255,,,24,,6,,,,https://lnk.sortly.co/v2/downloads/photo/v2_stvr5AaPqylQYlc8Bxk2VXyEdYpmz_h2OYbxWQKvee1W26krt8BBOw==
+SPBR-INV-0214,Snacks,Maxx,,186,,,₱ 2,,₱ 0,7,₱ 14,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 372,,UPDATE: Barcode needs to be scanned and updated,266,,,7,,3,,,,https://lnk.sortly.co/v2/downloads/photo/v2_NLCRd8MrrWRHEA3-5_URrweEGqKPsU5Fnwipzeblovy0r7SdkwaMvA==
+SPBR-INV-0188,Alcoholic Beverages,May 100% Sparkling Red Grape Juice,,3,750,ml,₱ 350,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,5410746066386,org.gs1.EAN-13,"₱ 1,050",,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_T-CIs_LBKgRt8CU-HJ0dft5AIldCe3tp0Z5zxrPlxHhcD9SA36nvsA==
+SPBR-INV-0082,Toiletries,Men rexona ice cool,,15,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888160027,org.gs1.EAN-13,₱ 225,,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_QYrzIfoN37cjVebukPJenSukbELyBKSBaXi_NmH-cIVQ5asH52XeJw==
+SPBR-INV-0080,Toiletries,Men rexona quantum dry,,13,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888151117,org.gs1.EAN-13,₱ 195,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_fSwr_rq_6rhFCsAktIIRW6sFem5ilMDlCQtUOM694JkKqBMyr21IRQ==
+SPBR-INV-0208,Supplies,Mikey products paper plate silver,,87,,,₱ 5,5,₱ 25,1,₱ 5,,₱ 0,,₱ 0,,₱ 0,,,,,4806509570084,org.gs1.EAN-13,₱ 435,,,53,,,6,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_C5JGP8kVduYBWkMHBxi_X18dAXKv16DPOdq-aeL1eX4_1QiCEiLSNw==
+SPBR-INV-0136,Snacks,Moby crunchy chocolate,,7,60,Grams,₱ 35,1,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,,,,4800523220482,org.gs1.EAN-13,₱ 245,,,8,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_eCjk9tIuNjM7Y2v7vAHgU5ZOKZ02XbY0CqQDjDRCJET0fChgclIwMg==
+SPBR-INV-0184,Alcoholic Beverages,Mojitos,,2,700,ml,₱ 500,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806512270278,org.gs1.EAN-13,"₱ 1,000",,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_y8hQdZiXApgXae6Wohvpg2HN26BAvowltm0V6QDIDmZFYBVCLTPsCA==
+SPBR-INV-0201,Cigarettes,More,,531,1,Stick,₱ 10,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,48033763,org.gs1.EAN-8,"₱ 5,310",,,556,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_DbHU64jis4fPvXQzyd2FUhbqWakS-HeT8UGbVTC0ZofnNPfkx3rDOQ==
+SPBR-INV-0063,Toiletries,Mouthwash listerine fresh burst,,2,100,ml,₱ 75,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8850007814313,org.gs1.EAN-13,₱ 150,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RdJU6bQymwicTCvP5E4zxflXZTBBeQKkTXMAEaIe5Rqpl-SiWcOsAA==
+SPBR-INV-0149,Snacks,Nagaraya hot&spicy,,0,80,Grams,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,731126105088,org.gs1.UPC-A,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_V4YA_OYBLXYwAhhMfNVrtZlRw1OjJYkDOKnGyRL9scLrRGpDwPSVgw==
+SPBR-INV-0150,Snacks,Nagaraya original,,6,80,Grams,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,731126101080,org.gs1.UPC-A,₱ 240,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rlY6IZRakjAU-X5K7wIEpAHzJdwpTe1AUaK_WFmvtvLZzg0uJXCWfg==
+SPBR-INV-0195,Cold Beverages,Nature's spring drinking water,,69,1,Liter,₱ 35,12,₱ 420,11,₱ 385,,₱ 0,1,₱ 35,,₱ 0,,,,,4800049720121,org.gs1.EAN-13,"₱ 2,415",,,100,,,15,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_egyNF9W-1yoHqCm4BpJlFoJ7M_-6dzo6_LfD_0rlv7j6JQd6HpJOcQ==
+SPBR-INV-0196,Cold Beverages,Nature's spring drinking water,,115,500,ml,₱ 20,9,₱ 180,4,₱ 80,,₱ 0,,₱ 0,,₱ 0,,,,,4800049720114,org.gs1.EAN-13,"₱ 2,300",,,162,2,,13,,2,,,,https://lnk.sortly.co/v2/downloads/photo/v2_FudjGQIEDA6jIN0M3tzgZY9numcHfDzxUp5Ro8V_6j5lSus76X_shA==
+SPBR-INV-0103,Hot Beverages,Nescafe classic,,7,1.9,Grams,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,4,₱ 20,,,,,4800361339568,org.gs1.EAN-13,₱ 35,,,9,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_YulMziQaZnEsrSzJlJLexNEHHCKgdHEtkIU89_4CJygCHpR2SIQqkA==
+SPBR-INV-0089,Hot Beverages,Nescafe creamy latte,,21,25.5,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361383493,org.gs1.EAN-13,₱ 315,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_rstFaxrY0GM9IkObpFoNr3-0vOGKVCmmoM8BZYEM-zEckbqUuMgixg==
+SPBR-INV-0087,Hot Beverages,Nescafe creamy white,,27,20,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361393096,org.gs1.EAN-13,₱ 405,,,10,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_XWIiLob4A-325i0KznSV5gziSIZMqnKkGUrwAh7m2iFlRRp2jI_etw==
+SPBR-INV-0090,Hot Beverages,Nescafe original,,9,26,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361403764,org.gs1.EAN-13,₱ 135,,,2,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_MUboLPDRLvbLWD7l3sr6Jj28vFNGNDyLVHL1oljA7ThuGK9jFYl0kQ==
+SPBR-INV-0095,Cold Beverages,Nestea apple iced tea,,23,,,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800361382083,org.gs1.EAN-13,₱ 690,,,24,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_WDHVU53EFlbSgFazzGUif-AUwciOJVvELD5Bxa8ZYM5muREQwKzO6w==
+SPBR-INV-0223,Hot Beverages,Nestle Bear Brand Swak,,11,33,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 220,,,,,,,,,,,,
+SPBR-INV-0094,Hot Beverages,Nestle milo,,23,48,Grams,₱ 15,,₱ 0,1,₱ 15,,₱ 0,,₱ 0,,₱ 0,,,,,4800361415293,org.gs1.EAN-13,₱ 345,,,15,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_WDARUPy9YzzuiB8-gByZFqXkTvCUHHVa-gfz5tPsSd2_bTSAytr4FA==
+SPBR-INV-0187,Alcoholic Beverages,Novellino sparkling red,,3,750,ml,₱ 400,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806508630284,org.gs1.EAN-13,"₱ 1,200",,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Od816HzDyujv1wkSAOF6XmcCa4OHM6_SHtpo6XIEWFCCz9rQRFNtrA==
+SPBR-INV-0057,Toiletries,Nursy baby wipes,,1,200,mm,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800488958154,org.gs1.EAN-13,₱ 50,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_K6rGjPPDwlk6u7XNbA_yaBFp6nqz0SNxEP_eMMF4QwJDQ8cDFyfajw==
+SPBR-INV-0141,Snacks,Nutrisnack Ri-chee Milk Flavor,,2,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800523220123,org.gs1.EAN-13,₱ 70,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ASuX3m0Z9N0oTM7-lloKNB3GD-pAC0W7q8YGPp7r1Uz25qYSkUQ9fQ==
+SPBR-INV-0131,Snacks,Oishi Fish crackers,,16,24,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194116619,org.gs1.EAN-13,₱ 320,,,17,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_w_t_FBGvolMgoawKdDjK0TcH1tbuPyTaUuZf2K3AMp4WFwvg5sJrGg==
+SPBR-INV-0132,Snacks,Oishi onion rings,3,6,16,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194104982,org.gs1.EAN-13,₱ 120,,,9,,,,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_4s6ypkLaeHQwOkfNLGqove9ajTGuJuXUcNJEUTCiuF6-zgfy0nm7lw==
+SPBR-INV-0151,Snacks,Oishi pillows,,1,38,Grams,₱ 15,1,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194116466,org.gs1.EAN-13,₱ 15,,,2,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_IhWEv16SyA6cNS0Zzs8ynQEY-FkA5wKeMejdh9VRZwhdFNkfFz_Olg==
+SPBR-INV-0137,Snacks,Oishi Prawn Crackers Hot and Spicy,,3,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194105965,org.gs1.EAN-13,₱ 105,,,4,1,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ZPB6cdMx8TZzeO0pH1sRZ7hEkkdL20MRUqpBZqlFcfR0fj_A1oGOfw==
+SPBR-INV-0138,Snacks,Oishi prawn crackers spicy flavor,,4,24,Grams,₱ 20,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800194104968,org.gs1.EAN-13,₱ 80,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_8dcQRLPO28QyIm-_GRWiJum53iT_oFNBpU0RANFvFo2sXXZiGbQ19Q==
+SPBR-INV-0072,Toiletries,Palmolive naturals intensive moisture conditioner,,1,90,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4808888428024,org.gs1.EAN-13,₱ 80,,,1,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nx_wvYQhoKhw2nC_hrTP_zFqYIeImckG48ePMSTV3TZ1hHAk4DmJZw==
+SPBR-INV-0077,Toiletries,Palmolive naturals ultra smooth,,19,15,ml,₱ 12,2,₱ 24,4,₱ 48,,₱ 0,,₱ 0,,₱ 0,,,,,8850006493038,org.gs1.EAN-13,₱ 228,,,26,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_e3h3pzlhmIWvqScmk6MXqhVzXqzAboJiaFt5YnW4uVlSKz6lpnuMZA==
+SPBR-INV-0229,Kitchen & Condiments,Papa Banana Ketchup,,4,320,Grams,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,₱ 240,,,,,,,,,,,,
+SPBR-INV-0205,Supplies,Pop-i disposable gloves,,3,1,Pack,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806509574662,org.gs1.EAN-13,₱ 150,,,4,,,5,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_p9jyHeFhhQAyelMgapsPwhUYst5E-kAzhb4JTxyfVb8xF7Ncct2J_w==
+SPBR-INV-0107,Snacks,Pringles original,,1,102,Grams,₱ 120,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8886467100017,org.gs1.EAN-13,₱ 120,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_CmM_I-bKRjlbCfK47P4gzQ1nRzXSAEdUwuXgIxdGupPMHpmztuCvOg==
+SPBR-INV-0108,Snacks,Pringles sour cream & onion,,2,102,Grams,₱ 120,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,K116317895,org.gs1.EAN-13,₱ 240,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_i_PQfW8LXUCGdbkwLDMqW5tcTc1gC_BK850beWAnB3xczyC0Rv253A==
+SPBR-INV-0023,Kitchen & Condiments,Ram Hot sauce,,4,160,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800017929402,org.gs1.EAN-13,₱ 320,,,4,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_l-2i-Qi7cFm__p4ncNlXNellfMIyZ5frX0Tgqowhw3tWO4Zm1nclWA==
+SPBR-INV-0112,Snacks,Rebisco crackers,,14,33,Grams,₱ 12,,₱ 0,1,₱ 12,,₱ 0,,₱ 0,,₱ 0,,,,,4800092113338,org.gs1.EAN-13,₱ 168,,,17,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Ho2O3CY2NFw7cbdvRZsnR4yQazMrwME_Fn79Wyp29nMzbZe68NpvyA==
+SPBR-INV-0228,Alcoholic Beverages,Red Horse Beer,,146,1,Liter,₱ 150,3,₱ 450,6,₱ 900,2,₱ 300,1,₱ 150,,₱ 0,,,,,0,EAN,"₱ 21,900",,,,,,,,,,,,
+SPBR-INV-0168,Alcoholic Beverages,Red Horse Beer ,,5,500,ml,₱ 75,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032211077,org.gs1.EAN-13,₱ 375,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_7jHQho_hb4ZFd5mBdeNurxHhfACbboWs0QTHYEThMcTTieLIe0LCbw==
+SPBR-INV-0164,Alcoholic Beverages,Red Horse Beer extra Strong,,20,330,ml,₱ 85,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032215044,org.gs1.EAN-13,"₱ 1,700",,,21,,,,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_cKO4mLYvirTATX6k7x9D3IU6Ls1y3SQ2nOjsCwYKlXbSAVamjO97vQ==
+SPBR-INV-0191,Alcoholic Beverages,Red Horse Super,,21,1000,ml,₱ 160,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032231136,org.gs1.EAN-13,"₱ 3,360",,,11,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aFXPp8tva4Fzg-PY8z4UsmwuZJb9jMSUF7_q8BcMOhMnx2ZU39WLtw==
+SPBR-INV-0162,Cold Beverages,Redbull energy drink,,45,150,ml,₱ 50,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,8850228000267,org.gs1.EAN-13,"₱ 2,250",,,55,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2_22LTbPs8pey1lCqCmg5S3sEgFWSkSh1sAcS6ElLgU_O0N_1JPevw==
+SPBR-INV-0134,Snacks,Regent Cheese Ring,,5,60,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801688103511,org.gs1.EAN-13,₱ 175,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_WZEmlLuCmwFYzEeTM1g91kLXI4n47QNUYe1gbHVVSSctbRrawp060g==
+SPBR-INV-0083,Toiletries,Rexona powder dry+brightening,,15,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888158888,org.gs1.EAN-13,₱ 225,,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_i-qIpzrhVTU-uokzIh-7OR6gElZnlieDHSUgnP5gvEcEo9oFlhLSEg==
+SPBR-INV-0081,Toiletries,Rexona shower clean,,1,3,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888150608,org.gs1.EAN-13,₱ 15,,,16,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_RIn7Lcxv0ml8cfVO2QSKlnJ5ylZDT4Ap7JsP9-8w8SsvHmjJsGmZEQ==
+SPBR-INV-0064,Toiletries,Rexona shower clean+brightening,,3,25,ml,₱ 80,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888150622,org.gs1.EAN-13,₱ 240,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_eVsLiNfyjwICDeym83PVx8lD-W98RU3omPk1z4y19WjdwZIZtAt19Q==
+SPBR-INV-0066,Toiletries,Rhea Superscent oil,,3,25,ml,₱ 40,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,48037389,org.gs1.EAN-8,₱ 120,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2NERTcLfFiOKrFci46Z_RiFCTyklk6mgYicOZsy-KTgkK9aj_126LA==
+SPBR-INV-0189,Cold Beverages,Royal,,18,1.5,Liter,₱ 100,1,₱ 100,1,₱ 100,,₱ 0,,₱ 0,1,₱ 100,,,,,4801981116171,org.gs1.EAN-13,"₱ 1,800",,,14,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_N622SllPlaF1k02W2PJ1xmHuXNlAQaV5oCHcpf3CJpPDGGNHFGUIXQ==
+SPBR-INV-0042,Toiletries,Safeguard family germ protection pure white,,13,55,Grams,₱ 30,1,₱ 30,1,₱ 30,,₱ 0,,₱ 0,,₱ 0,,,,,4902430945554,org.gs1.EAN-13,₱ 390,,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1FU9a70Bom6M8cSw1Jd3JXimvLucw2jm1Y38Kj_UpIwW6Bm03yVlNg==
+SPBR-INV-0043,Toiletries,Safeguard family germ protection pure white,,17,22,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4902430495066,org.gs1.EAN-13,₱ 255,,,14,,,4,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_2v044UNKGZCDU_ebma_lBdAxJiZQeT-d3f6ZblGZUhCD76zYC3kvXA==
+SPBR-INV-0193,Alcoholic Beverages,San Miguel Grande,,47,1000,ml,₱ 150,5,₱ 750,8,"₱ 1,200",3,₱ 450,,₱ 0,1,₱ 150,,,,,4801032111131,org.gs1.EAN-13,"₱ 7,050",,,24,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_d3IX2hkRzzFewfFUwU3h5hHYF7i22hRc25KtTXv-QgHgi-Y5B9zM1A==
+SPBR-INV-0165,Alcoholic Beverages,San Miguel Light,,25,330,ml,₱ 60,1,₱ 60,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032741048,org.gs1.EAN-13,"₱ 1,500",,,27,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_u85VjQrr7ZwUfu7AKI4v83IbLecINXC5cteFjrRZE3vBy7krXfWn5A==
+SPBR-INV-0178,Alcoholic Beverages,San Miguel Pale Pilsen ,,24,320,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4801032111025,org.gs1.EAN-13,"₱ 2,040",,,18,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__g0iZ9SpR0DEqDFvZ5aNZGbno22B0I3MZBSyd_OwFBcrqkcVpV_lzQ==
+SPBR-INV-0217,Supplies,Sando bag,,41,1,Item,₱ 5,,₱ 0,9,₱ 45,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 205,,UPDATE: Barcode needs to be scanned and updated,25,,,25,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_eXYbBjEZ97d5tMpSssgcwduryLJCMaVd8rL1B7B5jBvn6YgiYZbCyQ==
+SPBR-INV-0046,Toiletries,Silka whitening herbal soap green & papaya,,5,65,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806507832214,org.gs1.EAN-13,₱ 150,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_A3El2aeVmQdwfQoX8zHSQEKN2wwDXhxA4hYjwZw1XhLHhWmsy_g6ZQ==
+SPBR-INV-0047,Toiletries,Silka whitening herbal soap papaya,8,1,65,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806507832481,org.gs1.EAN-13,₱ 30,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_0MUPK7Y0HqwW8q3BoAUO1fpfu_pgZJMrmxU7LApDLH4HauA17btR2A==
+SPBR-INV-0013,Kitchen & Condiments,Silver swan sukang puti bottle,,0,385,ml,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800344004421,org.gs1.EAN-13,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_7-8Sx3e21HUJLoez810TP-iXCo0R2qEFVpkDbZIAS3NVJA1HQ9oiMw==
+SPBR-INV-0014,Kitchen & Condiments,Silver swan sukang puti pouch,3,10,200,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 150,,UPDATE: Barcode needs to be scanned and updated also update stock level,,,,7,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_f_7LSCJYeI9dZPnPwh8CsHSU-hPnJIkd9S_yuNfG9fVs7Fh9usu02w==
+SPBR-INV-0015,Kitchen & Condiments,Silver swan sukang soy sauce,6,6,200,ml,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 90,,UPDATE: Barcode needs to be scanned and updated also update stock level,,,,,,,,,,
+SPBR-INV-0055,Toiletries,Sisters Day maxi regular flow with wings,,11,240,mm,₱ 10,,₱ 0,1,₱ 10,,₱ 0,,₱ 0,,₱ 0,,,,,4806506318818,org.gs1.EAN-13,₱ 110,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_12bD1gS5doV99mwfXnro4cqgWPkUMStnq0YFJq3yANvEO_D98BzuXg==
+SPBR-INV-0113,Snacks,Skyflakes crackers,,11,250,Grams,₱ 12,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,750515018402,org.gs1.UPC-A,₱ 132,,,11,,,1,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_wg5N_vhGH4RSfsOIywvDZ2qo48u2CiVgJwqty3QT65Njz0qlRVsCEQ==
+SPBR-INV-0037,Supplies,Smart dishwashing paste,,34,200,Grams,₱ 35,1,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800045310173,org.gs1.EAN-13,"₱ 1,190",,,40,,,1,,1,,,,https://lnk.sortly.co/v2/downloads/photo/v2_l9rV4b0mZpl0UzgSZStLRZ_b8l-KKhFv-tNRZfEclBuLhbjrAdgbRA==
+SPBR-INV-0211,Snacks,Snow bear,,107,1,Item,₱ 2,7,₱ 14,1,₱ 2,7,₱ 14,,₱ 0,,₱ 0,,,,,4806500730012,org.gs1.EAN-13,₱ 214,,,146,,,13,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_m6rscsvtgLztbSxyRiuOZm-ejJ1QmcAkjtGysJ11x8gCOSG99szTew==
+SPBR-INV-0008,Food Packs,Spicy batchoy small,,5,40,Grams,₱ 35,,₱ 0,2,₱ 70,,₱ 0,,₱ 0,,₱ 0,,,,,4807770273810,org.gs1.EAN-13,₱ 175,,,5,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_QuPGv4trqIfOdXGpHGHdyfuj80rFi5edNFeZfLswWQRmiE8ctqiDPg==
+SPBR-INV-0010,Food Packs,Spicy bulalo small,,0,40,Grams,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4807770273612,org.gs1.EAN-13,₱ 0,,,1,1,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ILLJUoHp9TxAXTNz3IhKrazanSI8fsh-pgzYFcnJGea6_fwoyE3ywQ==
+SPBR-INV-0207,Supplies,Spoon disposable,,46,1,Item,₱ 3,,₱ 0,1,₱ 3,,₱ 0,,₱ 0,,₱ 0,,,,,4806039601128,org.gs1.EAN-13,₱ 138,,,50,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_dapPWsEqm-nEHiLIzGA3yFNEkFOMbY2E-jbyR8OTxNHeer3rPxMIRw==
+SPBR-INV-0230,Cold Beverages,Sprite 1.5 Litro,,12,1.5,Liter,₱ 100,4,₱ 400,2,₱ 200,,₱ 0,,₱ 0,,₱ 0,,,,,0,EAN,"₱ 1,200",,,,,,,,,,,,
+SPBR-INV-0225,Cold Beverages,Sprite Mismo ,,32,290,ml,₱ 25,1,₱ 25,2,₱ 50,,₱ 0,1,₱ 25,,₱ 0,,,,,0,EAN,₱ 800,,,,,,,,,,,,
+SPBR-INV-0204,Supplies,Styrocup,25,25,1,Item,₱ 5,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4806509572842,org.gs1.EAN-13,₱ 125,,,61,,,13,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_f1MP6Ohbtfrdu4O5NjMviKvGW8XYcjbiBaCfCO09KZXfHcdZGEAfLQ==
+SPBR-INV-0194,Cold Beverages,Summit natural drinking water,,0,1000,ml,₱ 35,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800014142088,org.gs1.EAN-13,₱ 0,,,18,3,,9,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_mNvsh6vf_YiYFLGEsQUYI28gXwnKKYvSNyypi7RA10gQAD1d8Tdz7Q==
+SPBR-INV-0078,Toiletries,Sunsilk co-creations shampoo,,27,15,ml,₱ 12,2,₱ 24,4,₱ 48,,₱ 0,,₱ 0,,₱ 0,,,,,4800888169716,org.gs1.EAN-13,₱ 324,,,16,,,5,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_BPRhP5e-P-GSAS4jeJxKS2oOdps7WXQe9TAJkQn7JBO7QU6ldLagOA==
+SPBR-INV-0036,Supplies,Surf Bar Detergent Rose Fresh,,5,120,Grams,₱ 15,1,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888136671,org.gs1.EAN-13,₱ 75,,,3,,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Ofrcvw4WZMgHpO16mROXdhjztZeL7PYI9zOtD_OK0Z48DEUbImDu3w==
+SPBR-INV-0041,Supplies,Surf Powder Detergent Rose Fresh,,8,65,Grams,₱ 15,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800888183804,org.gs1.EAN-13,₱ 120,,,9,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_7nUUy9BBzbaIRugAx0Oq-PUxfzkD971JTv2cP1uw0Mf87U7S57KOvA==
+SPBR-INV-0172,Alcoholic Beverages,Tanduay rhum dark,,28,375,ml,₱ 85,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800220503253,org.gs1.EAN-13,"₱ 2,380",,,33,,,3,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_u6Q1DB50IT1K0SH2O-MbMI1oyD-A8eO56j1dDaFkx-1-gYlM1tmkbA==
+SPBR-INV-0173,Alcoholic Beverages,Tanduay rhum dark,,32,750,ml,₱ 175,1,₱ 175,2,₱ 350,,₱ 0,,₱ 0,,₱ 0,,,,,4800220503154,org.gs1.EAN-13,"₱ 5,600",,,15,,,7,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_aZVdN6_GV71NYRmtpzVj_20KhI6tMVuYyng5_TYwNXaX_PvfRQR21Q==
+SPBR-INV-0170,Alcoholic Beverages,Tanduay rhum light,,33,375,ml,₱ 85,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800220587253,org.gs1.EAN-13,"₱ 2,805",,,32,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_3gGnMoScEFegmt78IBA31AJPnUMTgeE3DUVpaLgpbPhr-KtDXEiKaQ==
+SPBR-INV-0171,Alcoholic Beverages,Tanduay rhum light,,15,750,ml,₱ 175,,₱ 0,1,₱ 175,,₱ 0,,₱ 0,,₱ 0,,,,,4800220587154,org.gs1.EAN-13,"₱ 2,625",,,15,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_ksZODZGRcMUWuXzHUbYw9snl2shE3fJ8vuQSI7BfPNSlyS6on7qK9Q==
+SPBR-INV-0169,Alcoholic Beverages,Tanduay select,,39,700,ml,₱ 175,1,₱ 175,1,₱ 175,,₱ 0,1,₱ 175,,₱ 0,,,,,4800220604752,org.gs1.EAN-13,"₱ 6,825",,,23,5,,2,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2__6LElub_LLkD_VGjh8O8zXSDgH2ae7Oaw-9QXd-wUfISMYSo98atdg==
+SPBR-INV-0100,Cold Beverages,Tang Powdered Juice Apple,,23,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300704148,org.gs1.EAN-13,₱ 690,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_PUva1FonmP8bjBTvgTLCXBKq_diOrD9juZiDwAuTA85RUqyowOxIMA==
+SPBR-INV-0101,Cold Beverages,Tang Powdered Juice Lemon Iced Tea,,1,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300601744,org.gs1.EAN-13,₱ 30,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_f5Kuc4OUYz-3yv0lnKFTaJgM_pGGO4V0R2ld2FpVQU7xqnIewe4_rA==
+SPBR-INV-0096,Cold Beverages,Tang Powdered Juice Orange,,5,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300559991,org.gs1.EAN-13,₱ 150,,,6,,,1,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_6P-WfrDW2EVHAkUsoSxS4KlWm4iu2kmOkwMZnXnLAis5RFSG6HUqYQ==
+SPBR-INV-0098,Cold Beverages,Tang Powdered Juice Pineapple,,13,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300601768,org.gs1.EAN-13,₱ 390,,,13,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_1VotX8C9ahCrtRLYjx_yDERdqEO_RLU6HRPhAoKgKdSO4A6KZUr46g==
+SPBR-INV-0102,Cold Beverages,Tang Powdered Juice Pomelo,,3,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622210706768,org.gs1.EAN-13,₱ 90,,,3,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5zEEzvpe6mM-i9rRpPC3itbV-r_A40HNHUbJBxx-P29ouCYs7V9zyg==
+SPBR-INV-0099,Cold Beverages,Tang Powdered Juice Strawberry,,1,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300638078,org.gs1.EAN-13,₱ 30,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_hzbqOQCWlqZpiAFlx9XDvUKzBgCrP0-i0GLKxpK4om2Xzt91E03Cxw==
+SPBR-INV-0097,Cold Beverages,Tang Powdered Juice Sweet orange,,12,19,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,7622300847913,org.gs1.EAN-13,₱ 360,,,12,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_5Md1YEm7gmq5l_OOi7ZiIp1sLGHC26rHzldAoS2Ioyt5B9us_bEP7Q==
+SPBR-INV-0176,Alcoholic Beverages,The Bar Lime Gin,,6,335,ml,₱ 85,,₱ 0,2,₱ 170,,₱ 0,,₱ 0,,₱ 0,,,,,4800142113332,org.gs1.EAN-13,₱ 510,,,6,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_nDRJHhD_oTNg90fSDcg1aLv7osdBEdgKqbNDQYX9G174yNEF6F385Q==
+SPBR-INV-0215,Supplies,Thumb tacks,,0,1,Pack,₱ 25,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,6972081865356,org.gs1.EAN-13,₱ 0,,,1,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_9RI3vgv8v2h62M85-cA1xhTq7tSb4_M15IyIUIcjFx8bSUqBl0D4QQ==
+SPBR-INV-0183,Alcoholic Beverages,Toska vodka,,2,700,ml,₱ 350,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,98426301757,org.gs1.EAN-13,₱ 700,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_SEe0HJoPZv7Ob7vllvBm7qeeekaJNuJHb-cGpxoFsXsMrj9bfbVFvA==
+SPBR-INV-0209,Supplies,Transparent cup,,191,1,Item,₱ 3,13,₱ 39,13,₱ 39,3,₱ 9,2,₱ 6,2,₱ 6,,,,,4806509570589,org.gs1.EAN-13,₱ 573,,,18,7,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_BmTSZe8bjj3H6PeVF88T2AOCYp9tB080HSvYkIsX_-1SiOfm7uZj7Q==
+SPBR-INV-0016,Food Packs,Uni-pak sardines,4,1,155,Grams,₱ 30,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,4800154568618,org.gs1.EAN-13,₱ 30,,,2,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_Bsfis-KnLiAu_fW7JiyxD8FCfsDitlJmCfYNEQ_B04tqJyg-tokZ8g==
+SPBR-INV-0216,Snacks,White rabbit,,65,1,Item,₱ 2,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,0,org.gs1.EAN-13,₱ 130,,UPDATE: Barcode needs to be scanned and updated,68,,,,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_M-uUwn821A1AvhbeUHTOqRwAtla7n6Q131m_bNCxOSq_lKASdBL5lQ==
+SPBR-INV-0203,Cigarettes,Winston red,200,183,1,Stick,₱ 12,15,₱ 180,30,₱ 360,7,₱ 84,5,₱ 60,8,₱ 96,,,,,48040594,org.gs1.EAN-8,"₱ 2,196",,,123,5,,44,,,,,,https://lnk.sortly.co/v2/downloads/photo/v2_k2l0jiPsWQcJGA5y1WzH7K-_eMV-_15eHhfFPDnQBY1PT6GEIHBawQ==
+,,Piattos Cheese,6,,83,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,Jack N Jill Roller Coaster Cheddar Cheese Potato Rings,4,,85,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,Nova Homestyle BBQ,6,@33.42each,78,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,#VALUE!,,,,,,,,,,,,
+,,Sisters Silk Floss  Day Use Singles 12's,12,@29.35/pack,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,#VALUE!,,,,,,,,,,,,
+,,Nescafe 3n1 Original ,20,151.90@20's,26,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,#VALUE!,,,,,,,,,,,,
+,,Kopiko Astig Black,5,,30,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,Surf Bar Blossom Fresh,3,,120,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,Palmolive Shampoo Triple Intensive Moisture (Pink),12,,15,ml,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,Bioderm Germicidal Pink,6,,60,Grams,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,Cobra Plastic Bottle ,24,,330,ml,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,
+,,,,,,,,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,₱ 0,,,,,,,₱ 0,,,,,,,,,,,,

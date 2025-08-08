@@ -1,0 +1,235 @@
+id,Product Name,Price,Size,Units,Category,Min Level,Stock,count,re-stock Price,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Notes,Tags,Value,Photo1,Photo2,Photo3,Created At,Updated At
+6,Lucky Me Batchoy Small,35,40,Grams,Food Packs,,9,9,,,4807770271168,org.gs1.EAN-13,,,315,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+8,Lucky Me Spicy Batchoy Small,35,40,Grams,Food Packs,,5,5,,,4807770273810,org.gs1.EAN-13,Product name converted to Title Case,,175,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+9,Lucky Me Bulalo Instant Noodle Soup Small,35,40,Grams,Food Packs,,9,9,,,4807770271175,org.gs1.EAN-13,Product name converted to Title Case,,315,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+10,Lucky Me Spicy Bulalo Small,35,40,Grams,Food Packs,,0,0,,,4807770273612,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+11,Lucky Me  Batchoy Big,65,70,Grams,Food Packs,,10,10,,,4807770272110,org.gs1.EAN-13,,,650,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+12,Lucky Me Bulalo Instant Noodle Soup Big,65,70,Grams,Food Packs,,3,3,,,4807770272127,org.gs1.EAN-13,,,195,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+13,Silver Swan Sukang Puti Bottle,35,385,ml,Kitchen & Condiments,,0,0,,,4800344004421,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+14,Silver Swan Sukang Puti Pouch,15,200,ml,Kitchen & Condiments,,13,13,,,0,org.gs1.EAN-13,Product name converted to Title Case,,195,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+15,Silver Swan Sukang Soy Sauce,15,200,ml,Kitchen & Condiments,,12,12,,,0,org.gs1.EAN-13,Product name converted to Title Case,,180,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+16,Uni-Pak Sardines,30,155,Grams,Food Packs,,5,5,,,4800154568618,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+17,Lucky 7 Carne Norte,50,150,Grams,Food Packs,,5,5,,,748485801728,org.gs1.UPC-A,,,250,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+18,555 Tuna Caldereta,50,155,Grams,Food Packs,3,1,1,,,748485700038,org.gs1.UPC-A,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+19,Holiday Beef Loaf,50,150,Grams,Food Packs,,1,1,,,4800066121154,org.gs1.EAN-13,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+20,555 Tuna Bicol Express,50,155,Grams,Food Packs,3,0,0,,,748485700090,org.gs1.UPC-A,Product name converted to Title Case,,,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+21,Century Tuna Flakes In Oil,50,155,Grams,Food Packs,3,2,2,,,748485100401,org.gs1.UPC-A,Product name converted to Title Case,,100,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+22,Mang Tomas,60,325,Grams,Kitchen & Condiments,,3,3,,,4801668100264,org.gs1.EAN-13,Product name converted to Title Case,,180,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+23,Ram Hot Sauce,80,160,ml,Kitchen & Condiments,,4,4,,,4800017929402,org.gs1.EAN-13,Product name converted to Title Case,,320,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+24,Maggi Savor Calamansi,80,130,ml,Kitchen & Condiments,,5,5,,,4800361050104,org.gs1.EAN-13,Product name converted to Title Case,,400,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+26,Knorr Liquid Seasoning Original,85,130,ml,Kitchen & Condiments,,5,5,,,4808680230764,org.gs1.EAN-13,,,425,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+27,Claro Palm Cooking Oil,80,250,ml,Kitchen & Condiments,2,9,9,,,4806014099926,org.gs1.EAN-13,Product name converted to Title Case,,720,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+28,Del Monte Sweet Blend Ketchup,60,320,Grams,Kitchen & Condiments,1,4,4,,,4800024577139,org.gs1.EAN-13,Product name converted to Title Case,,240,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+29,Mama Sitas Oyster Sauce,20,60,Grams,Kitchen & Condiments,,11,11,,,4806512026387,org.gs1.EAN-13,Product name converted to Title Case,,220,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+30,Black Pepper Whole,50,50,Grams,Kitchen & Condiments,1,2,2,,,4809015402245,org.gs1.EAN-13,Product name converted to Title Case,,100,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+31,Laurel Leaves,50,20,Grams,Kitchen & Condiments,,2,2,,,4806533680001,org.gs1.EAN-13,Product name converted to Title Case,,100,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+32,Black Pepper Powder,50,50,Grams,Kitchen & Condiments,,1,1,,,4809015402283,org.gs1.EAN-13,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+33,Maggi Magic Sarap All-In-One Seasoning Granules,8,8,Grams,Kitchen & Condiments,,18,18,,,48025522,org.gs1.EAN-8,Product name converted to Title Case,,144,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+34,Great Value Rice,85,1,Kilogram,Food Packs,,9,9,,,1111111111116,org.gs1.EAN-13,"Category changed from Cold Beverages to Food Packs for rice product; Product name converted to Title Case; Category corrected from ""Cold Beverages"" to ""Food Packs""",,765,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+35,Zonrox Bleach Floral,35,250,ml,Supplies,3,3,3,,,4800047840555,org.gs1.EAN-13,Product name converted to Title Case,,105,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+36,Surf  Detergent Rose Fresh Bar,15,120,Grams,Supplies,,5,5,,,4800888136671,org.gs1.EAN-13,Product name converted to Title Case,,75,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+37,Smart Dishwashing Paste,35,200,Grams,Supplies,,34,34,,,4800045310173,org.gs1.EAN-13,Product name converted to Title Case,,1190,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+38,Joy Dishwashing Liquid,15,40,ml,Supplies,,9,9,,,4902430389563,org.gs1.EAN-13,Product name converted to Title Case,,135,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+39,Downy Sunrise Fresh,15,26,ml,Supplies,,24,24,,,4902430739016,org.gs1.EAN-8,Product name converted to Title Case,,360,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+40,Downy Garden Bloom,15,26,ml,Supplies,,0,0,,,4902430846455,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+41,Surf Powder Detergent Rose Fresh,15,65,Grams,Supplies,,8,8,,,4800888183804,org.gs1.EAN-13,,,120,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+42,Safeguard Family Germ Protection Pure White,30,55,Grams,Toiletries,,13,13,,,4902430945554,org.gs1.EAN-13,Product name converted to Title Case,,390,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+43,Safeguard Family Germ Protection Pure White,15,22,Grams,Toiletries,,17,17,,,4902430495066,org.gs1.EAN-13,Product name converted to Title Case,,255,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+44,Bioderm Family Germicidal Soap Coolness Blue,30,60,Grams,Toiletries,5,2,2,,,4800011113937,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+46,Silka Whitening Herbal Soap Green & Papaya,30,65,Grams,Toiletries,,5,5,,,4806507832214,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+47,Silka Whitening Herbal Soap Papaya,30,65,Grams,Toiletries,,9,9,,,4806507832481,org.gs1.EAN-13,Product name converted to Title Case,,270,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+48,Colgate Calcium Boost With Flouride Maximum Cavity Protection,15,10,Grams,Toiletries,10,80,80,,,8850006325216,org.gs1.EAN-13,Product name converted to Title Case,,1200,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+49,Colgate Fresh Confidence With Cooling Crystals,15,10,Grams,Toiletries,5,32,32,,,8850006325230,org.gs1.EAN-13,Product name converted to Title Case,,480,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+50,Closeup Gel Toothpaste Red Hot,15,10,Grams,Toiletries,5,7,7,,,4800888147288,org.gs1.EAN-13,Product name converted to Title Case,,105,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+51,Closeup Gel Toothpaste Menthol Fresh,15,10,Grams,Toiletries,5,5,5,,,4800888147240,org.gs1.EAN-13,Product name converted to Title Case,,75,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+52,Charmee Panty Liner Breathable,3,,,Toiletries,12,70,70,,,4800488100058,org.gs1.EAN-13,Product name converted to Title Case,,210,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+53,Charmee Feminine Pads With Wings,10,,,Toiletries,5,12,12,,,4800488011415,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+54,Charmee Feminine Pads Dry Net No Wings,10,,,Toiletries,5,5,5,,,4800488958581,org.gs1.EAN-13,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+55,Sisters Day Maxi Regular Flow With Wings,10,240,mm,Toiletries,,11,11,,,4806506318818,org.gs1.EAN-13,Product name converted to Title Case,,110,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+56,Care Cotton Buds,20,,,Toiletries,2,6,6,,,4806524580068,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+57,Nursy Baby Wipes,50,200,mm,Toiletries,,1,1,,,4800488958154,org.gs1.EAN-13,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+58,Eq Disposable Baby Diapers New Born-Small,20,,,Toiletries,,18,18,,,4800488070221,org.gs1.EAN-13,Product name converted to Title Case,,360,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+59,Eq Disposable Baby Diapers Medium,20,,,Toiletries,,20,20,,,4800488070238,org.gs1.EAN-13,Product name converted to Title Case,,400,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+60,Eq Disposable Baby Diapers Large,20,,,Toiletries,,8,8,,,4800488070245,org.gs1.EAN-13,Product name converted to Title Case,,160,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+61,Eq Disposable Baby Diapers Xl,20,,,Toiletries,,9,9,,,4800488070252,org.gs1.EAN-13,Product name converted to Title Case,,180,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+62,Johnson'S Baby Shampoo,110,100,ml,Toiletries,,2,2,,,9556006014547,org.gs1.EAN-13,Product name converted to Title Case,,220,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+63,Mouthwash Listerine Fresh Burst,75,100,ml,Toiletries,,2,2,,,8850007814313,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+64,Rexona Shower Clean+Brightening,80,25,ml,Toiletries,,3,3,,,4800888150622,org.gs1.EAN-13,Product name converted to Title Case,,240,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+65,Flawlessly Whitening Deodorant,80,25,ml,Toiletries,,1,1,,,4800119219203,org.gs1.EAN-13,Product name converted to Title Case,,80,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+66,Rhea Superscent Oil,40,25,ml,Toiletries,,3,3,,,48037389,org.gs1.EAN-8,Product name converted to Title Case,,120,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+67,Efficascent Oil,40,25,ml,Toiletries,,2,2,,,48031547,org.gs1.EAN-8,Product name converted to Title Case,,80,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+68,Ethyl Alcohol Cleene,50,60,ml,Toiletries,,5,5,,,4800067126899,org.gs1.EAN-13,Product name converted to Title Case,,250,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+69,Juicy Cologne Sweet Delight,40,50,ml,Toiletries,,1,1,,,4806507831897,org.gs1.EAN-13,Product name converted to Title Case,,40,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+70,Harley'S Tawas Powder,30,50,Grams,Toiletries,,2,2,,,4806513103353,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+71,Glow Toothpick,30,,,Supplies,,9,9,,,4809010431424,org.gs1.EAN-13,Product name converted to Title Case,,270,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+72,Palmolive Naturals Intensive Moisture Conditioner,80,90,ml,Toiletries,,1,1,,,4808888428024,org.gs1.EAN-13,Product name converted to Title Case,,80,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+73,Keratin Plus Gold,12,20,Grams,Toiletries,,15,15,,,4806515161511,org.gs1.EAN-13,Product name converted to Title Case,,180,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+74,Keratin Plus Brazilian Hair Treatment,12,20,Grams,Toiletries,,7,7,,,4806515161504,org.gs1.EAN-13,Product name converted to Title Case,,84,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+75,Cream Silk Vitamin Boost Conditioner,12,13,ml,Toiletries,10,48,48,,,4800888139283,org.gs1.EAN-13,Product name converted to Title Case,,576,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+76,Gard Anti-Dandruff,12,12,ml,Toiletries,,7,7,,,8850006536056,org.gs1.EAN-13,Product name converted to Title Case,,84,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+77,Palmolive Naturals Ultra Smooth (Green),12,15,ml,Toiletries,,19,19,,,8850006493038,org.gs1.EAN-13,Product name converted to Title Case,,228,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+78,Sunsilk Co-Creations Shampoo,12,15,ml,Toiletries,,27,27,,,4800888169716,org.gs1.EAN-13,Product name converted to Title Case,,324,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+79,Head & Shoulders Anti-Dandruff Shampoo,12,12,ml,Toiletries,,32,32,,,4902430333597,org.gs1.EAN-13,Product name converted to Title Case,,384,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+80,Men Rexona Quantum Dry,15,3,ml,Toiletries,,13,13,,,4800888151117,org.gs1.EAN-13,Product name converted to Title Case,,195,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+81,Rexona Shower Clean,15,3,ml,Toiletries,,1,1,,,4800888150608,org.gs1.EAN-13,Product name converted to Title Case,,15,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+82,Men Rexona Ice Cool,15,3,ml,Toiletries,,15,15,,,4800888160027,org.gs1.EAN-13,Product name converted to Title Case,,225,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+83,Rexona Powder Dry+Brightening,15,3,ml,Toiletries,,15,15,,,4800888158888,org.gs1.EAN-13,Product name converted to Title Case,,225,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+84,Energen Chocolate,20,40,Grams,Hot Beverages,,4,4,,,8996001440049,org.gs1.EAN-13,Product name converted to Title Case,,80,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+85,Energen Vanilla,20,40,Grams,Hot Beverages,,8,8,,,8996001440124,org.gs1.EAN-13,Product name converted to Title Case,,160,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+86,Kopiko Brown Instant Coffee,15,27.5,Grams,Hot Beverages,,26,26,,,8996001410547,org.gs1.EAN-13,,,390,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+87,Nescafe Creamy White,15,20,Grams,Hot Beverages,,27,27,,,4800361393096,org.gs1.EAN-13,Product name converted to Title Case,,405,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+88,Kopiko Blanca  Instant Coffee,15,30,Grams,Hot Beverages,,26,26,,,8996001414309,org.gs1.EAN-13,,,390,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+89,Nescafe Creamy Latte,15,25.5,Grams,Hot Beverages,,21,21,,,4800361383493,org.gs1.EAN-13,Product name converted to Title Case,,315,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+91,Birch Tree Fortified Milk,20,33,Grams,Hot Beverages,8,18,18,,,748485401492,org.gs1.UPC-A,Product name converted to Title Case,,360,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+92,Birch Tree Fortified Choco,20,29,Grams,Hot Beverages,8,18,18,,,748485401621,org.gs1.UPC-A,Product name converted to Title Case,,360,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+93,Great Taste White,15,30,Grams,Hot Beverages,,9,9,,,4800016021039,org.gs1.EAN-13,Product name converted to Title Case,,135,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+94,Nestle Milo Chocolate Drink,15,48,Grams,Hot Beverages,,23,23,,,4800361415293,org.gs1.EAN-13,,,345,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+95,Nestea Apple Iced Tea,30,20,Grams,Cold Beverages,,23,23,,,4800361382083,org.gs1.EAN-13,Product name converted to Title Case,,690,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+96,Tang Powdered Juice Orange,30,19,Grams,Cold Beverages,,5,5,,,7622300559991,org.gs1.EAN-13,,,150,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+97,Tang Powdered Juice Sweet Orange,30,19,Grams,Cold Beverages,,12,12,,,7622300847913,org.gs1.EAN-13,Product name converted to Title Case,,360,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+98,Tang Powdered Juice Pineapple,30,19,Grams,Cold Beverages,,13,13,,,7622300601768,org.gs1.EAN-13,,,390,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+99,Tang Powdered Juice Strawberry,30,19,Grams,Cold Beverages,,1,1,,,7622300638078,org.gs1.EAN-13,,,30,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+100,Tang Powdered Juice Apple,30,19,Grams,Cold Beverages,,23,23,,,7622300704148,org.gs1.EAN-13,,,690,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+101,Tang Powdered Juice Lemon Iced Tea,30,19,Grams,Cold Beverages,,1,1,,,7622300601744,org.gs1.EAN-13,,,30,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+102,Tang Powdered Juice Pomelo,30,19,Grams,Cold Beverages,,3,3,,,7622210706768,org.gs1.EAN-13,,,90,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+103,Nescafe Classic,5,1.9,Grams,Hot Beverages,,7,7,,,4800361339568,org.gs1.EAN-13,Product name converted to Title Case,,35,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+104,Great Taste Premium Classic,5,2,Grams,Hot Beverages,,34,34,,,4800016012358,org.gs1.EAN-13,Product name converted to Title Case,,170,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+105,Colgate Toothbrush Classic Child,30,,,Toiletries,5,13,13,,,4808888201528,org.gs1.EAN-13,Product name converted to Title Case,,390,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+106,Colgate Toothbrush Super Flexi,30,,,Toiletries,5,6,6,,,8935236000093,org.gs1.EAN-13,Product name converted to Title Case,,180,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+107,Pringles Original,120,102,Grams,Snacks,,1,1,,,8886467100017,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+108,Pringles Sour Cream & Onion,120,102,Grams,Snacks,,2,2,,,K116317895,org.gs1.EAN-13,Product name converted to Title Case,,240,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+109,Hansel Milk Sandwich,12,31,Grams,Snacks,,10,10,,,4800092553233,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:17.275971+00:00,2025-08-08T16:51:29.723134+00:00
+110,Fudgee Barr Combo Flavor,12,41,Grams,Snacks,,3,3,,,4800092551284,org.gs1.EAN-13,Product name converted to Title Case,,36,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+111,Fudgee Barr Dark Chocolate,12,42,Grams,Snacks,,14,14,,,4800092553226,org.gs1.EAN-13,Product name converted to Title Case,,168,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+112,Rebisco Crackers,12,33,Grams,Snacks,,14,14,,,4800092113338,org.gs1.EAN-13,Product name converted to Title Case,,168,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+113,M.Y. San Skyflakes Crackers,12,25,Grams,Snacks,,11,11,,,750515018402,org.gs1.UPC-A,,,132,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+114,Jack'N Jill Magic Junior,8,16,Grams,Snacks,,4,4,,,4800016083457,org.gs1.EAN-13,Product name converted to Title Case,,32,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+115,Goya Pretzel Twist Milk Chocolate,20,21,Grams,Snacks,,8,8,,,4806517042801,org.gs1.EAN-13,Product name converted to Title Case,,160,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+116,Jack'N Jill Chicharron Ni Mang Juan Sukang Paombong,60,90,Grams,Snacks,,1,1,,,4800016110511,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+117,Jack'N Jill Chicharron Ni Mang Juan Klasik,60,90,Grams,Snacks,,2,2,,,4800016115424,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+118,Jack'N Jill Chicharron Ni Mang Juan Suka'T Sili,60,90,Grams,Snacks,,1,1,,,4800016110528,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+119,Jack'N Jill Kropek Ni Mang Juan Spicy Fried Pusit,60,90,Grams,Snacks,,1,1,,,4800016677342,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+120,Jack'N Jill Chicharron Ni Mang Juan Sukang Paombong,20,26,Grams,Snacks,,1,1,,,4800016110535,org.gs1.EAN-13,Product name converted to Title Case,,20,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+121,Jack'N Jill Roller Coaster Cheddar Cheese Potato Rings,20,24,Grams,Snacks,,10,10,,,4800016661006,org.gs1.EAN-13,Product name converted to Title Case,,200,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+122,Jack'N Jill Roller Coaster Cheddar Cheese Potato Rings,40,85,Grams,Snacks,,8,8,,,4800016661099,org.gs1.EAN-13,Product name converted to Title Case,,320,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+123,Jack'N Jill Chicharron Ni Mang Juan Suka'T Sili,20,26,Grams,Snacks,6,8,8,,,4800016110542,org.gs1.EAN-13,Product name converted to Title Case,,160,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+124,Jack'N Jill Nova Homestyle Bbq,30,38,Grams,Snacks,,7,7,,,4800016604225,org.gs1.EAN-13,Product name converted to Title Case,,210,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+125,Leslie'S Clover Chips Barbecue,50,55,Grams,Snacks,,0,0,,,4800216110168,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+126,Leslie'S Clover Chips Cheesier,50,55,Grams,Snacks,,7,7,,,4800216110069,org.gs1.EAN-13,Product name converted to Title Case,,350,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+127,Jack'N Jill Piatos Cheese Flavored Potato Crisps,50,85,Grams,Snacks,,3,3,,,4800016644504,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+128,Jack'N Jill Piatos Sour Cream & Onion Flavored Potato Crisps,50,85,Grams,Snacks,,4,4,,,4800016671500,org.gs1.EAN-13,Product name converted to Title Case,,200,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+129,Jack'N Jill Piatos Cheese Flavored Potato Crisps,30,45,Grams,Snacks,,5,5,,,4800016644801,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+130,Jack'N Jill Piatos Spicy Cheese Flavored Potato Crisps,30,40,Grams,Snacks,,4,4,,,4800016666414,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+131,Oishi Fish Crackers,20,24,Grams,Snacks,,16,16,,,4800194116619,org.gs1.EAN-13,Product name converted to Title Case,,320,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+132,Oishi Onion Rings,20,16,Grams,Snacks,,9,9,,,4800194104982,org.gs1.EAN-13,Product name converted to Title Case,,180,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+133,Criss Cross Cheesy Sour Cream & Onion Crisscut Fries Snax,20,20,Grams,Snacks,5,5,5,,,4800092772528,org.gs1.EAN-13,,,100,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+134,Regent Cheese Ring,35,60,Grams,Snacks,,5,5,,,4801688103511,org.gs1.EAN-13,,,175,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+135,Jack'N Jill Chippy Barbecue Flavored Corn Chip,50,108,Grams,Snacks,,4,4,,,4800016643095,org.gs1.EAN-13,Product name converted to Title Case,,200,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+136,Moby Crunchy Chocolate,35,60,Grams,Snacks,,7,7,,,4800523220482,org.gs1.EAN-13,Product name converted to Title Case,,245,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+137,Oishi Prawn Crackers Spicy Flavor,35,60,Grams,Snacks,,3,3,,,4800194105965,org.gs1.EAN-13,Product name converted to Title Case,,105,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+138,Oishi Prawn Crackers Spicy Flavor,20,24,Grams,Snacks,,4,4,,,4800194104968,org.gs1.EAN-13,,,80,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+139,Jack'N Jill Chiz Curls Cheese Flavored Corn Curls,35,55,Grams,Snacks,,8,8,,,4800016105098,org.gs1.EAN-13,Product name converted to Title Case,,280,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+140,Jack'N Jill Chiz Curls Cheese Flavored Corn Curls,20,18,Grams,Snacks,6,6,6,,,4800016105746,org.gs1.EAN-13,Product name converted to Title Case,,120,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+141,Nutrisnack Ri-Chee Milk Flavor,35,60,Grams,Snacks,,2,2,,,4800523220123,org.gs1.EAN-13,Product name converted to Title Case,,70,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+142,Cheez It Cheese And Hum,35,60,Grams,Snacks,6,3,3,,,4800523224015,org.gs1.EAN-13,Product name converted to Title Case,,105,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+143,Cheez It Cheese And Ham,20,25,Grams,Snacks,6,2,2,,,4800523222103,org.gs1.EAN-13,Product name converted to Title Case,,40,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+144,Jack'N Jill Chippy Barbecue Flavored Corn Chip,20,35,Grams,Snacks,,3,3,,,4800016642029,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+145,Jack'N Jill Chippy Chili & Cheese Flavored Corn Chips,50,108,Grams,Snacks,,2,2,,,4800016641503,org.gs1.EAN-13,Product name converted to Title Case,,100,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+146,Cheez It Cheese Flavor,35,60,Grams,Snacks,6,2,2,,,4800523220086,org.gs1.EAN-13,Product name converted to Title Case,,70,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+147,Jack'N Jill Chippy Cheese,20,25,Grams,Snacks,,3,3,,,4800016641008,org.gs1.EAN-13,Product name converted to Title Case,,60,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+148,Jack'N Jill Magic Chips,15,28,Grams,Snacks,,9,9,,,4800016082962,org.gs1.EAN-13,Product name converted to Title Case,,135,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+149,Nagaraya Hot&Spicy,40,80,Grams,Snacks,,0,0,,,731126105088,org.gs1.UPC-A,Product name converted to Title Case,,,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+150,Nagaraya Original,40,80,Grams,Snacks,,6,6,,,731126101080,org.gs1.UPC-A,Product name converted to Title Case,,240,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+151,Oishi Pillows,15,38,Grams,Snacks,,1,1,,,4800194116466,org.gs1.EAN-13,Product name converted to Title Case,,15,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+152,Criss Cross Creamy Cheese Crisscut Fries Snax,20,20,Grams,Snacks,5,1,1,,,4800092772214,org.gs1.EAN-13,,,20,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+153,Cheez It Cheese Flavored,20,25,Grams,Snacks,6,1,1,,,4800523220079,org.gs1.EAN-13,Product name converted to Title Case,,20,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+154,Coke Regular Mismo,25,290,ml,Cold Beverages,,168,168,,,4801981118502,org.gs1.EAN-13,,,4200,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+155,Cobra Energy Drink Glass Bottle,35,350,ml,Cold Beverages,10,9,9,,,4800611546760,org.gs1.EAN-13,Product name converted to Title Case,,315,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+156,Gatorade Blue Bolt,65,500,ml,Cold Beverages,,27,27,,,4803925061141,org.gs1.EAN-13,Product name converted to Title Case,,1755,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+157,C2 Apple Flavored Green Tea,25,230,ml,Cold Beverages,20,29,29,,,4800016068010,org.gs1.EAN-13,,,725,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+158,Chuckie,35,180,ml,Cold Beverages,10,37,37,,,0,org.gs1.EAN-13,,,1295,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+159,Chuckie,25,110,ml,Cold Beverages,15,22,22,,,0,org.gs1.EAN-13,,,550,,,,2025-08-08T16:35:17.605814+00:00,2025-08-08T16:51:29.723134+00:00
+160,C2 Apple Flavored Green Tea,35,335,ml,Cold Beverages,20,37,37,,,4800016052040,org.gs1.EAN-13,,,1295,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+161,C2 Litro Apple Green Tea,85,1000,ml,Cold Beverages,15,27,27,,,4800016052774,org.gs1.EAN-13,,,2295,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+162,Redbull Energy Drink,50,150,ml,Cold Beverages,,45,45,,,8850228000267,org.gs1.EAN-13,Product name converted to Title Case,,2250,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+163,Chocolate Lager,95,330,ml,Alcoholic Beverages,,11,11,,,4801032025056,org.gs1.EAN-13,Product name converted to Title Case,,1045,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+164,Red Horse Beer Extra Strong,85,330,ml,Alcoholic Beverages,,20,20,,,4801032215044,org.gs1.EAN-13,Product name converted to Title Case,,1700,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+165,San Miguel Light,60,330,ml,Alcoholic Beverages,,25,25,,,4801032741048,org.gs1.EAN-13,,,1500,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+166,Flavored Beer Apple,60,330,ml,Alcoholic Beverages,,14,14,,,4801032281049,org.gs1.EAN-13,Product name converted to Title Case,,840,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+167,Gsm Blue Mojito,160,700,ml,Alcoholic Beverages,,18,18,,,4800130728128,org.gs1.EAN-13,Product name converted to Title Case,,2880,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+168,Red Horse Beer,75,500,ml,Alcoholic Beverages,,5,5,,,4801032211077,org.gs1.EAN-13,,,375,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+169,Tanduay Select,175,700,ml,Alcoholic Beverages,,39,39,,,4800220604752,org.gs1.EAN-13,Product name converted to Title Case,,6825,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+170,Tanduay Rhum Light,85,375,ml,Alcoholic Beverages,,33,33,,,4800220587253,org.gs1.EAN-13,Product name converted to Title Case,,2805,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+171,Tanduay Rhum Light,175,750,ml,Alcoholic Beverages,,15,15,,,4800220587154,org.gs1.EAN-13,Product name converted to Title Case,,2625,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+172,Tanduay Rhum Dark,85,375,ml,Alcoholic Beverages,,28,28,,,4800220503253,org.gs1.EAN-13,Product name converted to Title Case,,2380,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+173,Tanduay Rhum Dark,175,750,ml,Alcoholic Beverages,,32,32,,,4800220503154,org.gs1.EAN-13,Product name converted to Title Case,,5600,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+174,Emperador Light,200,750,ml,Alcoholic Beverages,,7,7,,,4800142110089,org.gs1.EAN-13,Product name converted to Title Case,,1400,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+175,Brandy Emperador,250,1,Liter,Alcoholic Beverages,5,8,8,,,4800142110102,org.gs1.EAN-13,,,2000,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+176,The Bar Lime Gin,85,335,ml,Alcoholic Beverages,,6,6,,,4800142113332,org.gs1.EAN-13,,,510,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+177,Ginebra S. Miguel Gin,85,350,ml,Alcoholic Beverages,,8,8,,,4800130100023,org.gs1.EAN-13,Product name converted to Title Case,,680,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+178,San Miguel Pale Pilsen,85,320,ml,Alcoholic Beverages,,24,24,,,4801032111025,org.gs1.EAN-13,,,2040,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+179,Chaser Sparkling Iced Tea,85,330,ml,Cold Beverages,,6,6,,,4800142126011,org.gs1.EAN-13,Product name converted to Title Case,,510,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+180,Jamaica Lime Mixer,85,350,ml,Alcoholic Beverages,,12,12,,,4800220520359,org.gs1.EAN-13,Product name converted to Title Case,,1020,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+181,Johnnie Walker Black Label,1700,1000,ml,Alcoholic Beverages,,1,1,,,5000267024233,org.gs1.EAN-13,Product name converted to Title Case,,1700,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+182,Jack Daniels,1550,700,ml,Alcoholic Beverages,,2,2,,,82184090473,org.gs1.EAN-13,,,3100,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+183,Toska Vodka,350,700,ml,Alcoholic Beverages,,2,2,,,98426301757,org.gs1.EAN-13,Product name converted to Title Case,,700,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+184,Mojitos,500,700,ml,Alcoholic Beverages,,2,2,,,4806512270278,org.gs1.EAN-13,,,1000,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+185,Fundador Light,600,1,Liter,Alcoholic Beverages,,1,1,,,8410162100234,org.gs1.EAN-13,Product name converted to Title Case,,600,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+186,Fundador Super Special,600,1,Liter,Alcoholic Beverages,,1,1,,,8410162480008,org.gs1.EAN-13,Product name converted to Title Case,,600,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+187,Novellino Sparkling Red,400,750,ml,Alcoholic Beverages,,3,3,,,4806508630284,org.gs1.EAN-13,Product name converted to Title Case,,1200,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+188,May 100% Sparkling Red Grape Juice,350,750,ml,Alcoholic Beverages,,3,3,,,5410746066386,org.gs1.EAN-13,,,1050,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+189,Royal,100,1.5,Liter,Cold Beverages,,18,18,,,4801981116171,org.gs1.EAN-13,,,1800,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+190,Coke Regular 1.5 Liter,100,1.5,Liter,Cold Beverages,25,65,65,,,4801981116072,org.gs1.EAN-13,,,6500,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+191,Red Horse Super,160,1000,ml,Alcoholic Beverages,,21,21,,,4801032231136,org.gs1.EAN-13,,,3360,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+192,Lightro San Mig Light,150,1000,ml,Alcoholic Beverages,,10,10,,,4801032741130,org.gs1.EAN-13,Product name converted to Title Case,,1500,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+193,San Miguel Grande,150,1000,ml,Alcoholic Beverages,,47,47,,,4801032111131,org.gs1.EAN-13,,,7050,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+194,Summit Natural Drinking Water,35,1000,ml,Cold Beverages,,0,0,,,4800014142088,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+195,Nature'S Spring Drinking Water,35,1,Liter,Cold Beverages,,69,69,,,4800049720121,org.gs1.EAN-13,Product name converted to Title Case,,2415,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+196,Nature'S Spring Drinking Water,20,500,ml,Cold Beverages,,115,115,,,4800049720114,org.gs1.EAN-13,Product name converted to Title Case,,2300,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+197,Emi Posporo,5,1,Stick,Cigarettes,,14,14,,,4800112010012,org.gs1.EAN-13,Product name converted to Title Case,,70,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+198,Marlboro Red,10,1,Stick,Cigarettes,,520,520,,,48044295,org.gs1.EAN-8,Product name converted to Title Case,,5200,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+199,Marlboro Ice Blast,10,1,Stick,Cigarettes,,415,415,,,48042772,org.gs1.EAN-8,Product name converted to Title Case,,4150,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+200,Marlboro Black Menthol,10,1,Stick,Cigarettes,,150,150,,,95509433,org.gs1.EAN-8,Product name converted to Title Case,,1500,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+201,More,10,1,Stick,Cigarettes,,531,531,,,48033763,org.gs1.EAN-8,,,5310,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+202,Fortune,10,1,Stick,Cigarettes,,230,230,,,48043717,org.gs1.EAN-8,,,2300,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+203,Winston Red,12,1,Stick,Cigarettes,,383,383,,,48040594,org.gs1.EAN-8,Product name converted to Title Case,,4596,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+204,Styrocup,5,1,Item,Supplies,,50,50,,,4806509572842,org.gs1.EAN-13,,,250,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+205,Pop-I Disposable Gloves,50,1,Pack,Supplies,,3,3,,,4806509574662,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+206,Disposable Spoon Eco Pro,3,,,Supplies,25,64,64,,,4806531630343,org.gs1.EAN-13,Product name converted to Title Case,,192,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+207,Spoon Disposable,3,1,Item,Supplies,,46,46,,,4806039601128,org.gs1.EAN-13,Product name converted to Title Case,,138,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+208,Mikey Products Paper Plate Silver,5,,,Supplies,,87,87,,,4806509570084,org.gs1.EAN-13,Product name converted to Title Case,,435,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+209,Transparent Cup,3,1,Item,Supplies,,191,191,,,4806509570589,org.gs1.EAN-13,Product name converted to Title Case,,573,,,,2025-08-08T16:35:17.942416+00:00,2025-08-08T16:51:29.723134+00:00
+210,Catering Tray,65,,,Supplies,5,5,5,,,5201993012898,org.gs1.EAN-13,Product name converted to Title Case,,325,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+211,Snow Bear Candy Menthol,2,1,Item,Snacks,,107,107,,,4806500730012,org.gs1.EAN-13,,,214,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+212,Jack'N Jill X.O. Candy (Coffee),2,1,Pack,Snacks,,114,114,,,4800016475016,org.gs1.EAN-13,Product name converted to Title Case,,228,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+213,Jack 'N Jill Dynamite Choco Filled Mint Candy,2,,,Snacks,,109,109,,,4800016307041,org.gs1.EAN-13,Product name converted to Title Case,,218,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+214,Maxx,2,,,Snacks,,186,186,,,0,org.gs1.EAN-13,,,372,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+215,Thumb Tacks,25,1,Pack,Supplies,,0,0,,,6972081865356,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+216,White Rabbit Candy,2,1,Item,Snacks,,65,65,,,0,org.gs1.EAN-13,,,130,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+217,Sando Bag,5,1,Item,Supplies,,41,41,,,0,org.gs1.EAN-13,Product name converted to Title Case,,205,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+218,Knife Small,50,,,Supplies,,3,3,,,0,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+219,Knife Big,150,,,Supplies,,3,3,,,0,org.gs1.EAN-13,Product name converted to Title Case,,450,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+220,Ice Tube,50,,,Supplies,,24,24,,,0,org.gs1.EAN-13,Product name converted to Title Case,,1200,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+221,M.Y. San Fita Crackers,12,30,Grams,Snacks,,14,14,,,0,EAN,,,168,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+222,Kopiko Black  Instant Coffee,15,30,Grams,Hot Beverages,,20,20,,,0,EAN,,,300,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+223,Nestle Bear Brand Fortified Powdered Milk Drink - Swak,20,33,Grams,Hot Beverages,,11,11,,,0,EAN,,,220,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+224,Fresh Bathroom Tissue,20,,,Supplies,,13,13,,,0,EAN,,,260,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+225,Sprite Mismo,25,290,ml,Cold Beverages,,32,32,,,0,EAN,,,800,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+226,Bee Happy Jasmine Rice,170,2,Kilogram,Food Packs,2,5,5,,,0,EAN,,,850,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+227,Baygon Katol,5,,,Supplies,10,45,45,,,0,EAN,,,225,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+228,Red Horse Beer,150,1,Liter,Alcoholic Beverages,,146,146,,,0,EAN,,,21900,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+229,Papa Banana Ketchup,60,320,Grams,Kitchen & Condiments,,4,4,,,0,EAN,,,240,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+230,Sprite 1.5 Litro,100,1.5,Liter,Cold Beverages,,12,12,,,0,EAN,,,1200,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+231,Ajinomoto,8,,,Kitchen & Condiments,,16,16,,,0,EAN,,,128,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+232,5 Gallon Mineral Water,100,5,Gal,Cold Beverages,,5,5,,,0,EAN,,,500,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+234,Jack'N Jill Nova Homestyle Bbq,50,78,Grams,Snacks,,6,6,,,,,Product name converted to Title Case,,300,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+235,Sisters Silk Floss Day Use Singles,10,,,Toiletries,,12,12,,,,,price for 12 pack 29.35; Category set to Toiletries - missing in original data,,120,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+236,Nescafe 3 In1 Original Instant Coffee,15,20,Grams,Hot Beverages,,20,20,,,,,price for 20 pack 151.90; Product name converted to Title Case,,300,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+237,Kopiko Astig Black Instant Coffee,15,30,Grams,Hot Beverages,,5,5,,,,,,,75,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+238,Surf Bar Blossom Fresh,15,120,Grams,Supplies,,3,3,,,,,,,45,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+239,Palmolive Shampoo Triple Intensive Moisture (Pink),12,15,ml,Toiletries,,12,12,,,,,,,144,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+240,Bioderm Germicidal Pink Bloom,30,60,Grams,Toiletries,,6,6,,,,,Product name converted to Title Case,,180,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+241,Cobra Energy Drink Plastic Bottle,30,330,ml,Cold Beverages,,24,24,,,,,Product name converted to Title Case,,720,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+242,Coke Can Original,50,320,ml,Cold Beverages,,0,0,,,,,Stock set to 0 - missing in original data,,,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+243,Jack'N Jill Chippy Chili & Cheese Flavored Corn Chips,20,25,Grams,Snacks,,2,2,,,4800016641503,org.gs1.EAN-13,Product name converted to Title Case,,40,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+244,Jack'N Jill Nova Country Cheddar,0,38,Grams,Snacks,,0,0,,category set to Snacks - missing in original data,,,Price set to 0; Product name converted to Title Case,,,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00

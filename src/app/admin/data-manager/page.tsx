@@ -51,7 +51,7 @@ const DATA_TABLES: DataTable[] = [
   {
     name: 'inventory_items',
     label: 'Inventory Items',
-    columns: ['sid', 'category', 'product_name', 'stock', 'size', 'units', 'price', 'min_level', 'supplier', 'barcode'],
+    columns: ['id', 'category', 'product_name', 'stock', 'size', 'units', 'price', 'min_level', 'supplier', 'barcode', 'barcode_type', 'restock_price', 'value', 'photo1', 'photo2', 'photo3', 'notes', 'tags'],
     editable: true,
     deletable: true,
     addable: true

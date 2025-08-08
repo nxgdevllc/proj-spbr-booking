@@ -1,0 +1,65 @@
+{
+  "recommendations": [
+    // Database & PostgreSQL/Supabase
+    "ms-mssql.mssql",
+    "supabase.supabase",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg",
+    "cweijan.vscode-database-client2",
+
+    // TypeScript & React/Next.js
+    "pmneo.tsimporter",
+    "formulahendry.auto-rename-tag",
+    "dsznajder.es7-react-js-snippets",
+    "bradlc.vscode-tailwindcss",
+    "pulkitgangwar.nextjs-snippets",
+
+    // Code Quality & Automation
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "christian-kohler.path-intellisense",
+
+    // Database Schema & Migration
+    "adpyke.vscode-sql-formatter",
+
+    // CSV & Data Import/Export
+    "mechatroner.rainbow-csv",
+    "janisdd.vscode-edit-csv",
+    "GrapeCity.gc-excelviewer",
+
+    // File Management & Navigation
+    "SteffenLeist.file-utils",
+    "alefragnani.project-manager",
+    "chrisjohnson.autoheader",
+    "gera2ld.file-nesting-updater",
+
+    // Testing & Debugging
+    "rangav.vscode-thunder-client",
+    "humao.rest-client",
+    "hediet.debug-visualizer",
+
+    // Productivity & Workflow
+    "streetsidesoftware.code-spell-checker",
+    "Gruntfuggly.todo-tree",
+    "alefragnani.Bookmarks",
+    "oderwat.indent-rainbow",
+    "aaron-bond.better-comments",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+
+    // Environment & Configuration
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "eriklynd.json-tools",
+
+    // Theme & Icons
+    "PKief.material-icon-theme",
+    "binaryify.one-dark-pro",
+    "dracula-theme.theme-dracula"
+  ]
+}

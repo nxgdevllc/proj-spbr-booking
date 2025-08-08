@@ -1,0 +1,15 @@
+id,Product Name,Price,Size,Units,Category,Min Level,Stock,count,re-stock Price,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Notes,Tags,Value,Photo1,Photo2,Photo3,Created At,Updated At
+20,555 Tuna Bicol Express,50,155,Grams,Food Packs,3,0,0,,,748485700090,org.gs1.UPC-A,Product name converted to Title Case,,,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+18,555 Tuna Caldereta,50,155,Grams,Food Packs,3,1,1,,,748485700038,org.gs1.UPC-A,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+226,Bee Happy Jasmine Rice,170,2,Kilogram,Food Packs,2,5,5,,,0,EAN,,,850,,,,2025-08-08T16:35:18.276227+00:00,2025-08-08T16:51:29.723134+00:00
+21,Century Tuna Flakes In Oil,50,155,Grams,Food Packs,3,2,2,,,748485100401,org.gs1.UPC-A,Product name converted to Title Case,,100,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+34,Great Value Rice,85,1,Kilogram,Food Packs,,9,9,,,1111111111116,org.gs1.EAN-13,"Category changed from Cold Beverages to Food Packs for rice product; Product name converted to Title Case; Category corrected from ""Cold Beverages"" to ""Food Packs""",,765,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+19,Holiday Beef Loaf,50,150,Grams,Food Packs,,1,1,,,4800066121154,org.gs1.EAN-13,Product name converted to Title Case,,50,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+17,Lucky 7 Carne Norte,50,150,Grams,Food Packs,,5,5,,,748485801728,org.gs1.UPC-A,,,250,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+11,Lucky Me  Batchoy Big,65,70,Grams,Food Packs,,10,10,,,4807770272110,org.gs1.EAN-13,,,650,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+6,Lucky Me Batchoy Small,35,40,Grams,Food Packs,,9,9,,,4807770271168,org.gs1.EAN-13,,,315,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+12,Lucky Me Bulalo Instant Noodle Soup Big,65,70,Grams,Food Packs,,3,3,,,4807770272127,org.gs1.EAN-13,,,195,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+9,Lucky Me Bulalo Instant Noodle Soup Small,35,40,Grams,Food Packs,,9,9,,,4807770271175,org.gs1.EAN-13,Product name converted to Title Case,,315,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+8,Lucky Me Spicy Batchoy Small,35,40,Grams,Food Packs,,5,5,,,4807770273810,org.gs1.EAN-13,Product name converted to Title Case,,175,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+10,Lucky Me Spicy Bulalo Small,35,40,Grams,Food Packs,,0,0,,,4807770273612,org.gs1.EAN-13,Product name converted to Title Case,,,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00
+16,Uni-Pak Sardines,30,155,Grams,Food Packs,,5,5,,,4800154568618,org.gs1.EAN-13,Product name converted to Title Case,,150,,,,2025-08-08T16:35:16.931121+00:00,2025-08-08T16:51:29.723134+00:00

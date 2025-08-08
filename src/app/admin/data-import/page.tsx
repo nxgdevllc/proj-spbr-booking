@@ -311,7 +311,7 @@ export default function DataImportPage() {
               <p><strong>Payments:</strong> Booking ID, Amount, Payment Method, Reference Number, etc.</p>
               <p><strong>Employees:</strong> Employee Name, Employee Role, Status, Monthly Pay, Employment Type, etc.</p>
               <p><strong>Unit Types:</strong> Unit ID, Rental Type, Maximum Capacity, Day Rate, Night Rate, etc.</p>
-              <p><strong>Products:</strong> SID, Product Name, Category, Stock, Price, Barcode, etc.</p>
+                              <p><strong>Products:</strong> ID, Product Name, Category, Stock, Price, Restock Price, Value, Barcode, Barcode Type, Notes, Tags, etc.</p>
               <p><strong>Expenses:</strong> Receipt Number, Date, Amount, Payment Method, Vendor, Category, etc.</p>
               <p><strong>Salaries:</strong> Date, Amount, Name, Payment Type, Notes, etc.</p>
               <p><strong>Withdrawals:</strong> Date, Amount, Stakeholder, Notes, etc.</p>

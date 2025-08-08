@@ -9,18 +9,34 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate-csv": "node scripts/csv-validator.js",
+    "clean-inventory": "node scripts/clean-inventory-csv.js",
+    "import-inventory": "node scripts/inventory-import.js",
+    "import-inventory-updated": "node scripts/import-inventory-updated.js",
+    "import-inventory-with-count": "node scripts/import-inventory-with-count.js",
+    "export-inventory": "node scripts/export-inventory-to-csv.js",
+    "export-inventory-category": "node scripts/export-inventory-to-csv.js category",
+    "db-cleanup": "echo 'Run database-cleanup.sql in Supabase SQL Editor'",
+    "migrate": "node scripts/run-migrations.js",
+    "migrate:sqltools": "node scripts/run-migrations-sqltools.js",
+    "migrate:direct": "node scripts/run-migrations-sqltools.js --direct",
+    "migrate:pg": "node scripts/run-migrations-pg.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.7",
     "@heroicons/react": "^2.2.0",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
     "@supabase/ssr": "^0.6.1",
-    "@supabase/supabase-js": "^2.53.1",
+    "@supabase/supabase-js": "^2.54.0",
     "dotenv": "^17.2.1",
     "lucide-react": "^0.536.0",
     "next": "15.4.6",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "pg": "^8.12.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

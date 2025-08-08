@@ -1,0 +1,50 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "San Pedro Beach Resort - Production",
+      "driver": "PostgreSQL",
+      "server": "${env:SUPABASE_DB_HOST}",
+      "port": 5432,
+      "database": "${env:SUPABASE_DB_NAME}",
+      "username": "${env:SUPABASE_DB_USER}",
+      "password": "${env:SUPABASE_DB_PASSWORD}",
+      "connectionTimeout": 15000,
+      "ssl": true,
+      "askForPassword": false,
+      "connection": {
+        "limit": 10,
+        "timeout": 15000
+      }
+    },
+    {
+      "name": "San Pedro Beach Resort - Local Dev",
+      "driver": "PostgreSQL",
+      "server": "localhost",
+      "port": 5432,
+      "database": "spbr_dev",
+      "username": "postgres",
+      "password": "${env:LOCAL_DB_PASSWORD}",
+      "connectionTimeout": 15000,
+      "ssl": false,
+      "askForPassword": false
+    }
+  ],
+  "sqltools.format": {
+    "language": "sql",
+    "indentSize": 2,
+    "keywordsCase": "upper",
+    "identifierCase": "lower"
+  },
+  "sqltools.history": {
+    "enabled": true,
+    "maxEntries": 100
+  },
+  "sqltools.intellisense": {
+    "enabled": true,
+    "lowercaseKeywords": false,
+    "suggestKeywords": true,
+    "suggestFunctions": true,
+    "suggestTables": true,
+    "suggestColumns": true
+  }
+}

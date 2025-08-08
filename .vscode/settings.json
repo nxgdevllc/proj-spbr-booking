@@ -1,0 +1,283 @@
+{
+  // Editor Settings
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // TypeScript Settings
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+
+  // Tailwind CSS Settings
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "tailwindCSS.validate": true,
+
+  // File Associations
+  "files.associations": {
+    "*.sql": "sql",
+    "*.csv": "csv",
+    "*.env*": "dotenv"
+  },
+
+  // File Explorer Settings
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.next": true,
+    "**/out": true,
+    "**/dist": true,
+    "**/.vercel": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/node_modules": true,
+    "**/.next/**": true,
+    "**/out/**": true,
+    "**/dist/**": true
+  },
+
+  // Search Settings
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/.next": true,
+    "**/out": true,
+    "**/dist": true
+  },
+
+  // Git Settings
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 180,
+
+  // Terminal Settings
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 14,
+
+  // SQLTools Configuration
+  "sqltools.connections": [
+    {
+      "name": "San Pedro Beach Resort - Production",
+      "driver": "PostgreSQL",
+      "server": "db.supabase.co",
+      "port": 5432,
+      "database": "postgres",
+      "username": "postgres",
+      "password": "${env:SUPABASE_DB_PASSWORD}",
+      "connectionTimeout": 15000,
+      "ssl": true,
+      "askForPassword": false,
+      "connection": {
+        "limit": 10,
+        "timeout": 15000
+      }
+    },
+    {
+      "name": "San Pedro Beach Resort - Local Dev",
+      "driver": "PostgreSQL",
+      "server": "localhost",
+      "port": 5432,
+      "database": "spbr_dev",
+      "username": "postgres",
+      "password": "${env:LOCAL_DB_PASSWORD}",
+      "connectionTimeout": 15000,
+      "ssl": false,
+      "askForPassword": false
+    }
+  ],
+  "sqltools.format": {
+    "language": "sql",
+    "indentSize": 2,
+    "keywordsCase": "upper",
+    "identifierCase": "lower"
+  },
+  "sqltools.history": {
+    "enabled": true,
+    "maxEntries": 100
+  },
+  "sqltools.intellisense": {
+    "enabled": true,
+    "lowercaseKeywords": false,
+    "suggestKeywords": true,
+    "suggestFunctions": true,
+    "suggestTables": true,
+    "suggestColumns": true
+  },
+
+  // ESLint Settings
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": ["."],
+
+  // Prettier Settings
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.useTabs": false,
+
+  // Rainbow CSV Settings
+  "rainbow_csv.csv_lint_enable": true,
+  "rainbow_csv.csv_lint_encoding": "utf-8",
+  "rainbow_csv.csv_lint_delimiter": "auto",
+
+  // Todo Tree Settings
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "foreground": "#fff",
+      "background": "#ffbd2a",
+      "iconColour": "#ffbd2a"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "foreground": "#fff",
+      "background": "#f06292",
+      "iconColour": "#f06292"
+    },
+    "BUG": {
+      "icon": "bug",
+      "foreground": "#fff",
+      "background": "#f06292",
+      "iconColour": "#f06292"
+    }
+  },
+
+  // Error Lens Settings
+  "errorLens.enabled": true,
+  "errorLens.messageEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+
+  // GitLens Settings
+  "gitlens.codeLens.enabled": true,
+  "gitlens.codeLens.recentChange.enabled": true,
+  "gitlens.codeLens.authors.enabled": true,
+
+  // Thunder Client Settings
+  "thunder-client.collectionsDirectory": "./.thunder-client",
+
+  // Material Icon Theme Settings
+  "material-icon-theme.folders.associations": {
+    "src": "src",
+    "components": "components",
+    "pages": "pages",
+    "api": "api",
+    "lib": "lib",
+    "utils": "utils",
+    "hooks": "hooks",
+    "types": "types",
+    "styles": "styles",
+    "public": "public",
+    "docs": "docs",
+    "scripts": "scripts"
+  },
+
+  // Auto Header Settings
+  "autoheader.header": [
+    "San Pedro Beach Resort Booking System",
+    "",
+    "This file is part of the San Pedro Beach Resort project.",
+    "Copyright (c) 2025 San Pedro Beach Resort.",
+    "",
+    "Generated automatically by Auto Header extension."
+  ],
+
+  // Better Comments Settings
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  // Workbench Settings
+  "workbench.colorTheme": "Default Light+",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": false,
+
+  // Extensions Settings
+  "extensions.autoUpdate": true,
+  "extensions.autoCheckUpdates": true
+}

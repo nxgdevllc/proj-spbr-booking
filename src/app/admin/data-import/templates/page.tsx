@@ -64,7 +64,7 @@ SPB1X,Open Cottage,20,"₱2,000",7:00 AM,5:00 PM,"₱2,500",6:00 PM,6:00 AM,"₱
     },
     products: {
       filename: 'products-template.csv',
-      content: `SID,Category,Product Name,Stock,Size,Units,Price,Min Level,re-stock Quantity,re-stock Price,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Value,Tags,Notes
+              content: `ID,Category,Product Name,Stock,Size,Units,Price,Min Level,Supplier,Barcode/QR2-Data,Barcode/QR2-Type,Restock Price,Notes,Tags
 SPBR-INV-0006,Food Packs,Lucky Me Batchoy small,9,40,Grams,₱35,5,10,₱30,Supplier A,4807770271168,org.gs1.EAN-13,₱315,Food,Popular item
 SPBR-INV-0008,Food Packs,Spicy batchoy small,5,40,Grams,₱35,3,8,₱30,Supplier A,4807770273810,org.gs1.EAN-13,₱175,Food,Spicy variant
 `,
