@@ -1,0 +1,48 @@
+#!/bin/bash
+
+echo "🚀 Setting up San Pedro Beach Resort Authentication System"
+echo "========================================================"
+echo ""
+
+echo "📋 This script will help you set up the improved database schema with authentication."
+echo ""
+
+echo "🔧 Step 1: Apply the improved database schema"
+echo "   - Open your Supabase dashboard"
+echo "   - Go to SQL Editor"
+echo "   - Copy and paste the contents of docs/supabase_improved_schema.sql"
+echo "   - Click 'Run' to execute the schema"
+echo ""
+read -p "Press Enter when you've applied the schema..."
+
+echo "🔧 Step 2: Set up initial passwords"
+echo "   - Run: node setup-initial-passwords.js"
+echo "   - This will set default passwords for all users"
+echo ""
+read -p "Press Enter when you've set up the passwords..."
+
+echo "🔧 Step 3: Test the authentication system"
+echo "   - Start your development server: npm run dev"
+echo "   - Go to http://localhost:3000/login"
+echo "   - Try logging in with the demo accounts:"
+echo ""
+echo "   📋 Demo Accounts:"
+echo "   - Admin: raymond / password123"
+echo "   - Manager: jingjing / password123"
+echo "   - Employee: chinamae / password123"
+echo ""
+
+echo "🔧 Step 4: Access Control"
+echo "   - Dashboard: All authenticated users (employee+)"
+echo "   - Data Manager: Managers and admins only"
+echo "   - Data Import: Admins only"
+echo ""
+
+echo "✅ Setup complete! Your authentication system is ready."
+echo ""
+echo "🔐 Security Notes:"
+echo "   - Change default passwords after first login"
+echo "   - In production, use bcrypt instead of SHA-256"
+echo "   - Set up proper email for password reset"
+echo "   - Consider adding 2FA for admin accounts"
+echo ""

@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { supabase } from '@/lib/supabase'
+import ProtectedRoute from '@/components/ProtectedRoute'
 import { 
   MagnifyingGlassIcon, 
   PlusIcon, 
@@ -34,55 +35,63 @@ const DATA_TABLES: DataTable[] = [
   {
     name: 'employees',
     label: 'Employees',
-    columns: ['employee_id', 'position', 'hire_date', 'base_salary', 'is_active', 'emergency_contact', 'emergency_phone'],
+    columns: ['employee_name', 'employee_role', 'employment_type', 'status', 'monthly_pay', 'weekly_pay', 'daily_pay', 'notes'],
     editable: true,
     deletable: true,
     addable: true
   },
   {
-    name: 'unit_types',
-    label: 'Unit Types',
-    columns: ['type_name', 'description', 'max_capacity', 'day_rate', 'night_rate', 'hourly_rate'],
+    name: 'rental_units_pricing',
+    label: 'Rental Units & Pricing',
+    columns: ['unit_id', 'rental_type', 'maximum_capacity', 'day_rate', 'night_rate', '24hr_rate', 'early_ci_and_late_co_fee', 'notes'],
     editable: true,
     deletable: true,
     addable: true
   },
   {
-    name: 'products',
-    label: 'Products',
-    columns: ['product_code', 'product_name', 'unit_price', 'cost_price', 'current_stock', 'min_stock_level'],
+    name: 'inventory_items',
+    label: 'Inventory Items',
+    columns: ['sid', 'category', 'product_name', 'stock', 'size', 'units', 'price', 'min_level', 'supplier', 'barcode'],
     editable: true,
     deletable: true,
     addable: true
   },
   {
-    name: 'guests',
-    label: 'Guests',
-    columns: ['first_name', 'last_name', 'email', 'phone', 'id_number', 'address'],
+    name: 'expenses_2025',
+    label: 'Expenses 2025',
+    columns: ['receipt_number', 'date', 'amount', 'payment_method', 'vendor', 'category', 'project', 'notes', 'status', 'closed_by'],
     editable: true,
     deletable: true,
     addable: true
   },
   {
-    name: 'bookings',
-    label: 'Bookings',
-    columns: ['booking_number', 'guest_id', 'unit_id', 'check_in_date', 'check_out_date', 'total_amount', 'status'],
+    name: 'employee_salaries_2025',
+    label: 'Employee Salaries 2025',
+    columns: ['date', 'amount', 'name', 'notes', 'payment_type'],
     editable: true,
     deletable: true,
     addable: true
   },
   {
-    name: 'payments',
-    label: 'Payments',
-    columns: ['booking_id', 'amount', 'payment_method', 'payment_type', 'status', 'receipt_number'],
+    name: 'stakeholder_withdrawals_2025',
+    label: 'Stakeholder Withdrawals 2025',
+    columns: ['date', 'amount', 'stakeholder', 'notes'],
     editable: true,
     deletable: true,
     addable: true
   },
   {
-    name: 'transactions',
-    label: 'Transactions',
-    columns: ['transaction_type', 'transaction_date', 'amount', 'payment_method', 'vendor', 'notes'],
+    name: 'employee_advances',
+    label: 'Employee Advances',
+    columns: ['employee', 'product_or_cash_advance', 'amount', 'notes', 'totals'],
+    editable: true,
+    deletable: true,
+    addable: true
+  },
+  {
+    name: 'money_denominations',
+    label: 'Money Denominations',
+    columns: ['denomination', 'quantity', 'total_value'],
     editable: true,
     deletable: true,
     addable: true
@@ -104,18 +113,12 @@ export default function DataManagerPage() {
   const [newRowData, setNewRowData] = useState<TableRow>({})
   const [selectedRows, setSelectedRows] = useState<Set<string>>(new Set())
 
-  // Load data when table changes
-  useEffect(() => {
-    loadData()
-  }, [selectedTable.name])
-
-  const loadData = async () => {
+  const loadData = useCallback(async () => {
     setLoading(true)
     try {
       const { data: result, error } = await supabase
         .from(selectedTable.name)
         .select('*')
-        .order('created_at', { ascending: false })
         .limit(1000)
 
       if (error) throw error
@@ -126,7 +129,12 @@ export default function DataManagerPage() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [selectedTable.name])
+
+  // Load data when table changes
+  useEffect(() => {
+    loadData()
+  }, [loadData])
 
   // Filter and sort data
   const filteredAndSortedData = data
@@ -143,18 +151,19 @@ export default function DataManagerPage() {
     })
     .sort((a, b) => {
       if (!sortColumn) return 0
-      const aVal = a[sortColumn]
-      const bVal = b[sortColumn]
+      const aVal = String(a[sortColumn] || '')
+      const bVal = String(b[sortColumn] || '')
       if (sortDirection === 'asc') {
-        return aVal > bVal ? 1 : -1
+        return aVal.localeCompare(bVal)
       } else {
-        return aVal < bVal ? 1 : -1
+        return bVal.localeCompare(aVal)
       }
     })
 
   // Handle inline editing
   const startEditing = (row: TableRow) => {
-    setEditingRow(row.id || row.employee_id || row.product_code || row.booking_number || '')
+    // Use the id column as the primary key for editing
+    setEditingRow(String(row.id || ''))
     setEditingData({ ...row })
   }
 
@@ -162,10 +171,11 @@ export default function DataManagerPage() {
     if (!editingRow) return
 
     try {
+      const firstColumn = selectedTable.columns[0]
       const { error } = await supabase
         .from(selectedTable.name)
         .update(editingData)
-        .eq('id', editingRow)
+        .eq(firstColumn, editingRow)
 
       if (error) throw error
 
@@ -192,14 +202,15 @@ export default function DataManagerPage() {
     if (!confirm('Are you sure you want to delete this row?')) return
 
     try {
+      const firstColumn = selectedTable.columns[0]
       const { error } = await supabase
         .from(selectedTable.name)
         .delete()
-        .eq('id', row.id)
+        .eq(firstColumn, row[firstColumn])
 
       if (error) throw error
 
-      setData(data.filter(r => r.id !== row.id))
+      setData(data.filter(r => r[firstColumn] !== row[firstColumn]))
     } catch (error) {
       console.error('Error deleting:', error)
       alert('Error deleting row')
@@ -231,14 +242,15 @@ export default function DataManagerPage() {
     if (!confirm('Are you sure you want to delete ' + selectedRows.size + ' rows?')) return
 
     try {
+      const firstColumn = selectedTable.columns[0]
       const { error } = await supabase
         .from(selectedTable.name)
         .delete()
-        .in('id', Array.from(selectedRows))
+        .in(firstColumn, Array.from(selectedRows))
 
       if (error) throw error
 
-      setData(data.filter(row => !selectedRows.has(row.id)))
+      setData(data.filter(row => !selectedRows.has(String(row[firstColumn] || ''))))
       setSelectedRows(new Set())
     } catch (error) {
       console.error('Error bulk deleting:', error)
@@ -257,17 +269,19 @@ export default function DataManagerPage() {
   }
 
   const selectAllRows = () => {
+    const firstColumn = selectedTable.columns[0]
     if (selectedRows.size === filteredAndSortedData.length) {
       setSelectedRows(new Set())
     } else {
-      setSelectedRows(new Set(filteredAndSortedData.map(row => row.id)))
+      setSelectedRows(new Set(filteredAndSortedData.map(row => String(row[firstColumn] || '')).filter(id => id !== '')))
     }
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-lg shadow-lg p-6">
+    <ProtectedRoute requiredRole="manager">
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-lg shadow-lg p-6">
           <div className="flex justify-between items-center mb-6">
             <h1 className="text-3xl font-bold text-gray-900">Data Manager</h1>
             <div className="flex space-x-2">
@@ -400,7 +414,7 @@ export default function DataManagerPage() {
                     </label>
                     <input
                       type="text"
-                      value={newRowData[column] || ''}
+                      value={String(newRowData[column] || '')}
                       onChange={(e) => setNewRowData({ ...newRowData, [column]: e.target.value })}
                       className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
@@ -476,16 +490,17 @@ export default function DataManagerPage() {
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {filteredAndSortedData.map((row, index) => {
-                    const rowId = row.id || row.employee_id || row.product_code || row.booking_number || ''
+                    const firstColumn = selectedTable.columns[0]
+                    const rowId = String(row[firstColumn] || '')
                     const isEditing = editingRow === rowId
                     
                     return (
-                      <tr key={rowId || index} className="hover:bg-gray-50">
+                      <tr key={index} className="hover:bg-gray-50">
                         <td className="px-3 py-4">
                           <input
                             type="checkbox"
-                            checked={selectedRows.has(row.id)}
-                            onChange={() => toggleRowSelection(row.id)}
+                            checked={selectedRows.has(row.id || '')}
+                            onChange={() => toggleRowSelection(row.id || '')}
                             className="rounded border-gray-300"
                           />
                         </td>
@@ -494,7 +509,7 @@ export default function DataManagerPage() {
                             {isEditing ? (
                               <input
                                 type="text"
-                                value={editingData[column] || ''}
+                                value={String(editingData[column] || '')}
                                 onChange={(e) => setEditingData({ ...editingData, [column]: e.target.value })}
                                 className="w-full border border-gray-300 rounded px-2 py-1 text-sm"
                               />
@@ -557,5 +572,6 @@ export default function DataManagerPage() {
         </div>
       </div>
     </div>
+    </ProtectedRoute>
   )
-} 
+}

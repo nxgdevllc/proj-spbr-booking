@@ -1,16 +1,15 @@
 'use client'
 
-import { useState } from 'react'
+// Removed unused useState import
 
 export default function TemplatesPage() {
-  const [selectedTemplate, setSelectedTemplate] = useState<string>('')
 
   const templates = {
     guests: {
       filename: 'guests-template.csv',
       content: `First Name,Last Name,Email,Phone,ID Number,ID Type,Address,Nationality,Emergency Contact,Emergency Phone,Notes
 John,Doe,john.doe@email.com,+639123456789,123456789,Passport,123 Main St Manila,Philippines,Jane Doe,+639987654321,Regular guest
-Maria,Santos,maria.santos@email.com,+639234567890,987654321,Driver's License,456 Beach Rd Cebu,Philippines,Pedro Santos,+639876543210,Prefers ocean view
+Maria,Santos,maria.santos@email.com,+639234567890,987654321,Driver&apos;s License,456 Beach Rd Cebu,Philippines,Pedro Santos,+639876543210,Prefers ocean view
 `,
       description: 'Template for importing guest information including contact details, identification, and emergency contacts.'
     },
@@ -44,16 +43,7 @@ booking-004,1000.00,gcash,refund,GCASH987654321,RCV2024004,completed,Refund for 
 `,
       description: 'Template for importing payment information including methods, amounts, and reference numbers.'
     },
-    unit_types: {
-      filename: 'unit-types-template.csv',
-      content: `Name,Description,Base Price,Max Capacity,Amenities,Images
-Beachfront Cottage,Spacious cottage with direct beach access,5000.00,4,"WiFi,AC,Kitchen,Beach View","cottage1.jpg,cottage2.jpg"
-Standard Room,Comfortable room with basic amenities,3000.00,2,"WiFi,AC,TV","room1.jpg,room2.jpg"
-Luxury Villa,Premium villa with private pool,12000.00,6,"WiFi,AC,Kitchen,Pool,Beach View","villa1.jpg,villa2.jpg"
-Family Suite,Large suite perfect for families,8000.00,8,"WiFi,AC,Kitchen,Multiple Rooms","suite1.jpg,suite2.jpg"
-`,
-      description: 'Template for importing unit type information including pricing and amenities.'
-    },
+
     employees: {
       filename: 'employees-template.csv',
       content: `Employee Name,Employee Role,Employment Type,Status,Monthly Pay,Weekly Pay,Daily Pay,Notes
@@ -189,10 +179,10 @@ jay-r,balance 7/28,₱297,,₱1120
           <div className="mt-12 p-6 bg-blue-50 rounded-lg">
             <h3 className="text-lg font-semibold text-blue-800 mb-4">How to Use Templates</h3>
             <div className="space-y-2 text-sm text-blue-700">
-              <p><strong>1. Download Template:</strong> Click "Download Template" to get the CSV file</p>
+              <p><strong>1. Download Template:</strong> Click &quot;Download Template&quot; to get the CSV file</p>
               <p><strong>2. Open in Excel/Sheets:</strong> Open the CSV file in Excel or Google Sheets</p>
               <p><strong>3. Replace Sample Data:</strong> Replace the sample data with your actual data</p>
-              <p><strong>4. Keep Headers:</strong> Don't change the column headers (first row)</p>
+              <p><strong>4. Keep Headers:</strong> Don&apos;t change the column headers (first row)</p>
               <p><strong>5. Save as CSV:</strong> Save your file as CSV format</p>
               <p><strong>6. Import:</strong> Use the Data Import Tool to upload your CSV</p>
             </div>
@@ -206,7 +196,7 @@ jay-r,balance 7/28,₱297,,₱1120
               <p><strong>Phone Numbers:</strong> Include country code (e.g., +639123456789)</p>
               <p><strong>Required Fields:</strong> Make sure all required fields are filled</p>
               <p><strong>Special Characters:</strong> Avoid special characters in column headers</p>
-              <p><strong>Empty Values:</strong> Leave empty cells blank, don't use "N/A" or "None"</p>
+              <p><strong>Empty Values:</strong> Leave empty cells blank, don&apos;t use &quot;N/A&quot; or &quot;None&quot;</p>
             </div>
           </div>
 

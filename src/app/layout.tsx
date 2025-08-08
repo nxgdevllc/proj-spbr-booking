@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -9,9 +9,15 @@ export const metadata: Metadata = {
   description: 'Complete booking and management system for San Pedro Beach Resort in Opal, Philippines',
   keywords: 'resort, booking, management, Philippines, beach resort',
   authors: [{ name: 'San Pedro Beach Resort' }],
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
-  themeColor: '#0f172a',
   manifest: '/manifest.json',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  themeColor: '#0f172a',
 }
 
 export default function RootLayout({

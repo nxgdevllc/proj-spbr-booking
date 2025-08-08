@@ -11,14 +11,14 @@ export default function Home() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <h1 className="text-2xl font-bold text-gray-900">
-                  San Pedro Beach Resort
+                  SPBR
                 </h1>
-                <p className="text-sm text-gray-500">Management System</p>
+                <p className="text-sm text-gray-500">MGMT System</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Link
-                href="/auth/login"
+                href="/login"
                 className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
               >
                 Login
@@ -32,7 +32,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Welcome to San Pedro Beach Resort
+            San Pedro Beach Resort
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Complete booking and management system for our beautiful resort in Opal, Philippines. 
@@ -83,7 +83,7 @@ export default function Home() {
               Admin Dashboard
             </Link>
             <Link
-              href="/auth/login"
+              href="/login"
               className="bg-green-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-green-700 transition-colors"
             >
               Employee Login

@@ -1,37 +1,32 @@
 'use client'
 
 import { useState, useRef } from 'react'
+import ProtectedRoute from '@/components/ProtectedRoute'
 import { 
-  GoogleSheetsImporter, 
   CSVImporter, 
-  importGuests, 
-  importBookings, 
-  importUnits, 
-  importPayments,
   importEmployees,
-  importUnitTypes,
-  importProducts,
-  importExpenses,
-  importSalaries,
-  importWithdrawals,
-  importCashAdvances,
+  importRentalUnitsPricing,
+  importInventoryItems,
+  importExpenses2025,
+  importEmployeeSalaries2025,
+  importStakeholderWithdrawals2025,
+  importEmployeeAdvances,
+  importMoneyDenominations,
   ImportResult 
 } from '@/lib/data-import'
 
+// Define DataRow type locally since it's not exported from data-import
+interface DataRow {
+  [key: string]: string | number | boolean | null
+}
+
 export default function DataImportPage() {
-  const [importType, setImportType] = useState<'csv' | 'sheets'>('csv')
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [csvContent, setCsvContent] = useState('')
-  const [dataType, setDataType] = useState<'guests' | 'bookings' | 'units' | 'payments' | 'employees' | 'unit_types' | 'products' | 'expenses' | 'salaries' | 'withdrawals' | 'cash_advances'>('guests')
+  const [dataType, setDataType] = useState<'employees' | 'rental_units_pricing' | 'inventory_items' | 'expenses_2025' | 'employee_salaries_2025' | 'stakeholder_withdrawals_2025' | 'employee_advances' | 'money_denominations'>('employees')
   const [previewData, setPreviewData] = useState<DataRow[]>([])
   const [isImporting, setIsImporting] = useState(false)
   const [importResult, setImportResult] = useState<ImportResult | null>(null)
-  
-  // Google Sheets settings
-  const [sheetsApiKey, setSheetsApiKey] = useState('')
-  const [spreadsheetId, setSpreadsheetId] = useState('')
-  const [sheetName, setSheetName] = useState('')
-  const [availableSheets, setAvailableSheets] = useState<string[]>([])
   
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -72,40 +67,7 @@ export default function DataImportPage() {
     }
   }
 
-  // Connect to Google Sheets
-  const connectToSheets = async () => {
-    if (!sheetsApiKey || !spreadsheetId) {
-      alert('Please enter both API Key and Spreadsheet ID')
-      return
-    }
 
-    try {
-      const importer = new GoogleSheetsImporter(sheetsApiKey, spreadsheetId)
-      const sheets = await importer.getAllSheets()
-      setAvailableSheets(sheets)
-      if (sheets.length > 0) {
-        setSheetName(sheets[0])
-      }
-    } catch (error) {
-      alert(`Error connecting to Google Sheets: ${error}`)
-    }
-  }
-
-  // Load data from Google Sheets
-  const loadSheetsData = async () => {
-    if (!sheetsApiKey || !spreadsheetId || !sheetName) {
-      alert('Please configure Google Sheets settings')
-      return
-    }
-
-    try {
-      const importer = new GoogleSheetsImporter(sheetsApiKey, spreadsheetId)
-      const data = await importer.getSheetData(sheetName)
-      setPreviewData(data.slice(0, 5)) // Show first 5 rows
-    } catch (error) {
-      alert(`Error loading sheet data: ${error}`)
-    }
-  }
 
   // Import data to database
   const handleImport = async () => {
@@ -118,50 +80,34 @@ export default function DataImportPage() {
     setImportResult(null)
 
     try {
-      let data: DataRow[] = []
-
-      if (importType === 'csv') {
-        data = CSVImporter.parseCSV(csvContent)
-      } else {
-        const importer = new GoogleSheetsImporter(sheetsApiKey, spreadsheetId)
-        data = await importer.getSheetData(sheetName)
-      }
+      const data = CSVImporter.parseCSV(csvContent)
 
       let result: ImportResult
 
       switch (dataType) {
-        case 'guests':
-          result = await importGuests(data)
-          break
-        case 'bookings':
-          result = await importBookings(data)
-          break
-        case 'units':
-          result = await importUnits(data)
-          break
-        case 'payments':
-          result = await importPayments(data)
-          break
         case 'employees':
           result = await importEmployees(data)
           break
-        case 'unit_types':
-          result = await importUnitTypes(data)
+        case 'rental_units_pricing':
+          result = await importRentalUnitsPricing(data)
           break
-        case 'products':
-          result = await importProducts(data)
+        case 'inventory_items':
+          result = await importInventoryItems(data)
           break
-        case 'expenses':
-          result = await importExpenses(data)
+        case 'expenses_2025':
+          result = await importExpenses2025(data)
           break
-        case 'salaries':
-          result = await importSalaries(data)
+        case 'employee_salaries_2025':
+          result = await importEmployeeSalaries2025(data)
           break
-        case 'withdrawals':
-          result = await importWithdrawals(data)
+        case 'stakeholder_withdrawals_2025':
+          result = await importStakeholderWithdrawals2025(data)
           break
-        case 'cash_advances':
-          result = await importCashAdvances(data)
+        case 'employee_advances':
+          result = await importEmployeeAdvances(data)
+          break
+        case 'money_denominations':
+          result = await importMoneyDenominations(data)
           break
         default:
           throw new Error('Invalid data type')
@@ -196,56 +142,29 @@ export default function DataImportPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-lg shadow-lg p-6">
+    <ProtectedRoute requiredRole="admin">
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-lg shadow-lg p-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-8">
             Data Import Tool
           </h1>
 
-          {/* Import Type Selection */}
-          <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-800 mb-4">Import Source</h2>
-            <div className="flex space-x-4">
-              <button
-                onClick={() => setImportType('csv')}
-                className={`px-4 py-2 rounded-lg font-medium ${
-                  importType === 'csv'
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                }`}
-              >
-                CSV File
-              </button>
-              <button
-                onClick={() => setImportType('sheets')}
-                className={`px-4 py-2 rounded-lg font-medium ${
-                  importType === 'sheets'
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                }`}
-              >
-                Google Sheets
-              </button>
-            </div>
-          </div>
+
 
           {/* Data Type Selection */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Data Type</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {[
-                { key: 'guests', label: 'Guests' },
-                { key: 'bookings', label: 'Bookings' },
-                { key: 'units', label: 'Units' },
-                { key: 'payments', label: 'Payments' },
                 { key: 'employees', label: 'Employees' },
-                { key: 'unit_types', label: 'Unit Types' },
-                { key: 'products', label: 'Products' },
-                { key: 'expenses', label: 'Expenses' },
-                { key: 'salaries', label: 'Salaries' },
-                { key: 'withdrawals', label: 'Withdrawals' },
-                { key: 'cash_advances', label: 'Cash Advances' }
+                { key: 'rental_units_pricing', label: 'Rental Units & Pricing' },
+                { key: 'inventory_items', label: 'Inventory Items' },
+                { key: 'expenses_2025', label: 'Expenses 2025' },
+                { key: 'employee_salaries_2025', label: 'Employee Salaries 2025' },
+                { key: 'stakeholder_withdrawals_2025', label: 'Stakeholder Withdrawals 2025' },
+                { key: 'employee_advances', label: 'Employee Advances' },
+                { key: 'money_denominations', label: 'Money Denominations' }
               ].map((type) => (
                 <button
                   key={type.key}
@@ -263,106 +182,39 @@ export default function DataImportPage() {
           </div>
 
           {/* CSV Import Section */}
-          {importType === 'csv' && (
-            <div className="mb-8">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">CSV Import</h2>
-              
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Upload CSV File
-                  </label>
-                  <input
-                    ref={fileInputRef}
-                    type="file"
-                    accept=".csv"
-                    onChange={handleFileSelect}
-                    className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
-                  />
-                </div>
+          <div className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-800 mb-4">CSV Import</h2>
+            
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Upload CSV File
+                </label>
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept=".csv"
+                  onChange={handleFileSelect}
+                  className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+                />
+              </div>
 
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Or Paste CSV Content
-                  </label>
-                  <textarea
-                    value={csvContent}
-                    onChange={handleCsvContentChange}
-                    placeholder="Paste your CSV content here..."
-                    rows={8}
-                    className="block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  />
-                </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Or Paste CSV Content
+                </label>
+                <textarea
+                  value={csvContent}
+                  onChange={handleCsvContentChange}
+                  placeholder="Paste your CSV content here..."
+                  rows={8}
+                  className="block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                />
               </div>
             </div>
-          )}
+          </div>
 
-          {/* Google Sheets Import Section */}
-          {importType === 'sheets' && (
-            <div className="mb-8">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Google Sheets Import</h2>
-              
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Google Sheets API Key
-                  </label>
-                  <input
-                    type="password"
-                    value={sheetsApiKey}
-                    onChange={(e) => setSheetsApiKey(e.target.value)}
-                    placeholder="Enter your Google Sheets API key"
-                    className="block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  />
-                </div>
 
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Spreadsheet ID
-                  </label>
-                  <input
-                    type="text"
-                    value={spreadsheetId}
-                    onChange={(e) => setSpreadsheetId(e.target.value)}
-                    placeholder="Enter spreadsheet ID from URL"
-                    className="block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  />
-                </div>
-
-                <div className="flex space-x-4">
-                  <button
-                    onClick={connectToSheets}
-                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-                  >
-                    Connect to Sheets
-                  </button>
-                  
-                  {availableSheets.length > 0 && (
-                    <select
-                      value={sheetName}
-                      onChange={(e) => setSheetName(e.target.value)}
-                      className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    >
-                      {availableSheets.map((sheet) => (
-                        <option key={sheet} value={sheet}>
-                          {sheet}
-                        </option>
-                      ))}
-                    </select>
-                  )}
-                </div>
-
-                {availableSheets.length > 0 && (
-                  <button
-                    onClick={loadSheetsData}
-                    className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
-                  >
-                    Load Sheet Data
-                  </button>
-                )}
-              </div>
-            </div>
-          )}
 
           {/* Data Preview */}
           {previewData.length > 0 && (
@@ -464,12 +316,12 @@ export default function DataImportPage() {
               <p><strong>Salaries:</strong> Date, Amount, Name, Payment Type, Notes, etc.</p>
               <p><strong>Withdrawals:</strong> Date, Amount, Stakeholder, Notes, etc.</p>
               <p><strong>Cash Advances:</strong> Employee, Product/Cash Advance, Amount, Notes, etc.</p>
-              <p><strong>Google Sheets:</strong> Make sure your sheet has headers in the first row.</p>
               <p><strong>CSV:</strong> Use comma-separated values with headers in the first row.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </ProtectedRoute>
   )
-} 
+}

@@ -1,5 +1,4 @@
 import { supabase } from './supabase'
-import { Database } from './supabase'
 
 // Types for data import
 export interface ImportResult {
@@ -9,71 +8,11 @@ export interface ImportResult {
   errors: string[]
 }
 
-export interface SheetMapping {
-  sheetName: string
-  tableName: keyof Database['public']['Tables']
-  columnMapping: Record<string, string>
-  requiredFields: string[]
-  optionalFields: string[]
-}
-
 interface DataRow {
   [key: string]: string | number | boolean | null
 }
 
-// Google Sheets API integration
-export class GoogleSheetsImporter {
-  private apiKey: string
-  private spreadsheetId: string
-
-  constructor(apiKey: string, spreadsheetId: string) {
-    this.apiKey = apiKey
-    this.spreadsheetId = spreadsheetId
-  }
-
-  async getSheetData(sheetName: string): Promise<DataRow[]> {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${this.spreadsheetId}/values/${sheetName}?key=${this.apiKey}`
-    
-    try {
-      const response = await fetch(url)
-      const data = await response.json()
-      
-      if (!data.values || data.values.length < 2) {
-        throw new Error('No data found in sheet')
-      }
-
-      const headers = data.values[0]
-      const rows = data.values.slice(1)
-      
-      return rows.map(row => {
-        const obj: DataRow = {}
-        headers.forEach((header: string, index: number) => {
-          obj[header.trim()] = row[index] || null
-        })
-        return obj
-      })
-    } catch (error) {
-      console.error('Error fetching sheet data:', error)
-      throw error
-    }
-  }
-
-  async getAllSheets(): Promise<string[]> {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${this.spreadsheetId}?key=${this.apiKey}`
-    
-    try {
-      const response = await fetch(url)
-      const data = await response.json()
-      
-      return data.sheets.map((sheet: { properties: { title: string } }) => sheet.properties.title)
-    } catch (error) {
-      console.error('Error fetching sheet names:', error)
-      throw error
-    }
-  }
-}
-
-// CSV Import functionality
+// Simple CSV parser
 export class CSVImporter {
   static parseCSV(csvContent: string): DataRow[] {
     const lines = csvContent.split('\n')
@@ -95,305 +34,49 @@ export class CSVImporter {
   }
 }
 
-// Data transformation and validation
+// Simple data transformer
 export class DataTransformer {
-  static transformGuestData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      first_name: row['First Name'] || row['firstName'] || row['first_name'] || '',
-      last_name: row['Last Name'] || row['lastName'] || row['last_name'] || '',
-      email: row['Email'] || row['email'] || null,
-      phone: row['Phone'] || row['phone'] || row['Phone Number'] || '',
-      id_number: row['ID Number'] || row['idNumber'] || row['id_number'] || null,
-      id_type: row['ID Type'] || row['idType'] || row['id_type'] || null,
-      address: row['Address'] || row['address'] || null,
-      nationality: row['Nationality'] || row['nationality'] || null,
-      emergency_contact_name: row['Emergency Contact'] || row['emergencyContact'] || row['emergency_contact_name'] || null,
-      emergency_contact_phone: row['Emergency Phone'] || row['emergencyPhone'] || row['emergency_contact_phone'] || null,
-      notes: row['Notes'] || row['notes'] || null
-    }))
-  }
-
-  static transformBookingData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      booking_number: row['Booking Number'] || row['bookingNumber'] || row['booking_number'] || generateBookingNumber(),
-      guest_id: row['Guest ID'] || row['guestId'] || row['guest_id'] || null,
-      unit_id: row['Unit ID'] || row['unitId'] || row['unit_id'] || null,
-      check_in_date: parseDate(row['Check In'] || row['checkIn'] || row['check_in_date']),
-      check_out_date: parseDate(row['Check Out'] || row['checkOut'] || row['check_out_date']),
-      number_of_guests: parseInt(row['Guests'] || row['guests'] || row['number_of_guests'] || '1'),
-      total_amount: parseFloat(row['Total Amount'] || row['totalAmount'] || row['total_amount'] || '0'),
-      deposit_amount: parseFloat(row['Deposit'] || row['deposit'] || row['deposit_amount'] || '0'),
-      status: mapBookingStatus(row['Status'] || row['status'] || 'pending'),
-      special_requests: row['Special Requests'] || row['specialRequests'] || row['special_requests'] || null
-    }))
-  }
-
-  static transformUnitData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      unit_number: row['Unit Number'] || row['unitNumber'] || row['unit_number'] || '',
-      unit_type_id: row['Unit Type ID'] || row['unitTypeId'] || row['unit_type_id'] || null,
-      status: mapUnitStatus(row['Status'] || row['status'] || 'available'),
-      last_maintenance: parseDate(row['Last Maintenance'] || row['lastMaintenance'] || row['last_maintenance']),
-      notes: row['Notes'] || row['notes'] || null
-    }))
-  }
-
-  static transformPaymentData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      booking_id: row['Booking ID'] || row['bookingId'] || row['booking_id'] || null,
-      amount: parseFloat(row['Amount'] || row['amount'] || '0'),
-      payment_method: mapPaymentMethod(row['Payment Method'] || row['paymentMethod'] || row['payment_method'] || 'cash'),
-      payment_type: mapPaymentType(row['Payment Type'] || row['paymentType'] || row['payment_type'] || 'full_payment'),
-      reference_number: row['Reference'] || row['reference'] || row['reference_number'] || null,
-      receipt_number: row['Receipt Number'] || row['receiptNumber'] || row['receipt_number'] || generateReceiptNumber(),
-      status: mapPaymentStatus(row['Status'] || row['status'] || 'completed'),
-      notes: row['Notes'] || row['notes'] || null
-    }))
-  }
-
   static transformEmployeeData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
-      employee_id: row['Employee ID'] || row['employeeId'] || row['employee_id'] || generateEmployeeId(),
-      position: row['Position'] || row['position'] || row['Job Title'] || row['jobTitle'] || row['Employee Role'] || '',
-      hire_date: parseDate(row['Hire Date'] || row['hireDate'] || row['hire_date'] || row['Start Date'] || row['startDate']),
-      base_salary: parseSalary(row['Base Salary'] || row['baseSalary'] || row['base_salary'] || row['Salary'] || row['salary'] || row['Monthly Pay'] || '0'),
-      is_active: mapBoolean(row['Is Active'] || row['isActive'] || row['is_active'] || row['Active'] || row['active'] || row['Status'] || 'true'),
-      emergency_contact: row['Emergency Contact'] || row['emergencyContact'] || row['emergency_contact'] || row['Emergency Contact Name'] || null,
-      emergency_phone: row['Emergency Phone'] || row['emergencyPhone'] || row['emergency_phone'] || row['Emergency Contact Phone'] || null
+      employee_name: String(row['Employee Name'] || ''),
+      employee_role: String(row['Employee Role'] || ''),
+      employment_type: String(row['Employment Type'] || 'Full-Time'),
+      status: String(row['Status'] || 'Active'),
+      monthly_pay: parseFloat(String(row['Monthly Pay'] || '0').replace(/[₱$,]/g, '')),
+      weekly_pay: parseFloat(String(row['Weekly Pay'] || '0').replace(/[₱$,]/g, '')),
+      daily_pay: parseFloat(String(row['Daily Pay'] || '0').replace(/[₱$,]/g, '')),
+      notes: String(row['Notes'] || '')
     }))
   }
 
   static transformUnitTypeData(rawData: DataRow[]): DataRow[] {
     return rawData.map(row => ({
-      type_name: row['Unit ID'] || row['Rental Type'] || row['Type Name'] || row['typeName'] || '',
-      description: row['Notes'] || row['notes'] || row['Description'] || row['description'] || null,
-      max_capacity: parseInt(row['Maximum Capacity'] || row['maxCapacity'] || row['max_capacity'] || '1'),
-      day_rate: parseSalary(row['Day Rate'] || row['dayRate'] || row['day_rate'] || '0'),
-      night_rate: parseSalary(row['Night Rate'] || row['nightRate'] || row['night_rate'] || '0'),
-      hourly_rate: parseSalary(row['24-Hr Rate'] || row['hourlyRate'] || row['hourly_rate'] || '0'),
-      check_in_time_day: row['CI Day Time'] || row['checkInTimeDay'] || row['check_in_time_day'] || '7:00 AM',
-      check_out_time_day: row['CO Day Time'] || row['checkOutTimeDay'] || row['check_out_time_day'] || '5:00 PM',
-      check_in_time_night: row['CI Night Time'] || row['checkInTimeNight'] || row['check_in_time_night'] || '6:00 PM',
-      check_out_time_night: row['CO Night Time'] || row['checkOutTimeNight'] || row['check_out_time_night'] || '6:00 AM',
-      early_check_in_fee: parseSalary(row['Early CI and Late CO fee'] || row['earlyCheckInFee'] || row['early_check_in_fee'] || '0'),
-      early_check_in_fee_percentage: parseFloat(row['Early CI and Late CO fee percentage'] || row['earlyCheckInFeePercentage'] || row['early_check_in_fee_percentage'] || '0')
-    }))
-  }
-
-  static transformProductData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      product_code: row['SID'] || row['Product Code'] || row['productCode'] || row['product_code'] || generateProductCode(),
-      product_name: row['Product Name'] || row['productName'] || row['product_name'] || '',
-      category_id: null, // Will be created/linked based on Category
-      description: row['Notes'] || row['notes'] || row['Description'] || row['description'] || null,
-      unit_price: parseSalary(row['Price'] || row['price'] || row['unitPrice'] || row['unit_price'] || '0'),
-      cost_price: parseSalary(row['re-stock Price'] || row['restockPrice'] || row['cost_price'] || '0'),
-      current_stock: parseInt(row['Stock'] || row['stock'] || row['currentStock'] || row['current_stock'] || '0'),
-      min_stock_level: parseInt(row['Min Level'] || row['minLevel'] || row['min_stock_level'] || '0'),
-      reorder_quantity: parseInt(row['re-stock Quantity'] || row['reorderQuantity'] || row['reorder_quantity'] || '0'),
-      supplier_id: null, // Will be created/linked based on Supplier
-      barcode: row['Barcode/QR2-Data'] || row['barcode'] || row['Barcode'] || null,
-      barcode_type: row['Barcode/QR2-Type'] || row['barcodeType'] || row['barcode_type'] || null,
-      size: row['Size'] || row['size'] || null,
-      unit: row['Units'] || row['unit'] || row['Units'] || null,
-      is_active: true
-    }))
-  }
-
-  static transformExpenseData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      receipt_number: row['Receipt Number'] || row['receiptNumber'] || row['receipt_number'] || generateReceiptNumber(),
-      expense_date: parseDate(row['Date'] || row['date'] || row['expenseDate'] || row['expense_date']),
-      amount: parseSalary(row['Amount'] || row['amount'] || '0'),
-      payment_method: mapPaymentMethod(row['Payment Method'] || row['paymentMethod'] || row['payment_method'] || 'cash'),
-      vendor: row['Vendor'] || row['vendor'] || row['Supplier'] || row['supplier'] || '',
-      category_id: null, // Will be created/linked based on Category
-      project: row['Project'] || row['project'] || null,
-      notes: row['Notes'] || row['notes'] || null,
-      status: mapExpenseStatus(row['Status'] || row['status'] || 'closed'),
-      closed_by: row['Closed By'] || row['closedBy'] || row['closed_by'] || null
-    }))
-  }
-
-  static transformSalaryData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      payment_date: parseDate(row['Date'] || row['date'] || row['paymentDate'] || row['payment_date']),
-      amount: parseSalary(row['Amount'] || row['amount'] || '0'),
-      employee_id: null, // Will be linked based on Name
-      payment_type: mapSalaryPaymentType(row['Payment Type'] || row['paymentType'] || row['payment_type'] || 'salary'),
-      notes: row['Notes'] || row['notes'] || null
-    }))
-  }
-
-  static transformWithdrawalData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      withdrawal_date: parseDate(row['date'] || row['Date'] || row['withdrawalDate'] || row['withdrawal_date']),
-      amount: parseSalary(row['amount'] || row['Amount'] || '0'),
-      stakeholder_name: row['stakeholder'] || row['Stakeholder'] || row['stakeholderName'] || row['stakeholder_name'] || '',
-      notes: row['notes'] || row['Notes'] || null
-    }))
-  }
-
-  static transformCashAdvanceData(rawData: DataRow[]): DataRow[] {
-    return rawData.map(row => ({
-      employee_id: null, // Will be linked based on employee name
-      advance_type: row['product or cash advance'] || row['advanceType'] || row['advance_type'] || 'cash',
-      amount: parseSalary(row['amount'] || row['Amount'] || '0'),
-      notes: row['notes'] || row['Notes'] || null,
-      total_amount: parseSalary(row['totals'] || row['totalAmount'] || row['total_amount'] || '0')
+      unit_id: String(row['Unit ID'] || ''),
+      rental_type: String(row['Rental Type'] || ''),
+      maximum_capacity: parseInt(String(row['Maximum Capacity'] || '1')),
+      day_rate: parseFloat(String(row['Day Rate'] || '0').replace(/[₱$,]/g, '')),
+      ci_day_time: String(row['CI Day Time'] || '7:00 AM'),
+      co_day_time: String(row['CO Day Time'] || '5:00 PM'),
+      night_rate: parseFloat(String(row['Night Rate'] || '0').replace(/[₱$,]/g, '')),
+      ci_night_time: String(row['CI Night Time'] || '6:00 PM'),
+      co_night_time: String(row['CO Night Time'] || '6:00 AM'),
+      hourly_rate: parseFloat(String(row['24-Hr Rate'] || '0').replace(/[₱$,]/g, '')),
+      ci_24hr_time: String(row['CI 24-HR Time'] || '7:00 AM'),
+      co_24hr_time: String(row['CO 24-HR Time'] || '6:00 AM'),
+      early_ci_late_co_fee: parseFloat(String(row['Early CI and Late CO fee'] || '0').replace(/[₱$,]/g, '')),
+      early_ci_time_day: String(row['Early CI Time Day If unit not used prior night'] || '3:00 AM'),
+      early_ci_time_night: String(row['Early CI Time Night If unit not used during day'] || '4:00 PM'),
+      early_ci_time_24hr: String(row['Early CI Time 24HR If unit not used prior booking'] || '3:00 AM'),
+      late_co_time_day: String(row['Late CO Time Day If Available'] || '7:00 PM'),
+      late_co_time_night: String(row['Late CO Time Night If Available'] || '9:00 AM'),
+      late_co_time_24hr: String(row['Late CO Time 24-HR If Available'] || '9:00 AM'),
+      early_ci_late_co_fee_percentage: parseFloat(String(row['Early CI and Late CO fee percentage'] || '0')),
+      notes: String(row['Notes'] || '')
     }))
   }
 }
 
-// Data import functions
-export async function importGuests(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
-  try {
-    const transformedData = DataTransformer.transformGuestData(data)
-    
-    for (const guest of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('guests')
-          .insert(guest)
-        
-        if (error) {
-          result.errors.push(`Guest ${guest.first_name} ${guest.last_name}: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Guest ${guest.first_name} ${guest.last_name}: ${error}`)
-      }
-    }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} guests successfully`
-    
-  } catch (error) {
-    result.message = `Import failed: ${error}`
-  }
-
-  return result
-}
-
-export async function importBookings(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
-  try {
-    const transformedData = DataTransformer.transformBookingData(data)
-    
-    for (const booking of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('bookings')
-          .insert(booking)
-        
-        if (error) {
-          result.errors.push(`Booking ${booking.booking_number}: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Booking ${booking.booking_number}: ${error}`)
-      }
-    }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} bookings successfully`
-    
-  } catch (error) {
-    result.message = `Import failed: ${error}`
-  }
-
-  return result
-}
-
-export async function importUnits(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
-  try {
-    const transformedData = DataTransformer.transformUnitData(data)
-    
-    for (const unit of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('units')
-          .insert(unit)
-        
-        if (error) {
-          result.errors.push(`Unit ${unit.unit_number}: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Unit ${unit.unit_number}: ${error}`)
-      }
-    }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} units successfully`
-    
-  } catch (error) {
-    result.message = `Import failed: ${error}`
-  }
-
-  return result
-}
-
-export async function importPayments(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
-  try {
-    const transformedData = DataTransformer.transformPaymentData(data)
-    
-    for (const payment of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('payments')
-          .insert(payment)
-        
-        if (error) {
-          result.errors.push(`Payment ${payment.receipt_number}: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Payment ${payment.receipt_number}: ${error}`)
-      }
-    }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} payments successfully`
-    
-  } catch (error) {
-    result.message = `Import failed: ${error}`
-  }
-
-  return result
-}
-
+// Import functions
 export async function importEmployees(data: DataRow[]): Promise<ImportResult> {
   const result: ImportResult = {
     success: false,
@@ -412,12 +95,12 @@ export async function importEmployees(data: DataRow[]): Promise<ImportResult> {
           .insert(employee)
         
         if (error) {
-          result.errors.push(`Employee ${employee.employee_id}: ${error.message}`)
+          result.errors.push(`Employee ${employee.employee_name}: ${error.message}`)
         } else {
           result.importedCount++
         }
       } catch (error) {
-        result.errors.push(`Employee ${employee.employee_id}: ${error}`)
+        result.errors.push(`Employee ${employee.employee_name}: ${error}`)
       }
     }
 
@@ -449,12 +132,12 @@ export async function importUnitTypes(data: DataRow[]): Promise<ImportResult> {
           .insert(unitType)
         
         if (error) {
-          result.errors.push(`Unit Type ${unitType.type_name}: ${error.message}`)
+          result.errors.push(`Unit Type ${unitType.unit_id}: ${error.message}`)
         } else {
           result.importedCount++
         }
       } catch (error) {
-        result.errors.push(`Unit Type ${unitType.type_name}: ${error}`)
+        result.errors.push(`Unit Type ${unitType.unit_id}: ${error}`)
       }
     }
 
@@ -468,322 +151,259 @@ export async function importUnitTypes(data: DataRow[]): Promise<ImportResult> {
   return result
 }
 
-export async function importProducts(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
+// Import functions for actual schema
+export async function importRentalUnitsPricing(data: DataRow[]): Promise<ImportResult> {
   try {
-    const transformedData = DataTransformer.transformProductData(data)
-    
-    for (const product of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('products')
-          .insert(product)
-        
-        if (error) {
-          result.errors.push(`Product ${product.product_name}: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Product ${product.product_name}: ${error}`)
-      }
+    const transformedData = data.map(row => ({
+      unit_id: String(row['unit_id'] || ''),
+      rental_type: String(row['rental_type'] || ''),
+      maximum_capacity: row['maximum_capacity'] ? parseFloat(String(row['maximum_capacity'])) : null,
+      day_rate: String(row['day_rate'] || ''),
+      ci_day_time: String(row['ci_day_time'] || ''),
+      co_day_time: String(row['co_day_time'] || ''),
+      night_rate: String(row['night_rate'] || ''),
+      ci_night_time: String(row['ci_night_time'] || ''),
+      co_night_time: String(row['co_night_time'] || ''),
+      '24hr_rate': String(row['24hr_rate'] || ''),
+      ci_24hr_time: String(row['ci_24hr_time'] || ''),
+      co_24hr_time: String(row['co_24hr_time'] || ''),
+      early_ci_and_late_co_fee: String(row['early_ci_and_late_co_fee'] || ''),
+      early_ci_time_day_if_unit_not_used_prior_night: String(row['early_ci_time_day_if_unit_not_used_prior_night'] || ''),
+      early_ci_time_night_if_unit_not_used_during_day: String(row['early_ci_time_night_if_unit_not_used_during_day'] || ''),
+      early_ci_time_24hr_if_unit_not_used_prior_booking: String(row['early_ci_time_24hr_if_unit_not_used_prior_booking'] || ''),
+      late_co_time_day_if_available: String(row['late_co_time_day_if_available'] || ''),
+      late_co_time_night_if_available: String(row['late_co_time_night_if_available'] || ''),
+      late_co_time_24hr_if_available: String(row['late_co_time_24hr_if_available'] || ''),
+      early_ci_and_late_co_fee_percentage: String(row['early_ci_and_late_co_fee_percentage'] || ''),
+      notes: String(row['notes'] || '')
+    }))
+
+    const { error } = await supabase
+      .from('rental_units_pricing')
+      .upsert(transformedData, { onConflict: 'unit_id' })
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} rental units`,
+      importedCount: transformedData.length,
+      errors: []
     }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} products successfully`
-    
   } catch (error) {
-    result.message = `Import failed: ${error}`
+    console.error('Error importing rental units:', error)
+    return {
+      success: false,
+      message: 'Failed to import rental units',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-
-  return result
 }
 
-export async function importExpenses(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
+export async function importInventoryItems(data: DataRow[]): Promise<ImportResult> {
   try {
-    const transformedData = DataTransformer.transformExpenseData(data)
-    
-    for (const expense of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('transactions')
-          .insert({
-            ...expense,
-            transaction_type: 'expense',
-            transaction_date: expense.expense_date
-          })
-        
-        if (error) {
-          result.errors.push(`Expense ${expense.receipt_number}: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Expense ${expense.receipt_number}: ${error}`)
-      }
+    const transformedData = data.map(row => ({
+      sid: String(row['sid'] || ''),
+      category: String(row['category'] || ''),
+      product_name: String(row['product_name'] || ''),
+      stock: row['stock'] ? parseFloat(String(row['stock'])) : 0,
+      size: String(row['size'] || ''),
+      units: String(row['units'] || ''),
+      price: row['price'] ? parseFloat(String(row['price'])) : 0,
+      min_level: row['min_level'] ? parseFloat(String(row['min_level'])) : 0,
+      supplier: String(row['supplier'] || ''),
+      barcode: String(row['barcode'] || '')
+    }))
+
+    const { error } = await supabase
+      .from('inventory_items')
+      .upsert(transformedData, { onConflict: 'sid' })
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} inventory items`,
+      importedCount: transformedData.length,
+      errors: []
     }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} expenses successfully`
-    
   } catch (error) {
-    result.message = `Import failed: ${error}`
+    console.error('Error importing inventory items:', error)
+    return {
+      success: false,
+      message: 'Failed to import inventory items',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-
-  return result
 }
 
-export async function importSalaries(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
+export async function importExpenses2025(data: DataRow[]): Promise<ImportResult> {
   try {
-    const transformedData = DataTransformer.transformSalaryData(data)
-    
-    for (const salary of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('transactions')
-          .insert({
-            ...salary,
-            transaction_type: 'salary',
-            transaction_date: salary.payment_date
-          })
-        
-        if (error) {
-          result.errors.push(`Salary payment: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Salary payment: ${error}`)
-      }
+    const transformedData = data.map(row => ({
+      receipt_number: row['receipt_number'] ? parseFloat(String(row['receipt_number'])) : null,
+      date: String(row['date'] || ''),
+      amount: String(row['amount'] || ''),
+      payment_method: String(row['payment_method'] || ''),
+      vendor: String(row['vendor'] || ''),
+      category: String(row['category'] || ''),
+      project: String(row['project'] || ''),
+      notes: String(row['notes'] || ''),
+      status: String(row['status'] || ''),
+      closed_by: String(row['closed_by'] || '')
+    }))
+
+    const { error } = await supabase
+      .from('expenses_2025')
+      .insert(transformedData)
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} expenses`,
+      importedCount: transformedData.length,
+      errors: []
     }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} salary payments successfully`
-    
   } catch (error) {
-    result.message = `Import failed: ${error}`
+    console.error('Error importing expenses:', error)
+    return {
+      success: false,
+      message: 'Failed to import expenses',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-
-  return result
 }
 
-export async function importWithdrawals(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
+export async function importEmployeeSalaries2025(data: DataRow[]): Promise<ImportResult> {
   try {
-    const transformedData = DataTransformer.transformWithdrawalData(data)
-    
-    for (const withdrawal of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('transactions')
-          .insert({
-            ...withdrawal,
-            transaction_type: 'withdrawal',
-            transaction_date: withdrawal.withdrawal_date
-          })
-        
-        if (error) {
-          result.errors.push(`Withdrawal: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Withdrawal: ${error}`)
-      }
+    const transformedData = data.map(row => ({
+      date: String(row['date'] || ''),
+      amount: row['amount'] ? parseFloat(String(row['amount'])) : 0,
+      name: String(row['name'] || ''),
+      notes: String(row['notes'] || ''),
+      payment_type: String(row['payment_type'] || '')
+    }))
+
+    const { error } = await supabase
+      .from('employee_salaries_2025')
+      .insert(transformedData)
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} salary records`,
+      importedCount: transformedData.length,
+      errors: []
     }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} withdrawals successfully`
-    
   } catch (error) {
-    result.message = `Import failed: ${error}`
+    console.error('Error importing salaries:', error)
+    return {
+      success: false,
+      message: 'Failed to import salaries',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-
-  return result
 }
 
-export async function importCashAdvances(data: DataRow[]): Promise<ImportResult> {
-  const result: ImportResult = {
-    success: false,
-    message: '',
-    importedCount: 0,
-    errors: []
-  }
-
+export async function importStakeholderWithdrawals2025(data: DataRow[]): Promise<ImportResult> {
   try {
-    const transformedData = DataTransformer.transformCashAdvanceData(data)
-    
-    for (const advance of transformedData) {
-      try {
-        const { error } = await supabase
-          .from('transactions')
-          .insert({
-            ...advance,
-            transaction_type: 'cash_advance',
-            transaction_date: new Date().toISOString().split('T')[0]
-          })
-        
-        if (error) {
-          result.errors.push(`Cash advance: ${error.message}`)
-        } else {
-          result.importedCount++
-        }
-      } catch (error) {
-        result.errors.push(`Cash advance: ${error}`)
-      }
+    const transformedData = data.map(row => ({
+      date: String(row['date'] || ''),
+      amount: row['amount'] ? parseFloat(String(row['amount'])) : 0,
+      stakeholder: String(row['stakeholder'] || ''),
+      notes: String(row['notes'] || '')
+    }))
+
+    const { error } = await supabase
+      .from('stakeholder_withdrawals_2025')
+      .insert(transformedData)
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} withdrawal records`,
+      importedCount: transformedData.length,
+      errors: []
     }
-
-    result.success = result.errors.length === 0
-    result.message = `Imported ${result.importedCount} cash advances successfully`
-    
   } catch (error) {
-    result.message = `Import failed: ${error}`
+    console.error('Error importing withdrawals:', error)
+    return {
+      success: false,
+      message: 'Failed to import withdrawals',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-
-  return result
 }
 
-// Utility functions
-function parseDate(dateString: string | null): string | null {
-  if (!dateString) return null
-  
-  // Handle various date formats
-  const date = new Date(dateString)
-  if (isNaN(date.getTime())) return null
-  
-  return date.toISOString().split('T')[0]
-}
+export async function importEmployeeAdvances(data: DataRow[]): Promise<ImportResult> {
+  try {
+    const transformedData = data.map(row => ({
+      employee: String(row['employee'] || ''),
+      product_or_cash_advance: String(row['product_or_cash_advance'] || ''),
+      amount: row['amount'] ? parseFloat(String(row['amount'])) : 0,
+      notes: String(row['notes'] || ''),
+      totals: row['totals'] ? parseFloat(String(row['totals'])) : 0
+    }))
 
-function mapBookingStatus(status: string): string {
-  const statusMap: Record<string, string> = {
-    'pending': 'pending',
-    'confirmed': 'confirmed',
-    'checked in': 'checked_in',
-    'checked out': 'checked_out',
-    'cancelled': 'cancelled',
-    'no show': 'no_show'
+    const { error } = await supabase
+      .from('employee_advances')
+      .insert(transformedData)
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} advance records`,
+      importedCount: transformedData.length,
+      errors: []
+    }
+  } catch (error) {
+    console.error('Error importing advances:', error)
+    return {
+      success: false,
+      message: 'Failed to import advances',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-  return statusMap[status.toLowerCase()] || 'pending'
 }
 
-function mapUnitStatus(status: string): string {
-  const statusMap: Record<string, string> = {
-    'available': 'available',
-    'occupied': 'occupied',
-    'maintenance': 'maintenance',
-    'cleaning': 'cleaning',
-    'out of order': 'out_of_order'
+export async function importMoneyDenominations(data: DataRow[]): Promise<ImportResult> {
+  try {
+    const transformedData = data.map(row => ({
+      denomination: String(row['denomination'] || ''),
+      quantity: row['quantity'] ? parseFloat(String(row['quantity'])) : 0,
+      total_value: row['total_value'] ? parseFloat(String(row['total_value'])) : 0
+    }))
+
+    const { error } = await supabase
+      .from('money_denominations')
+      .upsert(transformedData, { onConflict: 'denomination' })
+
+    if (error) throw error
+
+    return {
+      success: true,
+      message: `Successfully imported ${transformedData.length} denomination records`,
+      importedCount: transformedData.length,
+      errors: []
+    }
+  } catch (error) {
+    console.error('Error importing denominations:', error)
+    return {
+      success: false,
+      message: 'Failed to import denominations',
+      importedCount: 0,
+      errors: [error instanceof Error ? error.message : 'Unknown error']
+    }
   }
-  return statusMap[status.toLowerCase()] || 'available'
 }
 
-function mapPaymentMethod(method: string): string {
-  const methodMap: Record<string, string> = {
-    'cash': 'cash',
-    'gcash': 'gcash',
-    'bank transfer': 'bank_transfer',
-    'credit card': 'credit_card',
-    'debit card': 'debit_card'
-  }
-  return methodMap[method.toLowerCase()] || 'cash'
-}
-
-function mapPaymentType(type: string): string {
-  const typeMap: Record<string, string> = {
-    'deposit': 'deposit',
-    'full payment': 'full_payment',
-    'partial payment': 'partial_payment',
-    'refund': 'refund'
-  }
-  return typeMap[type.toLowerCase()] || 'full_payment'
-}
-
-function mapPaymentStatus(status: string): string {
-  const statusMap: Record<string, string> = {
-    'pending': 'pending',
-    'completed': 'completed',
-    'failed': 'failed',
-    'refunded': 'refunded'
-  }
-  return statusMap[status.toLowerCase()] || 'completed'
-}
-
-function generateBookingNumber(): string {
-  return `BK${Date.now()}${Math.random().toString(36).substr(2, 5).toUpperCase()}`
-}
-
-function generateReceiptNumber(): string {
-  return `RCP${Date.now()}${Math.random().toString(36).substr(2, 5).toUpperCase()}`
-}
-
-function generateEmployeeId(): string {
-  return `EMP${Date.now()}${Math.random().toString(36).substr(2, 5).toUpperCase()}`
-}
-
-function mapBoolean(value: string): boolean {
-  if (!value) return true
-  const lowerValue = value.toLowerCase()
-  return lowerValue === 'true' || lowerValue === 'yes' || lowerValue === '1' || lowerValue === 'active'
-}
-
-function parseSalary(salaryString: string | null): number {
-  if (!salaryString) return 0
-  
-  // Remove currency symbols, commas, and spaces
-  const cleaned = salaryString.replace(/[₱$,]/g, '').replace(/\s/g, '')
-  
-  // Parse as float
-  const parsed = parseFloat(cleaned)
-  return isNaN(parsed) ? 0 : parsed
-}
-
-function generateProductCode(): string {
-  return `PROD${Date.now()}${Math.random().toString(36).substr(2, 5).toUpperCase()}`
-}
-
-function mapExpenseStatus(status: string): string {
-  const statusMap: Record<string, string> = {
-    'closed': 'closed',
-    'open': 'open',
-    'pending': 'pending',
-    'approved': 'approved',
-    'rejected': 'rejected'
-  }
-  return statusMap[status.toLowerCase()] || 'closed'
-}
-
-function mapSalaryPaymentType(type: string): string {
-  const typeMap: Record<string, string> = {
-    'salary': 'salary',
-    'bonus': 'bonus',
-    'overtime': 'overtime',
-    'advance': 'advance'
-  }
-  return typeMap[type.toLowerCase()] || 'salary'
-} 
+ 
