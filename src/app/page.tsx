@@ -121,29 +121,29 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-cyan-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-yellow-50 to-green-100">
       {/* Header */}
       <header className="bg-white/90 backdrop-blur-sm shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-blue-900">
+                <h1 className="text-2xl font-bold text-green-800">
                   San Pedro Beach Resort
                 </h1>
-                <p className="text-sm text-blue-600">Opal, Philippines</p>
+                <p className="text-sm text-green-600">Opal, Philippines</p>
               </div>
             </div>
             <nav className="hidden md:flex items-center space-x-6">
-              <button onClick={() => setActiveSection('hero')} className="text-gray-700 hover:text-blue-600">Home</button>
-              <button onClick={() => setActiveSection('booking')} className="text-gray-700 hover:text-blue-600">Book Now</button>
-              <button onClick={() => setActiveSection('store')} className="text-gray-700 hover:text-blue-600">Store</button>
-              <button onClick={() => setActiveSection('contact')} className="text-gray-700 hover:text-blue-600">Contact</button>
+              <button onClick={() => setActiveSection('hero')} className="text-gray-700 hover:text-green-600">Home</button>
+              <button onClick={() => setActiveSection('booking')} className="text-gray-700 hover:text-green-600">Book Now</button>
+              <button onClick={() => setActiveSection('store')} className="text-gray-700 hover:text-green-600">Store</button>
+              <button onClick={() => setActiveSection('contact')} className="text-gray-700 hover:text-green-600">Contact</button>
             </nav>
             <div className="flex items-center space-x-2">
               <button
                 onClick={() => setActiveSection('store')}
-                className="relative bg-green-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition-colors"
+                className="relative bg-yellow-500 text-gray-900 px-3 py-2 rounded-md text-sm font-medium hover:bg-yellow-600 transition-colors"
               >
                 <ShoppingCartIcon className="h-5 w-5" />
                 {cart.length > 0 && (
@@ -160,7 +160,7 @@ export default function Home() {
       {/* Hero Section */}
       {activeSection === 'hero' && (
         <section className="relative min-h-screen flex items-center justify-center">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-cyan-900/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-green-800/30 to-yellow-600/30"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="mb-8">
               <SunIcon className="h-16 w-16 text-yellow-400 mx-auto mb-4" />
@@ -175,40 +175,40 @@ export default function Home() {
             
                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                  <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6">
-                   <div className="h-12 w-12 text-blue-600 mx-auto mb-4 flex items-center justify-center">
+                   <div className="h-12 w-12 text-green-600 mx-auto mb-4 flex items-center justify-center">
                      <span className="text-2xl">🌊</span>
                    </div>
                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Beachfront Location</h3>
                    <p className="text-gray-600">Direct access to pristine beaches with crystal clear waters</p>
                  </div>
                  <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6">
-                   <div className="h-12 w-12 text-orange-600 mx-auto mb-4 flex items-center justify-center">
+                   <div className="h-12 w-12 text-yellow-600 mx-auto mb-4 flex items-center justify-center">
                      <span className="text-2xl">🏖️</span>
                    </div>
                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Comfortable Accommodations</h3>
                    <p className="text-gray-600">Cozy rooms and cottages perfect for families and groups</p>
                  </div>
                  <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6">
-                   <StarIcon className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
+                   <StarIcon className="h-12 w-12 text-green-600 mx-auto mb-4" />
                    <h3 className="text-lg font-semibold text-gray-900 mb-2">5-Star Experience</h3>
                    <p className="text-gray-600">Exceptional service and amenities for your perfect stay</p>
                  </div>
                </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                onClick={() => setActiveSection('booking')}
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-colors shadow-lg"
-              >
-                Book Your Stay
-              </button>
-              <button
-                onClick={() => setActiveSection('store')}
-                className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-green-700 transition-colors shadow-lg"
-              >
-                Visit Our Store
-              </button>
-            </div>
+                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+               <button
+                 onClick={() => setActiveSection('booking')}
+                 className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-green-700 transition-colors shadow-lg"
+               >
+                 Book Your Stay
+               </button>
+               <button
+                 onClick={() => setActiveSection('store')}
+                 className="bg-yellow-500 text-gray-900 px-8 py-4 rounded-lg text-lg font-medium hover:bg-yellow-600 transition-colors shadow-lg"
+               >
+                 Visit Our Store
+               </button>
+             </div>
           </div>
         </section>
       )}
@@ -222,46 +222,46 @@ export default function Home() {
               <p className="text-xl text-gray-600">Choose your dates and accommodation for an unforgettable experience</p>
             </div>
             
-            <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl shadow-lg p-8">
+                         <div className="bg-gradient-to-r from-green-50 to-yellow-50 rounded-xl shadow-lg p-8">
               <form onSubmit={submitBooking} className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Check-in</label>
-                  <input
-                    type="date"
-                    required
-                    value={booking.checkIn}
-                    onChange={e => setBooking({ ...booking, checkIn: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
+                                     <input
+                     type="date"
+                     required
+                     value={booking.checkIn}
+                     onChange={e => setBooking({ ...booking, checkIn: e.target.value })}
+                     className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Check-out</label>
-                  <input
-                    type="date"
-                    required
-                    value={booking.checkOut}
-                    onChange={e => setBooking({ ...booking, checkOut: e.target.value })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
+                                     <input
+                     type="date"
+                     required
+                     value={booking.checkOut}
+                     onChange={e => setBooking({ ...booking, checkOut: e.target.value })}
+                     className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Guests</label>
-                  <input
-                    type="number"
-                    min={1}
-                    max={20}
-                    value={booking.guests}
-                    onChange={e => setBooking({ ...booking, guests: Number(e.target.value) })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  />
+                                     <input
+                     type="number"
+                     min={1}
+                     max={20}
+                     value={booking.guests}
+                     onChange={e => setBooking({ ...booking, guests: Number(e.target.value) })}
+                     className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Type</label>
-                  <select
-                    value={booking.rentalType}
-                    onChange={e => setBooking({ ...booking, rentalType: e.target.value, unitId: '' })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  >
+                                     <select
+                     value={booking.rentalType}
+                     onChange={e => setBooking({ ...booking, rentalType: e.target.value, unitId: '' })}
+                     className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                   >
                     <option value="">Any Type</option>
                     {rentalTypes.map(rt => (
                       <option key={rt} value={rt}>{rt}</option>
@@ -269,11 +269,11 @@ export default function Home() {
                   </select>
                 </div>
                 <div className="flex items-end">
-                  <button
-                    type="submit"
-                    className="w-full bg-blue-600 text-white rounded-lg py-2 hover:bg-blue-700 transition-colors"
-                    disabled={loading}
-                  >
+                                     <button
+                     type="submit"
+                     className="w-full bg-green-600 text-white rounded-lg py-2 hover:bg-green-700 transition-colors"
+                     disabled={loading}
+                   >
                     Check Availability
                   </button>
                 </div>
@@ -297,7 +297,7 @@ export default function Home() {
                       <div key={u.id} className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
                         <div className="flex items-center justify-between mb-3">
                           <h4 className="font-semibold text-lg text-gray-900">{u.unit_id}</h4>
-                          <span className="text-xs px-3 py-1 bg-blue-100 text-blue-800 rounded-full">{u.rental_type}</span>
+                                                     <span className="text-xs px-3 py-1 bg-green-100 text-green-800 rounded-full">{u.rental_type}</span>
                         </div>
                         <p className="text-sm text-gray-600 mb-3">Max {u.maximum_capacity ?? '—'} guests</p>
                         <div className="space-y-1 text-sm">
@@ -344,11 +344,11 @@ export default function Home() {
                         {item.product_name}
                       </p>
                       <p className="text-xs text-gray-500 mb-2">{item.category}</p>
-                      <div className="text-lg font-semibold text-blue-600 mb-3">₱{(item.price || 0).toLocaleString()}</div>
-                      <button
-                        onClick={() => addToCart(item)}
-                        className="w-full bg-green-600 text-white rounded-md py-2 text-sm hover:bg-green-700 transition-colors"
-                      >
+                                             <div className="text-lg font-semibold text-green-600 mb-3">₱{(item.price || 0).toLocaleString()}</div>
+                                             <button
+                         onClick={() => addToCart(item)}
+                         className="w-full bg-yellow-500 text-gray-900 rounded-md py-2 text-sm hover:bg-yellow-600 transition-colors"
+                       >
                         Add to Cart
                       </button>
                     </div>
@@ -381,14 +381,14 @@ export default function Home() {
                   </div>
                   <div className="flex items-center justify-between border-t pt-4 mb-4">
                     <p className="text-lg font-semibold text-gray-900">Total</p>
-                    <p className="text-lg font-bold text-blue-600">₱{cartTotal.toLocaleString()}</p>
+                                         <p className="text-lg font-bold text-green-600">₱{cartTotal.toLocaleString()}</p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <p className="text-sm text-gray-600">Payment: GCash or Cash on pickup</p>
-                    <button
-                      onClick={placeOrder}
-                      className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
-                    >
+                                         <button
+                       onClick={placeOrder}
+                       className="bg-yellow-500 text-gray-900 px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors"
+                     >
                       Place Order
                     </button>
                   </div>
@@ -418,27 +418,27 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-6">Get in Touch</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center">
-                    <MapPinIcon className="h-6 w-6 text-blue-600 mr-3" />
-                    <div>
-                      <p className="font-medium text-gray-900">Location</p>
-                      <p className="text-gray-600">Opal, Philippines</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    <PhoneIcon className="h-6 w-6 text-blue-600 mr-3" />
-                    <div>
-                      <p className="font-medium text-gray-900">Phone</p>
-                      <p className="text-gray-600">+63 XXX XXX XXXX</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    <EnvelopeIcon className="h-6 w-6 text-blue-600 mr-3" />
-                    <div>
-                      <p className="font-medium text-gray-900">Email</p>
-                      <p className="text-gray-600">info@sanpedrobeachresort.com</p>
-                    </div>
-                  </div>
+                                     <div className="flex items-center">
+                     <MapPinIcon className="h-6 w-6 text-green-600 mr-3" />
+                     <div>
+                       <p className="font-medium text-gray-900">Location</p>
+                       <p className="text-gray-600">Opal, Philippines</p>
+                     </div>
+                   </div>
+                   <div className="flex items-center">
+                     <PhoneIcon className="h-6 w-6 text-green-600 mr-3" />
+                     <div>
+                       <p className="font-medium text-gray-900">Phone</p>
+                       <p className="text-gray-600">+63 XXX XXX XXXX</p>
+                     </div>
+                   </div>
+                   <div className="flex items-center">
+                     <EnvelopeIcon className="h-6 w-6 text-green-600 mr-3" />
+                     <div>
+                       <p className="font-medium text-gray-900">Email</p>
+                       <p className="text-gray-600">info@sanpedrobeachresort.com</p>
+                     </div>
+                   </div>
                 </div>
               </div>
               
@@ -466,17 +466,17 @@ export default function Home() {
                 Experience paradise in Opal, Philippines. Book your stay and create unforgettable memories 
                 with pristine beaches, comfortable accommodations, and exceptional service.
               </p>
-              <div className="flex space-x-4">
-                <button onClick={() => setActiveSection('booking')} className="text-blue-400 hover:text-blue-300">
-                  Book Now
-                </button>
-                <button onClick={() => setActiveSection('store')} className="text-blue-400 hover:text-blue-300">
-                  Store
-                </button>
-                <button onClick={() => setActiveSection('contact')} className="text-blue-400 hover:text-blue-300">
-                  Contact
-                </button>
-              </div>
+                             <div className="flex space-x-4">
+                 <button onClick={() => setActiveSection('booking')} className="text-green-400 hover:text-green-300">
+                   Book Now
+                 </button>
+                 <button onClick={() => setActiveSection('store')} className="text-green-400 hover:text-green-300">
+                   Store
+                 </button>
+                 <button onClick={() => setActiveSection('contact')} className="text-green-400 hover:text-green-300">
+                   Contact
+                 </button>
+               </div>
             </div>
             
             <div>
@@ -491,10 +491,10 @@ export default function Home() {
             
             <div>
               <h4 className="text-lg font-semibold mb-4">Staff Access</h4>
-              <Link 
-                href="/login" 
-                className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-700 transition-colors mb-2"
-              >
+                             <Link 
+                 href="/login" 
+                 className="inline-block bg-green-600 text-white px-4 py-2 rounded-md text-sm hover:bg-green-700 transition-colors mb-2"
+               >
                 Employee Login
               </Link>
               <p className="text-xs text-gray-400">Staff and management access only</p>
