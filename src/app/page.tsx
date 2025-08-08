@@ -122,17 +122,17 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-yellow-50 to-green-100">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-green-900 to-yellow-900">
       {/* Desktop Navigation */}
-      <header className="hidden md:block bg-white shadow-md border-b border-green-200">
+      <header className="hidden md:block bg-gray-800/95 backdrop-blur-sm shadow-lg border-b border-green-600/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-green-800">
+                <h1 className="text-2xl font-bold text-green-400">
                   San Pedro Beach Resort
                 </h1>
-                <p className="text-sm text-green-600">Opal, Philippines</p>
+                <p className="text-sm text-green-300">Opal, Philippines</p>
               </div>
             </div>
             
@@ -141,8 +141,8 @@ export default function Home() {
                 onClick={() => setActiveSection('hero')} 
                 className={`text-sm font-medium transition-colors ${
                   activeSection === 'hero' 
-                    ? 'text-green-700 border-b-2 border-green-600' 
-                    : 'text-gray-700 hover:text-green-600'
+                    ? 'text-green-400 border-b-2 border-green-400' 
+                    : 'text-gray-300 hover:text-green-400'
                 }`}
               >
                 Home
@@ -151,8 +151,8 @@ export default function Home() {
                 onClick={() => setActiveSection('booking')} 
                 className={`text-sm font-medium transition-colors ${
                   activeSection === 'booking' 
-                    ? 'text-green-700 border-b-2 border-green-600' 
-                    : 'text-gray-700 hover:text-green-600'
+                    ? 'text-green-400 border-b-2 border-green-400' 
+                    : 'text-gray-300 hover:text-green-400'
                 }`}
               >
                 Book Now
@@ -161,8 +161,8 @@ export default function Home() {
                 onClick={() => setActiveSection('store')} 
                 className={`text-sm font-medium transition-colors ${
                   activeSection === 'store' 
-                    ? 'text-green-700 border-b-2 border-green-600' 
-                    : 'text-gray-700 hover:text-green-600'
+                    ? 'text-green-400 border-b-2 border-green-400' 
+                    : 'text-gray-300 hover:text-green-400'
                 }`}
               >
                 Store
@@ -171,8 +171,8 @@ export default function Home() {
                 onClick={() => setActiveSection('contact')} 
                 className={`text-sm font-medium transition-colors ${
                   activeSection === 'contact' 
-                    ? 'text-green-700 border-b-2 border-green-600' 
-                    : 'text-gray-700 hover:text-green-600'
+                    ? 'text-green-400 border-b-2 border-green-400' 
+                    : 'text-gray-300 hover:text-green-400'
                 }`}
               >
                 Contact
@@ -197,15 +197,15 @@ export default function Home() {
       </header>
 
       {/* Mobile Navigation */}
-      <header className="md:hidden bg-white shadow-md border-b border-green-200">
+      <header className="md:hidden bg-gray-800/95 backdrop-blur-sm shadow-lg border-b border-green-600/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-3">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-lg font-bold text-green-800">
+                <h1 className="text-lg font-bold text-green-400">
                   San Pedro Beach Resort
                 </h1>
-                <p className="text-xs text-green-600">Opal, Philippines</p>
+                <p className="text-xs text-green-300">Opal, Philippines</p>
               </div>
             </div>
             
@@ -242,61 +242,61 @@ export default function Home() {
         
         {/* Mobile Menu Dropdown */}
         {mobileMenuOpen && (
-          <div className="bg-white border-t border-green-200 shadow-lg">
+          <div className="bg-gray-800/95 backdrop-blur-sm border-t border-green-600/30 shadow-lg">
             <div className="max-w-7xl mx-auto px-4 py-3">
               <div className="flex flex-col space-y-1">
-                <button 
-                  onClick={() => {
-                    setActiveSection('hero')
-                    setMobileMenuOpen(false)
-                  }} 
-                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
-                    activeSection === 'hero' 
-                      ? 'bg-green-100 text-green-700' 
-                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                  }`}
-                >
-                  🏠 Home
-                </button>
-                <button 
-                  onClick={() => {
-                    setActiveSection('booking')
-                    setMobileMenuOpen(false)
-                  }} 
-                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
-                    activeSection === 'booking' 
-                      ? 'bg-green-100 text-green-700' 
-                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                  }`}
-                >
-                  📅 Book Now
-                </button>
-                <button 
-                  onClick={() => {
-                    setActiveSection('store')
-                    setMobileMenuOpen(false)
-                  }} 
-                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
-                    activeSection === 'store' 
-                      ? 'bg-green-100 text-green-700' 
-                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                  }`}
-                >
-                  🛍️ Store
-                </button>
-                <button 
-                  onClick={() => {
-                    setActiveSection('contact')
-                    setMobileMenuOpen(false)
-                  }} 
-                  className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
-                    activeSection === 'contact' 
-                      ? 'bg-green-100 text-green-700' 
-                      : 'text-gray-700 hover:bg-green-50 hover:text-green-600'
-                  }`}
-                >
-                  📞 Contact
-                </button>
+                                 <button 
+                   onClick={() => {
+                     setActiveSection('hero')
+                     setMobileMenuOpen(false)
+                   }} 
+                   className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                     activeSection === 'hero' 
+                       ? 'bg-green-900/50 text-green-400' 
+                       : 'text-gray-300 hover:bg-green-900/30 hover:text-green-400'
+                   }`}
+                 >
+                   🏠 Home
+                 </button>
+                 <button 
+                   onClick={() => {
+                     setActiveSection('booking')
+                     setMobileMenuOpen(false)
+                   }} 
+                   className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                     activeSection === 'booking' 
+                       ? 'bg-green-900/50 text-green-400' 
+                       : 'text-gray-300 hover:bg-green-900/30 hover:text-green-400'
+                   }`}
+                 >
+                   📅 Book Now
+                 </button>
+                 <button 
+                   onClick={() => {
+                     setActiveSection('store')
+                     setMobileMenuOpen(false)
+                   }} 
+                   className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                     activeSection === 'store' 
+                       ? 'bg-green-900/50 text-green-400' 
+                       : 'text-gray-300 hover:bg-green-900/30 hover:text-green-400'
+                   }`}
+                 >
+                   🛍️ Store
+                 </button>
+                 <button 
+                   onClick={() => {
+                     setActiveSection('contact')
+                     setMobileMenuOpen(false)
+                   }} 
+                   className={`text-left py-3 px-4 rounded-lg text-sm font-medium transition-colors ${
+                     activeSection === 'contact' 
+                       ? 'bg-green-900/50 text-green-400' 
+                       : 'text-gray-300 hover:bg-green-900/30 hover:text-green-400'
+                   }`}
+                 >
+                   📞 Contact
+                 </button>
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ export default function Home() {
       {/* Hero Section */}
       {activeSection === 'hero' && (
         <section className="relative min-h-screen flex items-center justify-center">
-          <div className="absolute inset-0 bg-gradient-to-r from-green-800/30 to-yellow-600/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-green-900/40"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="mb-8">
               <SunIcon className="h-16 w-16 text-yellow-400 mx-auto mb-4" />
@@ -320,24 +320,24 @@ export default function Home() {
             </div>
             
                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                 <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6">
-                   <div className="h-12 w-12 text-green-600 mx-auto mb-4 flex items-center justify-center">
+                 <div className="bg-gray-800/80 backdrop-blur-sm rounded-lg shadow-lg p-6 border border-green-600/30">
+                   <div className="h-12 w-12 text-green-400 mx-auto mb-4 flex items-center justify-center">
                      <span className="text-2xl">🌊</span>
                    </div>
-                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Beachfront Location</h3>
-                   <p className="text-gray-600">Direct access to pristine beaches with crystal clear waters</p>
+                   <h3 className="text-lg font-semibold text-white mb-2">Beachfront Location</h3>
+                   <p className="text-gray-300">Direct access to pristine beaches with crystal clear waters</p>
                  </div>
-                 <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6">
-                   <div className="h-12 w-12 text-yellow-600 mx-auto mb-4 flex items-center justify-center">
+                 <div className="bg-gray-800/80 backdrop-blur-sm rounded-lg shadow-lg p-6 border border-yellow-600/30">
+                   <div className="h-12 w-12 text-yellow-400 mx-auto mb-4 flex items-center justify-center">
                      <span className="text-2xl">🏖️</span>
                    </div>
-                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Comfortable Accommodations</h3>
-                   <p className="text-gray-600">Cozy rooms and cottages perfect for families and groups</p>
+                   <h3 className="text-lg font-semibold text-white mb-2">Comfortable Accommodations</h3>
+                   <p className="text-gray-300">Cozy rooms and cottages perfect for families and groups</p>
                  </div>
-                 <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-6">
-                   <StarIcon className="h-12 w-12 text-green-600 mx-auto mb-4" />
-                   <h3 className="text-lg font-semibold text-gray-900 mb-2">5-Star Experience</h3>
-                   <p className="text-gray-600">Exceptional service and amenities for your perfect stay</p>
+                 <div className="bg-gray-800/80 backdrop-blur-sm rounded-lg shadow-lg p-6 border border-green-600/30">
+                   <StarIcon className="h-12 w-12 text-green-400 mx-auto mb-4" />
+                   <h3 className="text-lg font-semibold text-white mb-2">5-Star Experience</h3>
+                   <p className="text-gray-300">Exceptional service and amenities for your perfect stay</p>
                  </div>
                </div>
 
@@ -361,33 +361,33 @@ export default function Home() {
 
       {/* Booking Section */}
       {activeSection === 'booking' && (
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-gray-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Book Your Perfect Stay</h2>
-              <p className="text-xl text-gray-600">Choose your dates and accommodation for an unforgettable experience</p>
+              <h2 className="text-4xl font-bold text-white mb-4">Book Your Perfect Stay</h2>
+              <p className="text-xl text-gray-300">Choose your dates and accommodation for an unforgettable experience</p>
             </div>
             
-                         <div className="bg-gradient-to-r from-green-50 to-yellow-50 rounded-xl shadow-lg p-8">
+                         <div className="bg-gradient-to-r from-gray-800 to-gray-700 rounded-xl shadow-lg p-8 border border-green-600/30">
               <form onSubmit={submitBooking} className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Check-in</label>
+                                     <label className="block text-sm font-medium text-gray-300 mb-1">Check-in</label>
                                      <input
                      type="date"
                      required
                      value={booking.checkIn}
                      onChange={e => setBooking({ ...booking, checkIn: e.target.value })}
-                     className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                     className="w-full border border-gray-600 rounded-lg px-3 py-2 bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-500"
                    />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Check-out</label>
+                                     <label className="block text-sm font-medium text-gray-300 mb-1">Check-out</label>
                                      <input
                      type="date"
                      required
                      value={booking.checkOut}
                      onChange={e => setBooking({ ...booking, checkOut: e.target.value })}
-                     className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                     className="w-full border border-gray-600 rounded-lg px-3 py-2 bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-500"
                    />
                 </div>
                 <div>
